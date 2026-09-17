@@ -4,7 +4,10 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
   <meta name="theme-color" content="#10253e" />
-  <meta name="description" content="EA Learnings – Enterprise Architecture Lernbibliothek für Behördenkontext" />
+  <meta name="color-scheme" content="light dark" />
+  <meta name="description" content="EA Learnings – mobiles Lernsystem für Enterprise Architecture im Behördenkontext" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
   <link rel="manifest" href="manifest.webmanifest" />
   <link rel="icon" href="assets/icon-192.png" />
   <link rel="apple-touch-icon" href="assets/icon-192.png" />
@@ -12,18 +15,21 @@
   <title>EA Learnings</title>
 </head>
 <body>
-  <div id="updateBanner" class="update-banner hidden" role="status">
+  <a class="skip-link" href="#app">Zum Inhalt springen</a>
+
+  <div id="updateBanner" class="update-banner hidden" role="status" aria-live="polite">
     <div><strong>Neue Version verfügbar.</strong> <span id="updateMessage">Inhalte wurden aktualisiert.</span></div>
     <button id="reloadUpdate" class="btn btn-light">Aktualisieren</button>
   </div>
 
   <header class="topbar">
-    <a href="#home" class="brand" aria-label="EA Learnings Startseite">
-      <span class="brand-mark">EA</span>
-      <span><strong>EA Learnings</strong><small>Enterprise Architecture · Behördenkontext</small></span>
+    <a href="#today" class="brand" aria-label="EA Learnings – Heute">
+      <span class="brand-mark" aria-hidden="true">EA</span>
+      <span class="brand-copy"><strong>EA Learnings</strong><small>Enterprise Architecture · Behördenkontext</small></span>
     </a>
     <div class="top-actions">
-      <button id="installBtn" class="btn btn-outline hidden">App installieren</button>
+      <button id="searchBtn" class="icon-btn" aria-label="Suche öffnen" title="Suche">⌕</button>
+      <button id="installBtn" class="btn btn-outline install-desktop hidden">App installieren</button>
       <span id="onlineState" class="status-pill">Online</span>
     </div>
   </header>
@@ -31,19 +37,17 @@
   <div class="layout">
     <aside class="sidebar" id="sidebar">
       <nav class="main-nav" aria-label="Hauptnavigation">
-        <a href="#home" data-nav="home">Übersicht</a>
-        <a href="#library" data-nav="library">Bibliothek</a>
-        <a href="#favorites" data-nav="favorites">Favoriten</a>
-        <a href="#progress" data-nav="progress">Lernfortschritt</a>
-        <a href="#memory" data-nav="memory">Speicher & Reset</a>
-        <a href="#about" data-nav="about">Über die App</a>
+        <a href="#today" data-nav="today">Heute</a>
+        <a href="#learn" data-nav="learn">Lernen</a>
+        <a href="#knowledge" data-nav="knowledge">Wissen</a>
+        <a href="#me" data-nav="me">Ich</a>
       </nav>
       <div class="sidebar-section">
         <label for="globalSearch">Volltextsuche</label>
         <input id="globalSearch" type="search" placeholder="z. B. ADR, IAM, RPO …" autocomplete="off" />
       </div>
-      <div class="sidebar-section">
-        <div class="muted small">Content-Version</div>
+      <div class="sidebar-section small muted">
+        <div>Content-Version</div>
         <strong id="contentVersion">–</strong>
       </div>
     </aside>
@@ -51,7 +55,25 @@
     <main id="app" class="main" tabindex="-1"></main>
   </div>
 
-  <div id="toast" class="toast hidden" role="status"></div>
+  <nav class="bottom-nav" aria-label="Mobile Hauptnavigation">
+    <a href="#today" data-nav="today"><span class="nav-icon" aria-hidden="true">⌂</span><span>Heute</span></a>
+    <a href="#learn" data-nav="learn"><span class="nav-icon" aria-hidden="true">◎</span><span>Lernen</span></a>
+    <a href="#knowledge" data-nav="knowledge"><span class="nav-icon" aria-hidden="true">▤</span><span>Wissen</span></a>
+    <a href="#me" data-nav="me"><span class="nav-icon" aria-hidden="true">◉</span><span>Ich</span></a>
+  </nav>
+
+  <div id="searchOverlay" class="search-overlay hidden" role="dialog" aria-modal="true" aria-labelledby="searchTitle">
+    <div class="search-sheet">
+      <div class="search-head">
+        <h2 id="searchTitle">Wissen durchsuchen</h2>
+        <button id="closeSearch" class="icon-btn" aria-label="Suche schließen">×</button>
+      </div>
+      <input id="mobileSearch" class="search-input" type="search" placeholder="Begriff, Thema, Notiz …" autocomplete="off" />
+      <div id="searchOverlayResults" class="search-overlay-results"></div>
+    </div>
+  </div>
+
+  <div id="toast" class="toast hidden" role="status" aria-live="polite"></div>
   <script type="module" src="assets/app.js"></script>
 </body>
 </html>

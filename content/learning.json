@@ -1,0 +1,686 @@
+{
+  "version": "2.0.0",
+  "cards": [
+    {
+      "id": "togaf-01",
+      "module": "togaf-adm-im-behordenkontext",
+      "competency": "EA Core",
+      "type": "definition",
+      "question": "Wofür dient die TOGAF ADM im Kern?",
+      "answer": "Sie strukturiert die Entwicklung und Steuerung von Enterprise Architecture von Mandat und Vision über Domänenarchitekturen bis zu Umsetzung, Migration und kontrollierter Veränderung.",
+      "explanation": "TOGAF ist dabei kein Dokumentenzweck, sondern ein Denk- und Vorgehensrahmen.",
+      "difficulty": 1,
+      "concepts": [
+        "TOGAF",
+        "ADM"
+      ]
+    },
+    {
+      "id": "togaf-02",
+      "module": "togaf-adm-im-behordenkontext",
+      "competency": "EA Core",
+      "type": "difference",
+      "question": "Was unterscheidet Business Architecture von Application Architecture?",
+      "answer": "Business Architecture beschreibt Fähigkeiten, Prozesse, Rollen und Verantwortungen. Application Architecture beschreibt Anwendungen und Anwendungsservices, die diese Fähigkeiten unterstützen.",
+      "explanation": "Capability ist nicht gleich Anwendung.",
+      "difficulty": 2,
+      "concepts": [
+        "Business Architecture",
+        "Application Architecture"
+      ]
+    },
+    {
+      "id": "togaf-03",
+      "module": "togaf-adm-im-behordenkontext",
+      "competency": "EA Core",
+      "type": "scenario",
+      "question": "Eine Behörde verlangt sofort eine Kubernetes-Zielarchitektur. Welche EA-Frage kommt davor?",
+      "answer": "Welches fachliche Problem, welche Fähigkeiten, Daten, Anwendungen, Qualitätsanforderungen und Constraints sollen durch die Zielarchitektur adressiert werden?",
+      "explanation": "Technologie folgt dem fachlich begründeten Zielbild.",
+      "difficulty": 3,
+      "concepts": [
+        "TOGAF",
+        "Technology Architecture"
+      ]
+    },
+    {
+      "id": "togaf-04",
+      "module": "togaf-adm-im-behordenkontext",
+      "competency": "EA Core",
+      "type": "definition",
+      "question": "Was ist ein Gap in TOGAF?",
+      "answer": "Die relevante Lücke zwischen Baseline Architecture und Target Architecture, aus der Veränderungsbedarf abgeleitet wird.",
+      "explanation": "Ein Gap sollte in Maßnahmen, Risiken oder Entscheidungen übersetzbar sein.",
+      "difficulty": 1,
+      "concepts": [
+        "Gap",
+        "Baseline",
+        "Target"
+      ]
+    },
+    {
+      "id": "togaf-05",
+      "module": "togaf-adm-im-behordenkontext",
+      "competency": "EA Core",
+      "type": "definition",
+      "question": "Warum läuft Requirements Management quer durch die ADM?",
+      "answer": "Weil Anforderungen, Constraints, Risiken und Entscheidungen in allen Phasen entstehen, verändert oder rückgekoppelt werden und deshalb fortlaufend gesteuert werden müssen.",
+      "explanation": "ADM ist iterativ, nicht linear.",
+      "difficulty": 2,
+      "concepts": [
+        "Requirements Management"
+      ]
+    },
+    {
+      "id": "cap-01",
+      "module": "capability-mapping-bundesbehorden",
+      "competency": "EA Core",
+      "type": "definition",
+      "question": "Was ist eine Capability?",
+      "answer": "Eine relativ stabile Fähigkeit einer Organisation, ein fachliches Ergebnis zu erbringen – unabhängig von konkretem Prozess, Projekt oder IT-System.",
+      "explanation": "Capabilities werden typischerweise als Verb + Objekt formuliert.",
+      "difficulty": 1,
+      "concepts": [
+        "Capability"
+      ]
+    },
+    {
+      "id": "cap-02",
+      "module": "capability-mapping-bundesbehorden",
+      "competency": "EA Core",
+      "type": "scenario",
+      "question": "Warum sollte ein EA nicht mit Systemnamen starten?",
+      "answer": "Weil Systeme historisch und veränderlich sind. Capabilities machen zuerst sichtbar, was die Organisation fachlich können muss und erlauben danach eine belastbare Zuordnung von Daten, Prozessen und Anwendungen.",
+      "explanation": "Das verhindert technologiegetriebene Problembeschreibung.",
+      "difficulty": 2,
+      "concepts": [
+        "Capability Mapping"
+      ]
+    },
+    {
+      "id": "adr-01",
+      "module": "adr-erstellung-und-praxis",
+      "competency": "EA Core",
+      "type": "definition",
+      "question": "Was gehört mindestens in ein belastbares ADR?",
+      "answer": "Kontext, Entscheidungstreiber, realistische Optionen, Entscheidung, Konsequenzen und Status; zusätzlich sind Annahmen und Verweise oft sinnvoll.",
+      "explanation": "Ein ADR dokumentiert nicht nur das Ergebnis, sondern die Entscheidungslogik.",
+      "difficulty": 2,
+      "concepts": [
+        "ADR"
+      ]
+    },
+    {
+      "id": "adr-02",
+      "module": "adr-erstellung-und-praxis",
+      "competency": "EA Core",
+      "type": "scenario",
+      "question": "Ein Projekt schreibt im ADR nur: „Wir verwenden Kafka.“ Was fehlt?",
+      "answer": "Mindestens Kontext, fachlicher/technischer Treiber, Alternativen, Bewertung, Konsequenzen, Risiken und Gültigkeitsannahmen.",
+      "explanation": "Technologiepräferenz allein ist keine Architekturentscheidung.",
+      "difficulty": 3,
+      "concepts": [
+        "ADR",
+        "Entscheidung"
+      ]
+    },
+    {
+      "id": "gov-01",
+      "module": "architektur-governance-fur-behorden",
+      "competency": "Governance",
+      "type": "definition",
+      "question": "Was ist der Zweck von Architektur-Governance?",
+      "answer": "Sie schafft einen verbindlichen Klärungs- und Entscheidungsweg, damit Zielbild, Standards, Risiken und Umsetzung nicht auseinanderlaufen.",
+      "explanation": "Governance ist Entscheidungsinfrastruktur, nicht bloß Kontrolle.",
+      "difficulty": 2,
+      "concepts": [
+        "Governance"
+      ]
+    },
+    {
+      "id": "road-01",
+      "module": "roadmap-mit-ubergangsarchitekturen",
+      "competency": "Transformation",
+      "type": "definition",
+      "question": "Was ist eine Transition Architecture?",
+      "answer": "Ein bewusst gestalteter Zwischenzustand zwischen Ist und Ziel mit klaren Bedingungen, Risiken, Verantwortungen und Ablösepfad.",
+      "explanation": "Sie macht schrittweise Transformation beherrschbar.",
+      "difficulty": 2,
+      "concepts": [
+        "Transition Architecture",
+        "Roadmap"
+      ]
+    },
+    {
+      "id": "road-02",
+      "module": "roadmap-mit-ubergangsarchitekturen",
+      "competency": "Transformation",
+      "type": "scenario",
+      "question": "Warum ist eine Roadmap mehr als ein Terminplan?",
+      "answer": "Weil sie Architekturabhängigkeiten, Work Packages, Übergangszustände, Risiken, Entscheidungsfenster und Governance-Gates in eine sinnvolle Reihenfolge bringt.",
+      "explanation": "Die Reihenfolge wird durch Architektur und Abhängigkeiten begründet.",
+      "difficulty": 3,
+      "concepts": [
+        "Roadmap"
+      ]
+    },
+    {
+      "id": "data-01",
+      "module": "datenlandkarten-fur-behorden",
+      "competency": "Data",
+      "type": "definition",
+      "question": "Welche Kernfrage klärt Datenführerschaft?",
+      "answer": "Wer darf ein Datenobjekt oder Attribut fachlich verbindlich ändern und welche Quelle gilt für andere Systeme als führend?",
+      "explanation": "Datenführerschaft ist eine Verantwortungsentscheidung, keine Datenbankeigenschaft.",
+      "difficulty": 2,
+      "concepts": [
+        "Datenführerschaft",
+        "Source of Truth"
+      ]
+    },
+    {
+      "id": "data-02",
+      "module": "datenlandkarten-fur-behorden",
+      "competency": "Data",
+      "type": "scenario",
+      "question": "Drei Systeme zeigen unterschiedliche Vorgangsstatus. Was ist zuerst zu klären?",
+      "answer": "Das fachliche Statusmodell und die führende Quelle beziehungsweise Attributführerschaft für den Status.",
+      "explanation": "Mehr technische Synchronisation löst ungeklärte Verantwortung nicht.",
+      "difficulty": 3,
+      "concepts": [
+        "Statusmodell",
+        "Datenführerschaft"
+      ]
+    },
+    {
+      "id": "api-01",
+      "module": "schnittstellenvertrag-erstellen",
+      "competency": "Integration",
+      "type": "definition",
+      "question": "Warum ist ein Schnittstellenvertrag mehr als OpenAPI oder Swagger?",
+      "answer": "Weil er zusätzlich den fachlichen Zweck, Provider/Consumer, Semantik, Fehlerverhalten, Quittierung, Versionierung, Security, Betrieb und Verantwortungen beschreibt.",
+      "explanation": "Der technische Vertrag ist nur ein Teil des Gesamtvertrags.",
+      "difficulty": 2,
+      "concepts": [
+        "Schnittstellenvertrag",
+        "API"
+      ]
+    },
+    {
+      "id": "api-02",
+      "module": "openapi-asyncapi-bewertung",
+      "competency": "Integration",
+      "type": "difference",
+      "question": "Wann passt OpenAPI, wann AsyncAPI?",
+      "answer": "OpenAPI beschreibt primär HTTP-basierte synchrone APIs; AsyncAPI beschreibt nachrichten- oder eventgetriebene asynchrone Schnittstellen.",
+      "explanation": "Die Wahl folgt dem Interaktions- und Kopplungsmodell.",
+      "difficulty": 1,
+      "concepts": [
+        "OpenAPI",
+        "AsyncAPI"
+      ]
+    },
+    {
+      "id": "eda-01",
+      "module": "eda-im-behordenkontext",
+      "competency": "Integration",
+      "type": "difference",
+      "question": "Was unterscheidet ein Event von einem Command?",
+      "answer": "Ein Event beschreibt etwas, das bereits geschehen ist. Ein Command fordert einen Empfänger auf, eine Handlung auszuführen.",
+      "explanation": "Die Semantik entscheidet über Kopplung und Verantwortung.",
+      "difficulty": 2,
+      "concepts": [
+        "Event",
+        "Command"
+      ]
+    },
+    {
+      "id": "eda-02",
+      "module": "eda-im-behordenkontext",
+      "competency": "Integration",
+      "type": "scenario",
+      "question": "Warum entkoppelt Asynchronität nicht automatisch Verantwortung?",
+      "answer": "Weil trotz zeitlicher Entkopplung weiterhin geklärt sein muss, wer Ereignisse erzeugt, konsumiert, Fehler behandelt, Zustellung überwacht und fachliche Rückstände verantwortet.",
+      "explanation": "Zeitliche Entkopplung ist nicht organisatorische Verantwortungslosigkeit.",
+      "difficulty": 3,
+      "concepts": [
+        "EDA",
+        "Ownership"
+      ]
+    },
+    {
+      "id": "dlq-01",
+      "module": "dead-letter-queue",
+      "competency": "Integration",
+      "type": "definition",
+      "question": "Was ist eine Dead Letter Queue?",
+      "answer": "Eine kontrollierte Ablage für Nachrichten, die nach definierten Verarbeitungsversuchen nicht erfolgreich verarbeitet werden konnten.",
+      "explanation": "Sie ermöglicht Analyse und Nachbearbeitung, ersetzt aber keinen Fehlerprozess.",
+      "difficulty": 1,
+      "concepts": [
+        "DLQ"
+      ]
+    },
+    {
+      "id": "dlq-02",
+      "module": "dead-letter-queue",
+      "competency": "Integration",
+      "type": "scenario",
+      "question": "Warum ist eine DLQ ohne Owner problematisch?",
+      "answer": "Fehlerhafte Nachrichten können unbemerkt liegen bleiben und zu fachlichen Rückständen, Fristproblemen oder Dateninkonsistenzen führen.",
+      "explanation": "Eine DLQ ist oft eine fachliche Arbeitswarteschlange, nicht nur Technik.",
+      "difficulty": 3,
+      "concepts": [
+        "DLQ",
+        "Ownership"
+      ]
+    },
+    {
+      "id": "dlq-03",
+      "module": "dead-letter-queue",
+      "competency": "Integration",
+      "type": "difference",
+      "question": "Wann hilft Retry, wann eher eine DLQ?",
+      "answer": "Retry hilft bei voraussichtlich vorübergehenden technischen Fehlern. Bei dauerhaft ungültigen Nachrichten oder nach ausgeschöpften Retries braucht es kontrollierte Fehlerbehandlung, häufig über DLQ oder Klärfallprozess.",
+      "explanation": "Endlose Retries erzeugen Last und verschleiern Fehler.",
+      "difficulty": 2,
+      "concepts": [
+        "Retry",
+        "DLQ"
+      ]
+    },
+    {
+      "id": "idem-01",
+      "module": "eda-im-behordenkontext",
+      "competency": "Integration",
+      "type": "definition",
+      "question": "Warum ist Idempotenz bei Retries wichtig?",
+      "answer": "Damit die erneute Verarbeitung derselben Nachricht keine unerwünschte doppelte fachliche Wirkung erzeugt.",
+      "explanation": "At-least-once-Zustellung macht diese Eigenschaft besonders wichtig.",
+      "difficulty": 2,
+      "concepts": [
+        "Idempotenz",
+        "Retry"
+      ]
+    },
+    {
+      "id": "iam-01",
+      "module": "iam-architektur-fur-behorden",
+      "competency": "Security",
+      "type": "difference",
+      "question": "Was ist der Unterschied zwischen Authentifizierung und Autorisierung?",
+      "answer": "Authentifizierung klärt, wer oder was eine Identität ist. Autorisierung klärt, welche Handlungen diese Identität ausführen darf.",
+      "explanation": "Fachliche Berechtigung kann zusätzlich eigene Regeln enthalten.",
+      "difficulty": 1,
+      "concepts": [
+        "IAM",
+        "Authentifizierung",
+        "Autorisierung"
+      ]
+    },
+    {
+      "id": "iam-02",
+      "module": "iam-architektur-fur-behorden",
+      "competency": "Security",
+      "type": "scenario",
+      "question": "Warum sind technische Konten architekturrelevant?",
+      "answer": "Sie benötigen klaren Zweck, Owner, minimale Rechte, sichere Credential-Verwaltung, Rotation, Nachvollziehbarkeit und einen Lebenszyklus.",
+      "explanation": "Machine Identities gehören in IAM-Governance.",
+      "difficulty": 3,
+      "concepts": [
+        "Service Account",
+        "IAM"
+      ]
+    },
+    {
+      "id": "sec-01",
+      "module": "security-by-architecture-review-anleitung",
+      "competency": "Security",
+      "type": "definition",
+      "question": "Was ist eine Trust Boundary?",
+      "answer": "Eine Grenze, an der sich Vertrauensannahmen, Sicherheitsdomänen oder Kontrollverantwortungen ändern und deshalb Schutzmaßnahmen explizit betrachtet werden müssen.",
+      "explanation": "Datenflüsse über Trust Boundaries sind besonders reviewrelevant.",
+      "difficulty": 2,
+      "concepts": [
+        "Trust Boundary"
+      ]
+    },
+    {
+      "id": "sec-02",
+      "module": "schutzbedarf-einordnen-bsi",
+      "competency": "Security",
+      "type": "definition",
+      "question": "Welche drei Grundwerte betrachtet die Schutzbedarfsfeststellung typischerweise?",
+      "answer": "Vertraulichkeit, Integrität und Verfügbarkeit.",
+      "explanation": "Die Einstufung richtet sich nach möglichen Schäden bei Verletzung dieser Grundwerte.",
+      "difficulty": 1,
+      "concepts": [
+        "BSI",
+        "Schutzbedarf"
+      ]
+    },
+    {
+      "id": "sec-03",
+      "module": "security-by-architecture-review-anleitung",
+      "competency": "Security",
+      "type": "scenario",
+      "question": "Warum darf Security nicht erst kurz vor Go-live geprüft werden?",
+      "answer": "Weil Schutzbedarf, Vertrauensgrenzen, IAM, Logging, Datenflüsse und Betriebsmodell grundlegende Architekturentscheidungen beeinflussen und späte Änderungen teuer oder unmöglich sein können.",
+      "explanation": "Security ist Architekturmaterial.",
+      "difficulty": 3,
+      "concepts": [
+        "Security by Architecture"
+      ]
+    },
+    {
+      "id": "rto-01",
+      "module": "rpo-betriebsfahigkeit-prufen",
+      "competency": "Operations",
+      "type": "difference",
+      "question": "Was unterscheidet RTO und RPO?",
+      "answer": "RTO beschreibt die angestrebte Wiederherstellungszeit nach einer Störung. RPO beschreibt den maximal tolerierbaren Datenverlust in Zeitbezug.",
+      "explanation": "Beide Werte müssen fachlich begründet sein.",
+      "difficulty": 1,
+      "concepts": [
+        "RTO",
+        "RPO"
+      ]
+    },
+    {
+      "id": "rto-02",
+      "module": "rpo-betriebsfahigkeit-prufen",
+      "competency": "Operations",
+      "type": "scenario",
+      "question": "Warum beweist ein vorhandenes Backup noch keine Betriebsfähigkeit?",
+      "answer": "Weil die Wiederherstellungskette getestet sein muss: Restore, Abhängigkeiten, Reihenfolge, Rollen, Zielzustand und fachliche Nachpflege.",
+      "explanation": "Backup ≠ Restore ≠ Wiederanlauf ≠ Betriebsfähigkeit.",
+      "difficulty": 3,
+      "concepts": [
+        "Backup",
+        "Restore",
+        "Betriebsfähigkeit"
+      ]
+    },
+    {
+      "id": "obs-01",
+      "module": "observability-anforderungen-definieren",
+      "competency": "Operations",
+      "type": "definition",
+      "question": "Welche drei klassischen Telemetriesignale gehören zu Observability?",
+      "answer": "Logs, Metrics und Traces.",
+      "explanation": "Zusätzlich sind fachliche Ereignisse und Korrelation für Ende-zu-Ende-Sicht oft relevant.",
+      "difficulty": 1,
+      "concepts": [
+        "Logs",
+        "Metrics",
+        "Traces"
+      ]
+    },
+    {
+      "id": "obs-02",
+      "module": "observability-anforderungen-definieren",
+      "competency": "Operations",
+      "type": "scenario",
+      "question": "Warum reicht „CPU grün, HTTP 200“ nicht als Betriebsnachweis?",
+      "answer": "Weil der technische Dienst funktionieren kann, während fachliche Vorgänge steckenbleiben. Es braucht Signale, die relevante Service- oder Prozesswirkung sichtbar machen.",
+      "explanation": "Technische und fachliche Observability ergänzen sich.",
+      "difficulty": 3,
+      "concepts": [
+        "Observability"
+      ]
+    },
+    {
+      "id": "k8s-01",
+      "module": "kubernetes-architektur-bewerten",
+      "competency": "Platform",
+      "type": "scenario",
+      "question": "Wann löst Kubernetes kein Architekturproblem?",
+      "answer": "Wenn fachliche Grenzen, Verantwortungen, Datenführerschaft, Betriebsmodell oder Deployment-Verantwortung ungeklärt sind. Kubernetes orchestriert Laufzeit, löst aber keine ungeklärte Fach- oder Systemarchitektur.",
+      "explanation": "Plattformtechnologie ist kein Ersatz für Architektur.",
+      "difficulty": 3,
+      "concepts": [
+        "Kubernetes"
+      ]
+    },
+    {
+      "id": "cicd-01",
+      "module": "cd-und-iac-architektur",
+      "competency": "Platform",
+      "type": "definition",
+      "question": "Warum ist der Lieferweg Teil der Architektur?",
+      "answer": "Weil Build, Prüfung, Artefaktvertrauen, Deployment, Konfiguration und Reproduzierbarkeit direkt die Qualität und Betriebsfähigkeit des Systems beeinflussen.",
+      "explanation": "CI/CD und IaC sind Nachweis- und Lieferfähigkeiten.",
+      "difficulty": 2,
+      "concepts": [
+        "CI/CD",
+        "IaC"
+      ]
+    },
+    {
+      "id": "bpmn-01",
+      "module": "bpmn-fur-verwaltungsprozesse",
+      "competency": "Business",
+      "type": "definition",
+      "question": "Wofür sollte ein EA BPMN primär nutzen?",
+      "answer": "Um Verantwortungen, Übergaben, Ereignisse, Entscheidungen, Wartezeiten und Ausnahmen in relevanten Verwaltungsprozessen präzise sichtbar zu machen.",
+      "explanation": "Nicht jeder Prozess muss vollständig modelliert werden.",
+      "difficulty": 2,
+      "concepts": [
+        "BPMN"
+      ]
+    },
+    {
+      "id": "dmn-01",
+      "module": "dmn-entscheidungslogik-und-bpmn",
+      "competency": "Business",
+      "type": "difference",
+      "question": "Warum trennt man BPMN und DMN?",
+      "answer": "BPMN beschreibt primär Ablauf und Verantwortungen; DMN beschreibt Entscheidungslogik und Regeln.",
+      "explanation": "Die Trennung erhöht Änderbarkeit und Nachvollziehbarkeit.",
+      "difficulty": 2,
+      "concepts": [
+        "BPMN",
+        "DMN"
+      ]
+    },
+    {
+      "id": "archi-01",
+      "module": "archimate-fur-behorden-ea",
+      "competency": "Modeling",
+      "type": "definition",
+      "question": "Wozu dient ArchiMate im EA-Kontext?",
+      "answer": "Zur konsistenten Darstellung von Elementen und Beziehungen über Business, Anwendungen, Technologie, Motivation und Transformation hinweg.",
+      "explanation": "Ein Modell ist nur gut, wenn es eine konkrete Frage beantwortet.",
+      "difficulty": 2,
+      "concepts": [
+        "ArchiMate"
+      ]
+    },
+    {
+      "id": "arc42-01",
+      "module": "arc42-in-behorden-anwenden",
+      "competency": "Modeling",
+      "type": "difference",
+      "question": "Wie ergänzt arc42 Enterprise Architecture?",
+      "answer": "arc42 strukturiert die Dokumentation einer konkreten Software-/Lösungsarchitektur; EA ordnet diese Lösung in Fähigkeiten, Daten, Systeme, Standards und Transformation der Gesamtlandschaft ein.",
+      "explanation": "Die Ebenen ergänzen sich, sind aber nicht identisch.",
+      "difficulty": 2,
+      "concepts": [
+        "arc42",
+        "Solution Architecture"
+      ]
+    },
+    {
+      "id": "proc-01",
+      "module": "architekturqualitat-in-ausschreibungen",
+      "competency": "Governance",
+      "type": "scenario",
+      "question": "Wie wird ein Architekturprinzip in einer Ausschreibung wirksam?",
+      "answer": "Es wird in prüfbare Anforderungen, konkrete Liefergegenstände, Nachweise, Bewertungskriterien und Abnahmekriterien übersetzt.",
+      "explanation": "Nicht nur „muss sicher und skalierbar sein“, sondern nachweisbare Qualität.",
+      "difficulty": 3,
+      "concepts": [
+        "Vergabe",
+        "Abnahme"
+      ]
+    },
+    {
+      "id": "ea-role-01",
+      "module": "ea-kernaufgaben-12",
+      "competency": "EA Core",
+      "type": "scenario",
+      "question": "Was entscheidet ein externer EA in einer Behörde typischerweise nicht selbst?",
+      "answer": "Hoheitliche, fachliche oder organisatorische Entscheidungen der zuständigen Behörde. Der EA erhebt, analysiert, strukturiert, entwickelt Optionen, bewertet Konsequenzen und bereitet Entscheidungen vor.",
+      "explanation": "Entscheidungshoheit und Beratungsrolle müssen sauber getrennt bleiben.",
+      "difficulty": 2,
+      "concepts": [
+        "EA Rolle",
+        "Dienstleister"
+      ]
+    },
+    {
+      "id": "ea-role-02",
+      "module": "ea-rollenmodell-kern-mittel-peripherie",
+      "competency": "EA Core",
+      "type": "difference",
+      "question": "Was unterscheidet EA von Solution Architecture?",
+      "answer": "EA steuert organisationsweite Fähigkeiten, Zielbilder, Systemrollen, Datenführerschaft, Standards, Roadmaps und Governance. Solution Architecture konkretisiert eine bestimmte Lösung mit Komponenten, Schnittstellen und Technologieentscheidungen.",
+      "explanation": "Die Grenze ist nicht absolut, aber der Betrachtungsmaßstab unterscheidet sich.",
+      "difficulty": 2,
+      "concepts": [
+        "EA",
+        "Solution Architect"
+      ]
+    },
+    {
+      "id": "portfolio-01",
+      "module": "applikationsportfolio-bewerten",
+      "competency": "Transformation",
+      "type": "definition",
+      "question": "Nach welchen vier Dimensionen sollte eine Anwendung mindestens betrachtet werden?",
+      "answer": "Fachlicher Wert, Risiko/technischer Zustand, Anschlussfähigkeit beziehungsweise Abhängigkeiten und strategische Zielrolle.",
+      "explanation": "Alter allein ist kein ausreichendes Ablösekriterium.",
+      "difficulty": 2,
+      "concepts": [
+        "Applikationsportfolio"
+      ]
+    },
+    {
+      "id": "principle-01",
+      "module": "technische-leitsaetze-kritisch-1-3",
+      "competency": "Technical",
+      "type": "scenario",
+      "question": "Was bedeutet „Technische Eleganz ersetzt keine Betriebsfähigkeit“?",
+      "answer": "Eine Lösung ist erst produktionsreif, wenn Verantwortung, Beobachtbarkeit, Fehlerfälle, Wiederanlauf, Betriebsverfahren und Übergabe belastbar geregelt und nachgewiesen sind.",
+      "explanation": "Schöne Struktur ohne betreibbare Realität ist keine vollständige Architektur.",
+      "difficulty": 3,
+      "concepts": [
+        "Betriebsfähigkeit",
+        "Leitsatz"
+      ]
+    },
+    {
+      "id": "principle-02",
+      "module": "technische-leitsaetze-kritisch-1-3",
+      "competency": "Technical",
+      "type": "scenario",
+      "question": "Warum braucht eine technische Entscheidung einen fachlichen Grund?",
+      "answer": "Weil Technologie Mittel zum Erreichen fachlicher, qualitativer oder regulatorischer Ziele ist. Ohne nachvollziehbaren Treiber droht Technologiepräferenz statt Architekturentscheidung.",
+      "explanation": "Der Grund kann auch eine Qualitätsanforderung oder ein verbindlicher Constraint sein.",
+      "difficulty": 3,
+      "concepts": [
+        "Entscheidungslogik"
+      ]
+    }
+  ],
+  "paths": [
+    {
+      "id": "ea-core",
+      "title": "EA Grundlagen",
+      "description": "Mandat, Capabilities, TOGAF, Modellierung, Entscheidungen, Roadmap und Governance.",
+      "modules": [
+        "ea-rollenmodell-kern-mittel-peripherie",
+        "ea-kernaufgaben-12",
+        "eam-leistungsbild-fur-behorden",
+        "capability-mapping-bundesbehorden",
+        "togaf-adm-im-behordenkontext",
+        "archimate-fur-behorden-ea",
+        "adr-erstellung-und-praxis",
+        "roadmap-mit-ubergangsarchitekturen",
+        "architektur-governance-fur-behorden"
+      ]
+    },
+    {
+      "id": "integration",
+      "title": "Integration & verteilte Systeme",
+      "description": "Schnittstellenverträge, APIs, Events, Fehlerbehandlung und Observability.",
+      "modules": [
+        "schnittstellenvertrag-erstellen",
+        "openapi-asyncapi-bewertung",
+        "eda-im-behordenkontext",
+        "dead-letter-queue",
+        "observability-anforderungen-definieren"
+      ]
+    },
+    {
+      "id": "production",
+      "title": "Production Architecture",
+      "description": "IAM, Security, Plattform, Lieferweg, Observability und Wiederanlauf.",
+      "modules": [
+        "iam-architektur-fur-behorden",
+        "security-by-architecture-review-anleitung",
+        "schutzbedarf-einordnen-bsi",
+        "kubernetes-architektur-bewerten",
+        "cd-und-iac-architektur",
+        "observability-anforderungen-definieren",
+        "rpo-betriebsfahigkeit-prufen"
+      ]
+    },
+    {
+      "id": "public-sector",
+      "title": "Behörden-EA",
+      "description": "Verwaltungsprozesse, Daten, Beschaffung, Governance und BAMF-Kontext.",
+      "modules": [
+        "bamf-ea-kontext",
+        "bpmn-fur-verwaltungsprozesse",
+        "dmn-entscheidungslogik-und-bpmn",
+        "datenlandkarten-fur-behorden",
+        "architekturqualitat-in-ausschreibungen",
+        "architektur-governance-fur-behorden",
+        "rpo-betriebsfahigkeit-prufen"
+      ]
+    },
+    {
+      "id": "technical-leadership",
+      "title": "Technische EA-Vertiefung",
+      "description": "Architekturqualität, technische Leitsätze, arc42, Portfolio und Plattformbewertung.",
+      "modules": [
+        "technische-leitsaetze-100",
+        "technische-leitsaetze-kritisch-1-3",
+        "arc42-in-behorden-anwenden",
+        "applikationsportfolio-bewerten",
+        "kubernetes-architektur-bewerten",
+        "cd-und-iac-architektur"
+      ]
+    }
+  ],
+  "competencies": [
+    "EA Core",
+    "Business",
+    "Data",
+    "Integration",
+    "Security",
+    "Operations",
+    "Platform",
+    "Governance",
+    "Transformation",
+    "Modeling",
+    "Technical"
+  ],
+  "sessionMinutes": [
+    3,
+    5,
+    10,
+    20
+  ]
+}

@@ -1,27 +1,29 @@
-# Inhalte erweitern
+# Content-Modell
 
-## Neues Lernmodul
+Die App trennt Lerninhalte von der UI.
 
-1. Markdown-Datei unter `content/modules/` anlegen.
-2. In `content/index.json` einen neuen Modul-Eintrag ergänzen:
+## Module
 
-```json
-{
-  "id": "mein-neues-modul",
-  "title": "Mein neues Modul",
-  "sourceTitle": "Eigener Inhalt",
-  "category": "Technische Vertiefung",
-  "tags": ["API", "Beispiel"],
-  "path": "content/modules/mein-neues-modul.md",
-  "summary": "Kurze Beschreibung",
-  "words": 1200,
-  "minutes": 6,
-  "kind": "project-source"
-}
-```
+`content/index.json` registriert alle Module. Die eigentlichen Texte liegen unter:
 
-3. `content/version.json` hochzählen, z. B. `1.0.0` → `1.1.0`, und eine kurze Update-Nachricht eintragen.
-4. In `sw.js` die Cache-Konstante ebenfalls hochzählen, z. B. `ea-learnings-v1.0.0` → `ea-learnings-v1.1.0`.
-5. Committen und pushen.
+- `content/modules/` – vollständige Projektquellen
+- `content/derived/` – aus Projektgesprächen abgeleitete Lerninhalte
 
-Der GitHub-Actions-Workflow erzeugt den Volltext-Suchindex automatisch neu und veröffentlicht anschließend die PWA.
+## Lernengine
+
+`content/learning.json` enthält:
+
+- `cards` – Retrieval-, Definitions-, Unterschieds- und Szenariokarten
+- `paths` – geführte Lernpfade
+- `competencies` – Kompetenzbereiche für das Profil
+- `sessionMinutes` – angebotene Microlearning-Zeiten
+
+Neue Karten lassen sich ohne Codeänderung ergänzen. Jede Karte referenziert ein vorhandenes `module` über dessen ID.
+
+## Suche
+
+`content/search-index.json` wird mit `python tools/rebuild_search.py` aus den registrierten Markdown-Modulen erzeugt. Lernkarten und persönliche Notizen werden zur Laufzeit zusätzlich durchsucht.
+
+## Versionen
+
+Bei Content-Änderungen `contentVersion` in `content/index.json` und `version` in `content/version.json` erhöhen. Für App-/Cache-Änderungen auch den Cache-Namen in `sw.js` erhöhen.

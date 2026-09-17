@@ -1,59 +1,54 @@
-# EA Learnings
+# EA Learnings 2.0
 
-Progressive Web App für die Enterprise-Architecture-Lernbibliothek im Behördenkontext.
+Smartphone-first Progressive Web App für Enterprise Architecture im Behördenkontext.
 
-## Funktionen
+## Lernkonzept
 
-- alle 25 Projektquellen vollständig als Markdown-Module
-- abgeleitete Lernmodule aus den Projektgesprächen
-- Volltextsuche, Kategorien und Filter
-- Favoriten, Lernstatus und Fortschritt
-- persönliche Notizen
-- zuletzt geöffnete Module und gespeicherte Leseposition
-- optional automatische Wiederaufnahme an der letzten Leseposition
-- lokales Gedächtnis ohne Server-Datenbank
-- Export/Import des persönlichen Gedächtnisses als JSON
-- getrennte Reset-Funktionen für Lernverlauf, Notizen/Favoriten, Offline-Cache und Vollreset
-- Offline-Nutzung als PWA
-- Installierbarkeit auf Desktop/Mobilgerät
-- Content-Versionierung und Update-Hinweis
+- **Heute**: persönlicher Tagesplan aus fälligen Wiederholungen, Weiterlernen und EA des Tages
+- **Spaced Repetition**: lokale Wiederholungsplanung je Lernkarte
+- **Retrieval Practice**: Antwort erst selbst abrufen, danach aufdecken und Sicherheit bewerten
+- **Microlearning**: 3-, 5-, 10- und 20-Minuten-Sessions
+- **Falltraining**: EA-Szenarien mit Musterlösung und Selbsteinschätzung
+- **Lernpfade**: EA Grundlagen, Integration, Production Architecture, Behörden-EA, technische Vertiefung
+- **Kompetenzprofil**: nachgewiesener Abrufstand nach Themengebiet
+- **Reader 2.0**: Fokusmodus, Leseposition, Notizen, Modul-Quiz, mobile Inhaltsübersicht
+
+## Smartphone UX
+
+- Bottom Navigation: Heute · Lernen · Wissen · Ich
+- Suche jederzeit über die Topbar
+- mindestens 48 px Touch-Ziele
+- Safe Areas für iPhone/Android
+- Dark Mode / Systemmodus
+- skalierbare Textgröße
+- `prefers-reduced-motion`
+- responsive Reader und Tabellen
+- installierbar und offline nutzbar
 
 ## Lokales Gedächtnis
 
-Persönliche Lerndaten werden in `localStorage` gespeichert. Der PWA-Offline-Cache wird separat über die Cache Storage API verwaltet. Dadurch kann der Cache geleert werden, ohne den Lernfortschritt oder Notizen zu löschen.
+Es gibt **keine Server-Datenbank**. Persönliche Daten werden in IndexedDB des Browsers gespeichert:
 
-Gespeichert werden:
-
-- Fortschritt
+- Karten- und Wiederholungsstatus
+- Lernhistorie
+- Lesefortschritt / Leseposition
 - Favoriten
 - Notizen
-- zuletzt geöffnete Module
-- Lesepositionen
-- Lernstatus
-- App-Einstellungen
+- Einstellungen
 
-Unter **Speicher & Reset** kann alles exportiert, importiert oder gezielt zurückgesetzt werden.
+App- und Content-Dateien liegen separat im Cache Storage. Cache und Lerndaten können getrennt zurückgesetzt werden. Backup/Restore erfolgt als JSON-Datei.
 
-## Inhalte erweitern
+## Inhalte
 
-1. Neue Markdown-Datei unter `content/modules/` oder `content/derived/` ablegen.
-2. Eintrag in `content/index.json` ergänzen.
-3. `python tools/rebuild_search.py` ausführen.
-4. `content/version.json` und `contentVersion` in `content/index.json` hochzählen.
-5. Cache-Version in `sw.js` hochzählen.
+- alle 25 Projektquellen vollständig
+- abgeleitete EA-Lernmodule aus dem Projekt
+- 43 initiale Retrieval-/Szenario-Karten
+- 5 geführte Lernpfade
 
-Bestehende Nutzer erhalten beim nächsten Öffnen/Fokus einen Update-Hinweis.
+Neue Markdown-Module werden unter `content/modules/` oder `content/derived/` ergänzt und in `content/index.json` registriert. Lernkarten und Lernpfade liegen unabhängig davon in `content/learning.json`.
 
 ## GitHub Pages
 
-Repository → **Settings → Pages → Source: GitHub Actions**.
+Der Workflow `.github/workflows/pages.yml` publiziert das Repository als statische GitHub-Pages-App. Für das Repository `empishaj/eaapp` ist die erwartete URL:
 
-Zielpfad: `https://empishaj.github.io/eaapp/`
-
-## Lokale Entwicklung
-
-```bash
-python -m http.server 8080
-```
-
-Dann `http://localhost:8080` öffnen.
+`https://empishaj.github.io/eaapp/`
