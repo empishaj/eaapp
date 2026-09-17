@@ -1,34 +1,84 @@
-# Methoden & Zertifikate für die 12 EA-Kernaufgaben
+# Methoden und Zertifikate für die 12 EA-Kernaufgaben
 
-## Zuordnung
+Zertifikate ersetzen keine Praxis. Für einen externen Enterprise Architect im deutschen Behördenkontext sind sie vor allem strukturierter Wissensrahmen und Glaubwürdigkeitsnachweis. Methodisch muss der EA mehr beherrschen, als eine einzelne Zertifizierung prüft.
 
-| Kernaufgabe | Wichtige Methoden | Sinnvolle Zertifikate |
+## Zuordnung zu den Kernaufgaben
+
+| Kernaufgabe | Besonders hilfreiche Methoden | Geeignete Zertifikate |
 |---|---|---|
-| Mandat & Scope | TOGAF Preliminary/Vision, Stakeholder Mapping, RACI, Architecture Charter | TOGAF EA Practitioner, IREB CPRE |
-| Ist-Architektur | Discovery, Capability Mapping, BPMN, ArchiMate, System-/Datenlandkarten | TOGAF, ArchiMate Practitioner |
-| Zielarchitektur | TOGAF B–D, ArchiMate, Gap Analysis, DDD, Quality Attribute Scenarios | TOGAF, ArchiMate, iSAQB |
-| Entscheidungen | ADR, Decision Matrix, Trade-off Analysis, ATAM-Logik | iSAQB, TOGAF, ARCEVAL |
-| Prinzipien & Standards | Architecture Principles, Reference Architectures, Standards | TOGAF, COBIT |
-| Datenführerschaft | Data Ownership, CRUD, Source of Truth, Lineage, DMBOK | CDMP, TOGAF |
-| Systemrollen/Domänen | Capability-to-Application, DDD, Bounded Contexts, Portfolio | TOGAF, ArchiMate, iSAQB EAM/DDD |
-| Integration | REST, OpenAPI, AsyncAPI, EDA, Event Storming, Integration Patterns | iSAQB API/DDD, ArchiMate |
-| Roadmap | Gap Analysis, Transition Architectures, Dependency Mapping, Work Packages | TOGAF Practitioner |
-| Governance | Architecture Board, Review Gates, ADR, Exception Management | TOGAF, COBIT |
+| Mandat & Scope | TOGAF Preliminary/Architecture Vision, Stakeholder Mapping, RACI, Architecture Charter, Problem Framing | TOGAF EA Practitioner, IREB CPRE |
+| Ist-Architektur | Architecture Discovery, Capability Mapping, BPMN, ArchiMate, System-/Datenlandkarten | TOGAF, ArchiMate Practitioner, CPRE |
+| Zielarchitektur | TOGAF ADM B–D, ArchiMate, Gap Analysis, DDD, Quality Attribute Scenarios | TOGAF, ArchiMate, iSAQB CPSA |
+| Entscheidungen | ADR, Decision Matrix, Trade-off Analysis, ATAM-Denke, Quality Attributes | iSAQB, TOGAF, ARCEVAL |
+| Prinzipien & Standards | Architecture Principles, Reference Architectures, Technology Standards, Policy-as-Code-Denke | TOGAF, COBIT |
+| Datenführerschaft | Data Ownership, CRUD, Source of Truth, Data Lineage, DMBOK, MDM | CDMP, TOGAF |
+| Systemrollen & Domänen | Capability-to-Application Mapping, DDD, Bounded Contexts, Context Maps | TOGAF, ArchiMate, iSAQB DDD/EAM |
+| Integration | API Design, REST, OpenAPI, AsyncAPI, EDA, Event Storming, Integration Patterns | iSAQB API/DDD, ArchiMate |
+| Roadmap | Baseline/Target/Gap, Transition Architectures, Dependency Mapping, Work Packages | TOGAF |
+| Governance | Architecture Board, Review Gates, ADR, Exception Management, Decision Rights | TOGAF, COBIT |
 | Risiken | Risk Register, BSI-Grundschutz, Threat Modeling, STRIDE, Open FAIR | BSI IT-Grundschutz-Praktiker, Open FAIR |
-| Vorhabensynchronisation | Portfolio Mapping, Capability-to-Initiative, Dependency Maps | TOGAF, iSAQB EAM |
+| Vorhabensynchronisation | Portfolio Mapping, Capability-to-Initiative Mapping, Dependency Map, Decision Roadmap | TOGAF, iSAQB EAM |
 
-## Empfohlene Zertifikatsreihenfolge
+## Priorisierter Zertifikatsstack
 
-1. **TOGAF Enterprise Architecture Practitioner** – methodischer EA-Kern.
-2. **ArchiMate Practitioner** – Architektur modellieren und kommunizieren.
-3. **iSAQB CPSA-F** – technische Architekturkompetenz.
-4. **BSI IT-Grundschutz-Praktiker** – besonders wertvoll für deutschen Behördenkontext.
-5. **IREB CPRE Foundation** – Anforderungen und Stakeholderbedarfe sauber übersetzen.
-6. **iSAQB Advanced: EAM, ARCEVAL, REQ4ARC** – Vertiefung für EA und Architekturbewertung.
-7. **DAMA CDMP Associate/Practitioner** – Data Governance und Datenarchitektur.
-8. **COBIT Foundation** – Governance und Decision Rights.
-9. **Open FAIR Foundation** – quantitative Informationsrisikoanalyse.
+### 1. TOGAF Enterprise Architecture Practitioner
 
-## Methoden, die auch ohne Zertifikat sitzen müssen
+Stärkste methodische Basis für Mandat, Vision, Baseline/Target, Business/Data/Application/Technology Architecture, Gap Analysis, Migration Planning und Governance.
 
-Stakeholder Mapping, Capability Mapping, BPMN-Light, DMN-Light, ArchiMate-Sichten, Datenlandkarten, Source-of-Truth-Analyse, DDD/Bounded Contexts, REST/OpenAPI/AsyncAPI, EDA-Grundmuster, ADRs, Gap Analysis, Transition Architectures, Architecture Reviews, Ausnahmeprozess, Risk Register und Dependency Mapping.
+### 2. ArchiMate Practitioner
+
+Hilft, Fähigkeiten, Organisation, Anwendungen, Daten, Technologie, Motivation und Transformation in konsistenten Sichten darzustellen. Besonders nützlich für Ist-/Zielbilder und Roadmaps.
+
+### 3. iSAQB CPSA-F und ausgewählte Advanced-Module
+
+Vertieft technische Architekturkompetenz. Für die EA-Rolle besonders interessant: EAM, ARCEVAL, REQ4ARC, DDD, API und Cloud-/Infrastrukturthemen. Der Wert liegt in technischer Beurteilungsfähigkeit, nicht darin, Enterprise Architecture durch Softwarearchitektur zu ersetzen.
+
+### 4. BSI IT-Grundschutz-Praktiker
+
+Im deutschen Behördenkontext besonders wertvoll. Schärft Schutzbedarf, Informationssicherheitsrisiken, Grundschutzlogik, Sicherheitsanforderungen und die Zusammenarbeit mit ISB/Sicherheitsorganisation.
+
+### 5. IREB CPRE
+
+Hilft bei Stakeholderbedarfen, Qualitätsanforderungen, Constraints, Priorisierung und Konfliktklärung. Besonders wertvoll, weil Architekturentscheidungen aus Anforderungen und Randbedingungen ableitbar sein müssen.
+
+### 6. DAMA / CDMP
+
+Vertieft Data Governance, Data Ownership, Data Stewardship, Master/Reference Data, Metadata, Lineage, Data Quality und Datenarchitektur.
+
+### 7. COBIT Foundation
+
+Ergänzung für Governance, Decision Rights, Kontrollen und Steuerung von Enterprise IT.
+
+### 8. Open FAIR
+
+Ergänzung für strukturierte und quantifizierbare Informationsrisikoanalyse.
+
+## Methoden, die unabhängig vom Zertifikat sitzen müssen
+
+### Mandat
+Stakeholder Mapping, RACI, Working Agreement, Architecture Charter, Interviewtechnik, Problem Framing.
+
+### Ist-/Zielarchitektur
+Capability Mapping, BPMN-Light, ArchiMate, System Context, Datenlandkarte, Application Portfolio, Baseline/Target/Gap.
+
+### Entscheidungen
+ADR, Decision Matrix, Trade-off Analysis, Quality Attribute Scenarios, Reversibilität, Assumption Log.
+
+### Daten
+Source of Truth, System of Record, Data Ownership, CRUD, Lineage, Master/Reference Data, Data Contracts.
+
+### Domänen
+DDD, Bounded Context, Context Map, Ubiquitous Language, Anti-Corruption Layer.
+
+### Integration
+REST, OpenAPI, AsyncAPI, Events, Messaging, Idempotenz, Retry, DLQ, Outbox, Saga, Contract Testing.
+
+### Governance
+Architecture Board, Review, ADR, Exception, Maßnahmenregister, Quality Gates.
+
+### Roadmap
+Transition Architecture, Work Package, Dependency Mapping, Entscheidungsfenster, Migrationswellen.
+
+## Nicht zuerst priorisieren
+
+PMP/PgMP, Scrum Master, Product Owner, reine Kubernetes-Admin- oder hyperscalerspezifische Engineer-Zertifikate können nützlich sein, stärken aber nicht zuerst die zwölf EA-Kernaufgaben. Sie sind Ergänzungen, keine Basis.

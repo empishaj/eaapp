@@ -4,36 +4,53 @@ Progressive Web App für die Enterprise-Architecture-Lernbibliothek im Behörden
 
 ## Funktionen
 
-- 25 Projektmodule als Markdown-Inhalte
-- abgeleitete Lernmodule aus dem Projekt-Chat
-- Volltextsuche
-- Kategorien und Filter
-- Favoriten
-- lokaler Lernfortschritt
+- alle 25 Projektquellen vollständig als Markdown-Module
+- abgeleitete Lernmodule aus den Projektgesprächen
+- Volltextsuche, Kategorien und Filter
+- Favoriten, Lernstatus und Fortschritt
 - persönliche Notizen
+- zuletzt geöffnete Module und gespeicherte Leseposition
+- optional automatische Wiederaufnahme an der letzten Leseposition
+- lokales Gedächtnis ohne Server-Datenbank
+- Export/Import des persönlichen Gedächtnisses als JSON
+- getrennte Reset-Funktionen für Lernverlauf, Notizen/Favoriten, Offline-Cache und Vollreset
 - Offline-Nutzung als PWA
 - Installierbarkeit auf Desktop/Mobilgerät
 - Content-Versionierung und Update-Hinweis
+
+## Lokales Gedächtnis
+
+Persönliche Lerndaten werden in `localStorage` gespeichert. Der PWA-Offline-Cache wird separat über die Cache Storage API verwaltet. Dadurch kann der Cache geleert werden, ohne den Lernfortschritt oder Notizen zu löschen.
+
+Gespeichert werden:
+
+- Fortschritt
+- Favoriten
+- Notizen
+- zuletzt geöffnete Module
+- Lesepositionen
+- Lernstatus
+- App-Einstellungen
+
+Unter **Speicher & Reset** kann alles exportiert, importiert oder gezielt zurückgesetzt werden.
 
 ## Inhalte erweitern
 
 1. Neue Markdown-Datei unter `content/modules/` oder `content/derived/` ablegen.
 2. Eintrag in `content/index.json` ergänzen.
-3. Suchtext in `content/search-index.json` ergänzen.
-4. `content/version.json` hochzählen, z. B. von `1.0.0` auf `1.1.0`.
-5. Cache-Version in `sw.js` ebenfalls hochzählen.
+3. `python tools/rebuild_search.py` ausführen.
+4. `content/version.json` und `contentVersion` in `content/index.json` hochzählen.
+5. Cache-Version in `sw.js` hochzählen.
 
-Bestehende Nutzer erhalten beim nächsten Öffnen/Fokus einen Hinweis, dass eine neue Inhaltsversion verfügbar ist.
+Bestehende Nutzer erhalten beim nächsten Öffnen/Fokus einen Update-Hinweis.
 
 ## GitHub Pages
 
-Das Repository enthält einen GitHub-Actions-Workflow für GitHub Pages. Falls Pages noch nicht aktiviert ist: Repository → **Settings → Pages → Source: GitHub Actions**.
+Repository → **Settings → Pages → Source: GitHub Actions**.
 
-Die App ist für den Repository-Pfad `https://empishaj.github.io/eaapp/` ausgelegt.
+Zielpfad: `https://empishaj.github.io/eaapp/`
 
 ## Lokale Entwicklung
-
-Da Markdown-Dateien per `fetch()` geladen werden, bitte über einen lokalen HTTP-Server öffnen, z. B.:
 
 ```bash
 python -m http.server 8080
