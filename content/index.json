@@ -1,0 +1,555 @@
+{
+  "app": "EA Learnings",
+  "contentVersion": "1.0.0",
+  "generated": "2026-09-17",
+  "modules": [
+    {
+      "id": "eda-im-behordenkontext",
+      "title": "1. Grundgedanke: EDA ist kein Techniktrick, sondern ein Kopplungsmodell",
+      "sourceTitle": "EDA im Behördenkontext",
+      "category": "Daten & Integration",
+      "tags": [
+        "EDA",
+        "Events",
+        "Messaging"
+      ],
+      "path": "content/modules/eda-im-behordenkontext.md",
+      "summary": "Checkliste: Was du bei Event Driven Architecture sofort prüfen musst ☐ Ist klar, welches fachliche Ereignis tatsächlich passiert ist, oder wird nur ein technischer Zustand weitergereicht? ☐ Ist der Unterschied zwischen …",
+      "words": 4998,
+      "minutes": 24,
+      "kind": "project-source"
+    },
+    {
+      "id": "schnittstellenvertrag-erstellen",
+      "title": "1. Grundidee: Ein Schnittstellenvertrag ist kein Swagger-File",
+      "sourceTitle": "Schnittstellenvertrag erstellen",
+      "category": "Daten & Integration",
+      "tags": [
+        "Schnittstelle",
+        "Vertrag",
+        "API"
+      ],
+      "path": "content/modules/schnittstellenvertrag-erstellen.md",
+      "summary": "Checkliste: Woran du einen belastbaren Schnittstellenvertrag erkennst Aspekt Details/Erklärung Beispiel Fachlicher Zweck Die Schnittstelle beschreibt zuerst den Verwaltungsprozess, nicht zuerst den Endpunkt. …",
+      "words": 3971,
+      "minutes": 19,
+      "kind": "project-source"
+    },
+    {
+      "id": "openapi-asyncapi-bewertung",
+      "title": "1. Grundidee: OpenAPI beschreibt HTTP-Schnittstellen, AsyncAPI beschreibt nachrichtengetriebene Schnittstellen",
+      "sourceTitle": "OpenAPI AsyncAPI Bewertung",
+      "category": "Daten & Integration",
+      "tags": [
+        "OpenAPI",
+        "AsyncAPI",
+        "API"
+      ],
+      "path": "content/modules/openapi-asyncapi-bewertung.md",
+      "summary": "Checkliste: OpenAPI und AsyncAPI für Enterprise Integration sicher bewerten Prüfe zuerst, ob die Schnittstelle synchron per HTTP oder asynchron per Nachricht/Event gedacht ist. Unterscheide fachlich sauber zwischen …",
+      "words": 4922,
+      "minutes": 23,
+      "kind": "project-source"
+    },
+    {
+      "id": "datenlandkarten-fur-behorden",
+      "title": "1. Was eine Datenlandkarte wirklich ist",
+      "sourceTitle": "Datenlandkarten für Behörden",
+      "category": "Daten & Integration",
+      "tags": [
+        "Daten",
+        "Datenlandkarte",
+        "Governance"
+      ],
+      "path": "content/modules/datenlandkarten-fur-behorden.md",
+      "summary": "Checkliste: Datenlandkarte für Behörden Fachverfahren 1. Prüfe zuerst den fachlichen Prozess , nicht die Datenbanktabellen. 2. Identifiziere die zentralen Datenobjekte : Person, Vorgang, Nachweis, Bescheid, Zahlung, …",
+      "words": 5000,
+      "minutes": 24,
+      "kind": "project-source"
+    },
+    {
+      "id": "eam-leistungsbild-fur-behorden",
+      "title": "1. Der Kern: EAM ist keine Modellierungsabteilung, sondern Entscheidungsinfrastruktur",
+      "sourceTitle": "EAM-Leistungsbild für Behörden",
+      "category": "EA Kern & Strategie",
+      "tags": [
+        "EAM",
+        "Leistungsbild",
+        "Mandat"
+      ],
+      "path": "content/modules/eam-leistungsbild-fur-behorden.md",
+      "summary": "Checkliste: Woran du ein gutes EAM Leistungsbild für eine Bundesbehörde erkennst Ein belastbares EAM Leistungsbild beantwortet mindestens diese zehn Fragen: Erstens, welches konkrete Behördenproblem wird durch EAM …",
+      "words": 2992,
+      "minutes": 14,
+      "kind": "project-source"
+    },
+    {
+      "id": "togaf-adm-im-behordenkontext",
+      "title": "1. Grundidee: TOGAF ist kein Zertifikatsstoff, sondern ein Denkgerüst für Entscheidungsfähigkeit",
+      "sourceTitle": "TOGAF ADM im Behördenkontext",
+      "category": "EA Kern & Strategie",
+      "tags": [
+        "TOGAF",
+        "ADM",
+        "Behörde",
+        "Governance"
+      ],
+      "path": "content/modules/togaf-adm-im-behordenkontext.md",
+      "summary": "Checkliste: TOGAF/ADM im Behördenmandat praktisch anwenden 1. Kläre zuerst das Architekturmandat , nicht die Methode. 2. Übersetze TOGAF Begriffe konsequent in Entscheidungssprache. 3. Nutze ADM als Phasenlogik , nicht …",
+      "words": 4005,
+      "minutes": 19,
+      "kind": "project-source"
+    },
+    {
+      "id": "master-leitsaetze-100",
+      "title": "100 Master-Leitsätze",
+      "sourceTitle": "Projekt-Chat",
+      "category": "EA Kern & Strategie",
+      "tags": [
+        "Leitsätze",
+        "EA",
+        "Behörde"
+      ],
+      "path": "content/derived/master-leitsaetze-100.md",
+      "summary": "100 Master Leitsätze für Enterprise Architecture im Behördenkontext Diese Leitsätze dienen als Arbeitskompass für Mandat, Facharchitektur, Daten, Integration, Governance und persönliche Wirksamkeit. Rollenverständnis …",
+      "words": 1001,
+      "minutes": 5,
+      "kind": "derived"
+    },
+    {
+      "id": "ea-kernaufgaben-12",
+      "title": "12 Kernaufgaben eines EA",
+      "sourceTitle": "Projekt-Chat",
+      "category": "EA Kern & Strategie",
+      "tags": [
+        "Kernaufgaben",
+        "Rolle",
+        "Dienstleister"
+      ],
+      "path": "content/derived/ea-kernaufgaben-12.md",
+      "summary": "12 Kernaufgaben eines Enterprise Architects im Behördenkontext Diese Übersicht behandelt den Enterprise Architect als externen Dienstleister : Er analysiert, strukturiert, entwickelt Optionen, macht Risiken sichtbar, …",
+      "words": 403,
+      "minutes": 2,
+      "kind": "derived"
+    },
+    {
+      "id": "ea-operating-manual-v2",
+      "title": "EA Operating Manual v2.0 – erstes Jahr Bundesbehörde",
+      "sourceTitle": "Projekt-Chat",
+      "category": "EA Kern & Strategie",
+      "tags": [
+        "Jahresplan",
+        "Operating Model",
+        "BAMF"
+      ],
+      "path": "content/derived/ea-operating-manual-v2.md",
+      "summary": "EA Operating Manual v2.0 – erstes Jahr als externer Enterprise Architect Strategischer Nordstern Ich schaffe innerhalb eines Jahres eine belastbare Architektur Entscheidungsfähigkeit für ausgewählte behördenrelevante …",
+      "words": 255,
+      "minutes": 1,
+      "kind": "derived"
+    },
+    {
+      "id": "ea-rollenmodell-kern-mittel-peripherie",
+      "title": "EA-Aufgabenmodell – Kern, Mittelring, Peripherie",
+      "sourceTitle": "Projekt-Chat",
+      "category": "EA Kern & Strategie",
+      "tags": [
+        "Rolle",
+        "Kernaufgaben",
+        "Abgrenzung"
+      ],
+      "path": "content/derived/ea-rollenmodell-kern-mittel-peripherie.md",
+      "summary": "EA Aufgabenmodell – Kern, Mittelring und Peripherie Kern – Enterprise Architecture im engsten Sinn 1. Architekturauftrag und Scope klären 2. Ist Architektur verstehen 3. Zielarchitektur entwickeln 4. …",
+      "words": 192,
+      "minutes": 1,
+      "kind": "derived"
+    },
+    {
+      "id": "enterprise-architektur-strategie",
+      "title": "Einordnung",
+      "sourceTitle": "Enterprise Architektur Strategie",
+      "category": "EA Kern & Strategie",
+      "tags": [
+        "Strategie",
+        "Zielarchitektur",
+        "Roadmap"
+      ],
+      "path": "content/modules/enterprise-architektur-strategie.md",
+      "summary": "Checkliste für die Prompt Bibliothek 1. Jeder Prompt aktiviert einen spezialisierten GPT Modus für genau einen Enterprise Architecture Hard Skill. 2. Jeder Prompt ist auf deinen Kontext zugeschnitten: Bundesministerien, …",
+      "words": 3563,
+      "minutes": 17,
+      "kind": "project-source"
+    },
+    {
+      "id": "enterprise-architecture-hard-skills",
+      "title": "Kurze Checkliste zur Einordnung deines Basis-Prompts",
+      "sourceTitle": "Enterprise Architecture Hard Skills",
+      "category": "EA Kern & Strategie",
+      "tags": [
+        "Skills",
+        "EA",
+        "Lernplan"
+      ],
+      "path": "content/modules/enterprise-architecture-hard-skills.md",
+      "summary": "Kurze Checkliste zur Einordnung deines Basis Prompts Der Kontext „deutsche Bundesministerien, Bundesbehörden, nachgeordnete Organisationen“ ist sauber gesetzt. Die Rolle des Mentors ist multidimensional definiert: EA, …",
+      "words": 859,
+      "minutes": 4,
+      "kind": "project-source"
+    },
+    {
+      "id": "bpmn-fur-verwaltungsprozesse",
+      "title": "1. Grundhaltung: BPMN ist kein Malprogramm, sondern eine Präzisionssprache für Verantwortung, Ablauf und Übergabe",
+      "sourceTitle": "BPMN für Verwaltungsprozesse",
+      "category": "Facharchitektur",
+      "tags": [
+        "BPMN",
+        "Prozess",
+        "Verwaltung"
+      ],
+      "path": "content/modules/bpmn-fur-verwaltungsprozesse.md",
+      "summary": "Checkliste: BPMN für Verwaltungsverfahren sicher anwenden 1. Kläre zuerst den Modellzweck: Willst du verstehen, optimieren, abstimmen, automatisieren oder auditierbar dokumentieren? 2. Trenne Prozesslandkarte, …",
+      "words": 5680,
+      "minutes": 27,
+      "kind": "project-source"
+    },
+    {
+      "id": "dmn-entscheidungslogik-und-bpmn",
+      "title": "1. Grundverständnis: Was DMN eigentlich leistet",
+      "sourceTitle": "DMN Entscheidungslogik und BPMN",
+      "category": "Facharchitektur",
+      "tags": [
+        "DMN",
+        "Entscheidungslogik",
+        "BPMN"
+      ],
+      "path": "content/modules/dmn-entscheidungslogik-und-bpmn.md",
+      "summary": "Checkliste: Was du bei DMN sofort erkennen und beherrschen musst Aspekt Details/Erklärung Beispiel Literatur/Quelle 1. Prozesslogik trennen BPMN beschreibt den Ablauf; DMN beschreibt die fachliche Entscheidung innerhalb …",
+      "words": 5231,
+      "minutes": 25,
+      "kind": "project-source"
+    },
+    {
+      "id": "capability-mapping-bundesbehorden",
+      "title": "Grundidee: Was ist eine Capability Map?",
+      "sourceTitle": "Capability Mapping Bundesbehörden",
+      "category": "Facharchitektur",
+      "tags": [
+        "Capability",
+        "Bundesbehörde",
+        "Business Architecture"
+      ],
+      "path": "content/modules/capability-mapping-bundesbehorden.md",
+      "summary": "Checkliste für gute Capability Maps in Bundesbehörden Aspekt Details/Erklärung Beispiel Literatur/Quelle 1. Fähigkeit zuerst, System später Beginne nicht mit „Was macht System X?“, sondern mit „Welche fachliche …",
+      "words": 4935,
+      "minutes": 24,
+      "kind": "project-source"
+    },
+    {
+      "id": "architektur-governance-fur-behorden",
+      "title": "1. Grundverständnis: Architektur-Governance ist kein Kontrollapparat, sondern ein Entscheidungssystem",
+      "sourceTitle": "Architektur-Governance für Behörden",
+      "category": "Governance & Beschaffung",
+      "tags": [
+        "Governance",
+        "Architecture Board",
+        "Review"
+      ],
+      "path": "content/modules/architektur-governance-fur-behorden.md",
+      "summary": "Checkliste: Architektur Governance in Bundesbehörden sauber aufsetzen Prüfe zuerst, welche bestehenden Gremien, Projektprozesse, Sicherheitsprozesse und Beschaffungswege bereits existieren. Definiere Architektur …",
+      "words": 6622,
+      "minutes": 32,
+      "kind": "project-source"
+    },
+    {
+      "id": "architekturqualitat-in-ausschreibungen",
+      "title": "Der Grundsatz: Architekturfragen sind keine Neugierfragen, sondern Steuerungsinstrumente",
+      "sourceTitle": "Architekturqualität in Ausschreibungen",
+      "category": "Governance & Beschaffung",
+      "tags": [
+        "Vergabe",
+        "Ausschreibung",
+        "Abnahme"
+      ],
+      "path": "content/modules/architekturqualitat-in-ausschreibungen.md",
+      "summary": "Checkliste: Welche Fragen du in welchem Architekturkontext stellen musst 1. Frage nie „wild“, sondern immer passend zur Phase: Mandat, Ist, Soll, Gap, Entscheidung, Umsetzung, Abnahme. 2. Beginne in frühen Gesprächen …",
+      "words": 4618,
+      "minutes": 22,
+      "kind": "project-source"
+    },
+    {
+      "id": "methoden-zertifikate-kernaufgaben",
+      "title": "Methoden & Zertifikate für die 12 EA-Kernaufgaben",
+      "sourceTitle": "Projekt-Chat",
+      "category": "Lernpfade",
+      "tags": [
+        "TOGAF",
+        "ArchiMate",
+        "iSAQB",
+        "BSI",
+        "Zertifikate"
+      ],
+      "path": "content/derived/methoden-zertifikate-kernaufgaben.md",
+      "summary": "Methoden & Zertifikate für die 12 EA Kernaufgaben Zuordnung Kernaufgabe Wichtige Methoden Sinnvolle Zertifikate Mandat & Scope TOGAF Preliminary/Vision, Stakeholder Mapping, RACI, Architecture Charter TOGAF EA …",
+      "words": 279,
+      "minutes": 1,
+      "kind": "derived"
+    },
+    {
+      "id": "togaf-lernkurs",
+      "title": "TOGAF 10 Lernkurs – Einstieg",
+      "sourceTitle": "Projekt-Chat",
+      "category": "Lernpfade",
+      "tags": [
+        "TOGAF",
+        "Lernzettel",
+        "ADM"
+      ],
+      "path": "content/derived/togaf-lernkurs.md",
+      "summary": "TOGAF 10 – Lernkurs für Enterprise Architects im Behördenkontext Kursstruktur 1. TOGAF Gesamtmodell und Grundbegriffe 2. Preliminary Phase & Architecture Capability 3. Phase A – Architecture Vision 4. Phase B – Business …",
+      "words": 448,
+      "minutes": 2,
+      "kind": "derived"
+    },
+    {
+      "id": "lernroadmap-ea",
+      "title": "Technische EA-Lernroadmap",
+      "sourceTitle": "Projekt-Chat",
+      "category": "Lernpfade",
+      "tags": [
+        "Roadmap",
+        "Lernen",
+        "Skills"
+      ],
+      "path": "content/derived/lernroadmap-ea.md",
+      "summary": "Technische Lernroadmap für Enterprise Architecture Die folgenden Themen sind als Vertiefungsblöcke geplant. Sie ergänzen die vorhandene Projektbibliothek und die 100 technischen Leitsätze. 1. Architekturentscheidungen …",
+      "words": 253,
+      "minutes": 1,
+      "kind": "derived"
+    },
+    {
+      "id": "arc42-in-behorden-anwenden",
+      "title": "1. Grundidee: arc42 ist kein Formular, sondern ein Kommunikationssystem für Architektur",
+      "sourceTitle": "arc42 in Behörden anwenden",
+      "category": "Modellierung & Entscheidungen",
+      "tags": [
+        "arc42",
+        "Dokumentation",
+        "Architektur"
+      ],
+      "path": "content/modules/arc42-in-behorden-anwenden.md",
+      "summary": "Checkliste: arc42 in Bundesbehörden richtig einsetzen [ ] Architekturzweck klären: Entscheidungsvorlage, Lieferdokumentation, Review Unterlage, Betriebsübergabe oder Zielbild? [ ] Stakeholder sauber trennen: Fachseite, …",
+      "words": 3999,
+      "minutes": 19,
+      "kind": "project-source"
+    },
+    {
+      "id": "archimate-fur-behorden-ea",
+      "title": "1. Was ArchiMate für dich als Enterprise Architekt leisten soll",
+      "sourceTitle": "ArchiMate für Behörden-EA",
+      "category": "Modellierung & Entscheidungen",
+      "tags": [
+        "ArchiMate",
+        "Modellierung",
+        "EA"
+      ],
+      "path": "content/modules/archimate-fur-behorden-ea.md",
+      "summary": "Checkliste: ArchiMate in Behörden EA praktisch beherrschen 1. Zuerst die Stakeholderfrage klären: Wer soll mit der Sicht welche Entscheidung treffen? 2. Nicht mit Symbolen beginnen, sondern mit Architekturfragen: …",
+      "words": 4467,
+      "minutes": 21,
+      "kind": "project-source"
+    },
+    {
+      "id": "adr-erstellung-und-praxis",
+      "title": "1. Was ein ADR wirklich ist",
+      "sourceTitle": "ADR Erstellung und Praxis",
+      "category": "Modellierung & Entscheidungen",
+      "tags": [
+        "ADR",
+        "Entscheidung",
+        "Governance"
+      ],
+      "path": "content/modules/adr-erstellung-und-praxis.md",
+      "summary": "Checkliste: Was ein professioneller ADR leisten muss Aspekt Details/Erklärung Beispiel Literatur/Quelle Entscheidungswürdigkeit prüfen Ein ADR ist nur nötig, wenn die Entscheidung architekturrelevant ist, also …",
+      "words": 4177,
+      "minutes": 20,
+      "kind": "project-source"
+    },
+    {
+      "id": "cd-und-iac-architektur",
+      "title": "1. Der Kern: CI/CD ist nicht „Automatisierung“, sondern kontrollierte Lieferfähigkeit",
+      "sourceTitle": "CD und IaC Architektur",
+      "category": "Plattform & Betrieb",
+      "tags": [
+        "CI/CD",
+        "IaC",
+        "DevOps"
+      ],
+      "path": "content/modules/cd-und-iac-architektur.md",
+      "summary": "Checkliste: CI/CD und IaC aus Enterprise Architecture Sicht Prüfe zuerst, ob die Pipeline den kompletten Lieferweg vom Commit bis zur Produktion nachvollziehbar abbildet. Trenne sauber zwischen Build, Deployment und …",
+      "words": 4478,
+      "minutes": 21,
+      "kind": "project-source"
+    },
+    {
+      "id": "kubernetes-architektur-bewerten",
+      "title": "1. Der Kern: Kubernetes ist kein Server, sondern ein Steuerungssystem",
+      "sourceTitle": "Kubernetes Architektur bewerten",
+      "category": "Plattform & Betrieb",
+      "tags": [
+        "Kubernetes",
+        "Plattform",
+        "Container"
+      ],
+      "path": "content/modules/kubernetes-architektur-bewerten.md",
+      "summary": "Checkliste: Was du als Enterprise Architekt bei Kubernetes sofort prüfen musst 1. Ist klar, welche fachlichen Verfahren auf der Plattform laufen dürfen und welchen Schutzbedarf sie haben? 2. Ist die Mandantentrennung …",
+      "words": 4434,
+      "minutes": 21,
+      "kind": "project-source"
+    },
+    {
+      "id": "rpo-betriebsfahigkeit-prufen",
+      "title": "1. Grundsatz: Betriebsfähigkeit ist kein Betriebsdetail, sondern Architekturqualität",
+      "sourceTitle": "RPO Betriebsfähigkeit prüfen",
+      "category": "Plattform & Betrieb",
+      "tags": [
+        "RPO",
+        "RTO",
+        "BCM",
+        "Betrieb"
+      ],
+      "path": "content/modules/rpo-betriebsfahigkeit-prufen.md",
+      "summary": "Checkliste: RTO/RPO und Betriebsfähigkeit als Architekturthema prüfen 1. Ist der fachliche Geschäftsprozess klar benannt, nicht nur das IT System? 2. Ist die fachliche Kritikalität dokumentiert: Bürgerwirkung, …",
+      "words": 4136,
+      "minutes": 20,
+      "kind": "project-source"
+    },
+    {
+      "id": "observability-anforderungen-definieren",
+      "title": "Observability-Checkliste für Enterprise Architecture",
+      "sourceTitle": "Observability-Anforderungen definieren",
+      "category": "Plattform & Betrieb",
+      "tags": [
+        "Observability",
+        "Monitoring",
+        "SLO"
+      ],
+      "path": "content/modules/observability-anforderungen-definieren.md",
+      "summary": "Observability Checkliste für Enterprise Architecture Aspekt Details/Erklärung Beispiel Literatur/Quelle Zweck geklärt Observability dient nicht der Tool Einführung, sondern der Betriebsfähigkeit eines Fachprozesses. …",
+      "words": 4238,
+      "minutes": 20,
+      "kind": "project-source"
+    },
+    {
+      "id": "roadmap-mit-ubergangsarchitekturen",
+      "title": "1. Der Kern: Eine Transformationsroadmap ist kein Terminplan, sondern ein Architektursteuerungsinstrument",
+      "sourceTitle": "Roadmap mit Übergangsarchitekturen",
+      "category": "Portfolio & Transformation",
+      "tags": [
+        "Roadmap",
+        "Transition Architecture",
+        "Work Package"
+      ],
+      "path": "content/modules/roadmap-mit-ubergangsarchitekturen.md",
+      "summary": "Checkliste: Woran du eine professionelle Transformationsroadmap erkennst Eine belastbare Roadmap beantwortet mindestens diese Punkte: 1. Ist die Ist Architektur als überprüfbarer Ausgangszustand beschrieben? 2. Ist die …",
+      "words": 4783,
+      "minutes": 23,
+      "kind": "project-source"
+    },
+    {
+      "id": "applikationsportfolio-bewerten",
+      "title": "Grundidee: Applikationsportfolio ist Architektursteuerung, nicht Inventur",
+      "sourceTitle": "Applikationsportfolio bewerten",
+      "category": "Portfolio & Transformation",
+      "tags": [
+        "Applikationsportfolio",
+        "Portfolio",
+        "Lifecycle"
+      ],
+      "path": "content/modules/applikationsportfolio-bewerten.md",
+      "summary": "Checkliste für deine Applikationsportfolio Bewertung 1. Applikationsbegriff klären: Bewerte nicht Server, Datenbanken oder einzelne Schnittstellen isoliert, sondern fachlich erkennbare Anwendungen mit Zweck, Nutzern, …",
+      "words": 3794,
+      "minutes": 18,
+      "kind": "project-source"
+    },
+    {
+      "id": "iam-architektur-fur-behorden",
+      "title": "1. Grundgedanke: IAM ist kein Login-Thema, sondern ein Architekturthema",
+      "sourceTitle": "IAM-Architektur für Behörden",
+      "category": "Security & Identity",
+      "tags": [
+        "IAM",
+        "Identity",
+        "Security"
+      ],
+      "path": "content/modules/iam-architektur-fur-behorden.md",
+      "summary": "Checkliste: IAM als Enterprise Architekt sauber prüfen 1. Ist klar, welche Identitäten existieren: interne Mitarbeitende, externe Antragstellende, Dienstleister, Admins, technische Konten, Systeme, Schnittstellen, Bots …",
+      "words": 5409,
+      "minutes": 26,
+      "kind": "project-source"
+    },
+    {
+      "id": "security-by-architecture-review-anleitung",
+      "title": "1. Grundidee: Was bedeutet Security-by-Architecture?",
+      "sourceTitle": "Security-by-Architecture-Review Anleitung",
+      "category": "Security & Identity",
+      "tags": [
+        "Security",
+        "Review",
+        "Architecture"
+      ],
+      "path": "content/modules/security-by-architecture-review-anleitung.md",
+      "summary": "Checkliste für ein Security by Architecture Review in Bundesbehörden Aspekt Details/Erklärung Beispiel Literatur/Quelle Schutzbedarf klären Vor jeder technischen Bewertung wird fachlich geklärt, welche Daten, Prozesse …",
+      "words": 5701,
+      "minutes": 27,
+      "kind": "project-source"
+    },
+    {
+      "id": "schutzbedarf-einordnen-bsi",
+      "title": "1. Grundverständnis: Was Schutzbedarf wirklich bedeutet",
+      "sourceTitle": "Schutzbedarf einordnen BSI",
+      "category": "Security & Identity",
+      "tags": [
+        "BSI",
+        "Schutzbedarf",
+        "Informationssicherheit"
+      ],
+      "path": "content/modules/schutzbedarf-einordnen-bsi.md",
+      "summary": "Checkliste: Schutzbedarf professionell einordnen Aspekt Details/Erklärung Literatur/Quelle Zielobjekt sauber bestimmen Kläre zuerst, was bewertet wird: Information, Prozess, Anwendung, Schnittstelle, Plattform, …",
+      "words": 3365,
+      "minutes": 16,
+      "kind": "project-source"
+    },
+    {
+      "id": "technische-leitsaetze-100",
+      "title": "100 technische Master-Leitsätze",
+      "sourceTitle": "Projekt-Chat",
+      "category": "Technische Vertiefung",
+      "tags": [
+        "Leitsätze",
+        "Technik",
+        "Reviews"
+      ],
+      "path": "content/derived/technische-leitsaetze-100.md",
+      "summary": "100 technische Master Leitsätze für Enterprise Architects Architekturgrundsätze 1. Jede technische Entscheidung braucht einen fachlichen Grund. 2. Eine Architekturentscheidung ist erst vollständig, wenn ihre …",
+      "words": 882,
+      "minutes": 4,
+      "kind": "derived"
+    },
+    {
+      "id": "technische-leitsaetze-kritisch-1-3",
+      "title": "Technische Leitsätze 1–3 kritisch geprüft",
+      "sourceTitle": "Projekt-Chat",
+      "category": "Technische Vertiefung",
+      "tags": [
+        "Leitsätze",
+        "Validierung",
+        "Betrieb"
+      ],
+      "path": "content/derived/technische-leitsaetze-kritisch-1-3.md",
+      "summary": "Kritische Vertiefung der technischen Leitsätze 1–3 1. Jede technische Entscheidung braucht einen fachlichen Grund Kritische Gegenfrage: Muss wirklich jede technische Detailentscheidung fachlich begründet sein? Nein. …",
+      "words": 284,
+      "minutes": 1,
+      "kind": "derived"
+    }
+  ]
+}
