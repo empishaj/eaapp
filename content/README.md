@@ -38,3 +38,9 @@ Bei Content-Änderungen `contentVersion` in `content/index.json` und `version` i
 - Modul-ID, Abschnitt und Anchor für den Rücksprung in den Ursprungstext
 
 `tools/rebuild_lexicon.py` ermittelt die Beispiele neu aus den vorhandenen Projektmodulen. Definitionen bleiben kuratiert; Beispiele bleiben quellengebunden.
+
+
+## Lerneinheiten (2.2)
+`units.json` enthält quellengebundene Lerneinheiten. Jede Einheit besitzt Lernziele, Kernidee, Abgrenzungen, verlinkte Projektquellen, einen ausdrücklich als Transfer gekennzeichneten Behördenfall, Lernchecks und Reviewfragen.
+
+`learning.json` enthält zusätzlich vier Karten pro Lerneinheit für Spaced Repetition. Neue Einheiten können über `tools/rebuild_learning_units.py` reproduzierbar aufgebaut werden.

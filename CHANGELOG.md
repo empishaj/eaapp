@@ -47,3 +47,12 @@
 - Jeder Lerntext erhält am Ende „Begriffe in diesem Text“ mit Direktdefinitionen; die wichtigsten zwölf sind sofort sichtbar, weitere bleiben aufklappbar.
 - Volltextsuche durchsucht jetzt zusätzlich das Lexikon.
 - Lexikon ist Teil des Offline-Pakets und als PWA-Shortcut verfügbar.
+
+## 2.2.0 – 2026-09-18
+- 28 neue, quellengebundene Lerneinheiten mit Lernzielen, Kernidee, Abgrenzungen, Projektquellen, Transferfall, Lerncheck und Reviewfragen.
+- 112 neue Karten aus den Lerneinheiten; insgesamt 155 aktive Lernkarten.
+- Neuer Bereich „Vertiefte Lerneinheiten“ und Gesamtübersicht mit Kompetenzfiltern.
+- Neues EA Curriculum 2.2 von Grundlagen bis Capstone.
+- Vollständiger Behörden-Capstone zur Fachverfahrensmodernisierung.
+- Lerneinheiten werden in Suche und Offline-Pack aufgenommen.
+- Fortschritt je Lerneinheit wird lokal gespeichert und kann wiederholt werden.

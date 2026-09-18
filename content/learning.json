@@ -1,5 +1,5 @@
 {
-  "version": "2.1.0",
+  "version": "2.2.0",
   "cards": [
     {
       "id": "togaf-01",
@@ -591,6 +591,1924 @@
       "concepts": [
         "Entscheidungslogik"
       ]
+    },
+    {
+      "id": "unit-ea-mandat-leistungsbild-1",
+      "module": "eam-leistungsbild-fur-behorden",
+      "unit": "ea-mandat-leistungsbild",
+      "competency": "EA Core",
+      "type": "recall",
+      "question": "Was ist der Kernnutzen von EAM?",
+      "answer": "Bessere, nachvollziehbare und bereichsübergreifend konsistente Architekturentscheidungen.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „EA-Mandat und Leistungsbild in der Behörde“.",
+      "difficulty": 1,
+      "concepts": [
+        "EAM",
+        "Mandat",
+        "Governance",
+        "Stakeholder"
+      ]
+    },
+    {
+      "id": "unit-ea-mandat-leistungsbild-2",
+      "module": "eam-leistungsbild-fur-behorden",
+      "unit": "ea-mandat-leistungsbild",
+      "competency": "EA Core",
+      "type": "understanding",
+      "question": "Warum braucht ein externer EA einen klaren Scope?",
+      "answer": "Damit Liefergegenstände, Entscheidungsspielräume, Verantwortungen und Nicht-Scope transparent bleiben.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „EA-Mandat und Leistungsbild in der Behörde“.",
+      "difficulty": 1,
+      "concepts": [
+        "EAM",
+        "Mandat",
+        "Governance",
+        "Stakeholder"
+      ]
+    },
+    {
+      "id": "unit-ea-mandat-leistungsbild-3",
+      "module": "eam-leistungsbild-fur-behorden",
+      "unit": "ea-mandat-leistungsbild",
+      "competency": "EA Core",
+      "type": "understanding",
+      "question": "Wann ist ein Architekturartefakt sinnvoll?",
+      "answer": "Wenn es eine Entscheidung vorbereitet, ein Risiko sichtbar macht, Verantwortung klärt oder Umsetzung steuert.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „EA-Mandat und Leistungsbild in der Behörde“.",
+      "difficulty": 1,
+      "concepts": [
+        "EAM",
+        "Mandat",
+        "Governance",
+        "Stakeholder"
+      ]
+    },
+    {
+      "id": "unit-ea-mandat-leistungsbild-4",
+      "module": "eam-leistungsbild-fur-behorden",
+      "unit": "ea-mandat-leistungsbild",
+      "competency": "EA Core",
+      "type": "scenario",
+      "question": "Ein Fachreferat erwartet, dass du als externer EA die Zielarchitektur „freigibst“. Wie formulierst du deine Rolle?",
+      "answer": "Du bereitest die Architekturentscheidung belastbar vor, dokumentierst Optionen, Risiken und Konsequenzen und moderierst die Abstimmung. Die Freigabe erfolgt durch die zuständige interne Entscheidungsinstanz.",
+      "explanation": "Abgeleitete Transferaufgabe auf Basis der angegebenen Projektquellen.",
+      "difficulty": 3,
+      "concepts": [
+        "EAM",
+        "Mandat",
+        "Governance",
+        "Stakeholder"
+      ]
+    },
+    {
+      "id": "unit-togaf-mandatslogik-1",
+      "module": "togaf-adm-im-behordenkontext",
+      "unit": "togaf-mandatslogik",
+      "competency": "EA Core",
+      "type": "recall",
+      "question": "Was ist ein Gap?",
+      "answer": "Eine präzise Veränderungslücke zwischen Baseline und Target Architecture.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „TOGAF ADM als Mandatslogik“.",
+      "difficulty": 1,
+      "concepts": [
+        "TOGAF",
+        "ADM",
+        "Baseline",
+        "Target"
+      ]
+    },
+    {
+      "id": "unit-togaf-mandatslogik-2",
+      "module": "togaf-adm-im-behordenkontext",
+      "unit": "togaf-mandatslogik",
+      "competency": "EA Core",
+      "type": "understanding",
+      "question": "Warum läuft Requirements Management quer durch die ADM?",
+      "answer": "Weil Anforderungen, Constraints, Risiken und Entscheidungen in allen Phasen entstehen und rückgekoppelt werden.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „TOGAF ADM als Mandatslogik“.",
+      "difficulty": 1,
+      "concepts": [
+        "TOGAF",
+        "ADM",
+        "Baseline",
+        "Target"
+      ]
+    },
+    {
+      "id": "unit-togaf-mandatslogik-3",
+      "module": "togaf-adm-im-behordenkontext",
+      "unit": "togaf-mandatslogik",
+      "competency": "EA Core",
+      "type": "understanding",
+      "question": "Was ist eine Transition Architecture?",
+      "answer": "Ein bewusst gestalteter, zeitlich begrenzter Zwischenzustand zwischen Ist und Ziel.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „TOGAF ADM als Mandatslogik“.",
+      "difficulty": 1,
+      "concepts": [
+        "TOGAF",
+        "ADM",
+        "Baseline",
+        "Target"
+      ]
+    },
+    {
+      "id": "unit-togaf-mandatslogik-4",
+      "module": "togaf-adm-im-behordenkontext",
+      "unit": "togaf-mandatslogik",
+      "competency": "EA Core",
+      "type": "scenario",
+      "question": "Eine Behörde verlangt sofort eine Kubernetes-Zielarchitektur. Was klärst du zuerst?",
+      "answer": "Fachlichen Treiber, Scope, betroffene Fähigkeiten, Daten, Anwendungen, Qualitätsanforderungen, Sicherheits- und Betriebsconstraints. Erst danach wird die Technologiearchitektur belastbar.",
+      "explanation": "Abgeleitete Transferaufgabe auf Basis der angegebenen Projektquellen.",
+      "difficulty": 3,
+      "concepts": [
+        "TOGAF",
+        "ADM",
+        "Baseline",
+        "Target",
+        "Gap"
+      ]
+    },
+    {
+      "id": "unit-capability-denken-1",
+      "module": "capability-mapping-bundesbehorden",
+      "unit": "capability-denken",
+      "competency": "Business",
+      "type": "recall",
+      "question": "Warum sollte EA bei Fähigkeiten beginnen?",
+      "answer": "Weil Fähigkeiten stabiler als Systeme, Projekte und Organisationseinheiten sind und fachliche Wirkung beschreiben.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „Capability statt Systemdenken“.",
+      "difficulty": 1,
+      "concepts": [
+        "Capability",
+        "Prozess",
+        "Anwendung",
+        "Organisationseinheit"
+      ]
+    },
+    {
+      "id": "unit-capability-denken-2",
+      "module": "capability-mapping-bundesbehorden",
+      "unit": "capability-denken",
+      "competency": "Business",
+      "type": "understanding",
+      "question": "Ist „Referat 42“ eine Capability?",
+      "answer": "Nein. Es ist eine Organisationseinheit.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „Capability statt Systemdenken“.",
+      "difficulty": 1,
+      "concepts": [
+        "Capability",
+        "Prozess",
+        "Anwendung",
+        "Organisationseinheit"
+      ]
+    },
+    {
+      "id": "unit-capability-denken-3",
+      "module": "capability-mapping-bundesbehorden",
+      "unit": "capability-denken",
+      "competency": "Business",
+      "type": "understanding",
+      "question": "Kann eine Anwendung mehrere Capabilities unterstützen?",
+      "answer": "Ja. Anwendungen werden Fähigkeiten zugeordnet, sind aber nicht mit ihnen gleichzusetzen.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „Capability statt Systemdenken“.",
+      "difficulty": 1,
+      "concepts": [
+        "Capability",
+        "Prozess",
+        "Anwendung",
+        "Organisationseinheit"
+      ]
+    },
+    {
+      "id": "unit-capability-denken-4",
+      "module": "capability-mapping-bundesbehorden",
+      "unit": "capability-denken",
+      "competency": "Business",
+      "type": "scenario",
+      "question": "Ein Projekt heißt „DMS-Modernisierung“. Wie formulierst du die Architekturfrage capability-orientiert?",
+      "answer": "Welche fachlichen Fähigkeiten rund um Akten-, Dokument- und Nachweisführung sollen verbessert werden, welche Daten und Prozesse sind betroffen und welche Systemrolle soll das DMS künftig übernehmen?",
+      "explanation": "Abgeleitete Transferaufgabe auf Basis der angegebenen Projektquellen.",
+      "difficulty": 3,
+      "concepts": [
+        "Capability",
+        "Prozess",
+        "Anwendung",
+        "Organisationseinheit"
+      ]
+    },
+    {
+      "id": "unit-bpmn-verantwortung-uebergabe-1",
+      "module": "bpmn-fur-verwaltungsprozesse",
+      "unit": "bpmn-verantwortung-uebergabe",
+      "competency": "Business",
+      "type": "recall",
+      "question": "Was ist der Unterschied zwischen Sequenz- und Nachrichtenfluss?",
+      "answer": "Sequenzfluss verbindet Aktivitäten innerhalb eines Pools; Nachrichtenfluss verbindet eigenständige Beteiligte/Pools.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „BPMN: Verantwortung, Übergaben und Medienbrüche“.",
+      "difficulty": 2,
+      "concepts": [
+        "BPMN",
+        "Pool",
+        "Lane",
+        "Sequenzfluss"
+      ]
+    },
+    {
+      "id": "unit-bpmn-verantwortung-uebergabe-2",
+      "module": "bpmn-fur-verwaltungsprozesse",
+      "unit": "bpmn-verantwortung-uebergabe",
+      "competency": "Business",
+      "type": "understanding",
+      "question": "Warum sind Wartezeiten architekturrelevant?",
+      "answer": "Weil Fristen, Rückmeldungen, Wiedervorlagen und Eskalationen die tatsächliche Prozess- und Betriebsfähigkeit bestimmen.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „BPMN: Verantwortung, Übergaben und Medienbrüche“.",
+      "difficulty": 2,
+      "concepts": [
+        "BPMN",
+        "Pool",
+        "Lane",
+        "Sequenzfluss"
+      ]
+    },
+    {
+      "id": "unit-bpmn-verantwortung-uebergabe-3",
+      "module": "bpmn-fur-verwaltungsprozesse",
+      "unit": "bpmn-verantwortung-uebergabe",
+      "competency": "Business",
+      "type": "understanding",
+      "question": "Warum ist BPMN nicht automatisch Automation?",
+      "answer": "Weil Fachprozessmodelle zunächst fachliche Abläufe beschreiben; technische Ausführbarkeit erfordert zusätzliche Präzision und Plattformbezug.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „BPMN: Verantwortung, Übergaben und Medienbrüche“.",
+      "difficulty": 2,
+      "concepts": [
+        "BPMN",
+        "Pool",
+        "Lane",
+        "Sequenzfluss"
+      ]
+    },
+    {
+      "id": "unit-bpmn-verantwortung-uebergabe-4",
+      "module": "bpmn-fur-verwaltungsprozesse",
+      "unit": "bpmn-verantwortung-uebergabe",
+      "competency": "Business",
+      "type": "scenario",
+      "question": "Ein Nachweis wird per E-Mail von einer Außenstelle an ein Fachreferat geschickt und anschließend manuell im DMS abgelegt. Was muss dein BPMN-Modell sichtbar machen?",
+      "answer": "Die beteiligten Pools/Lanes, den Nachrichtenfluss, die manuelle Übergabe, Warte- bzw. Bearbeitungszustände und den Medienbruch zur DMS-Ablage.",
+      "explanation": "Abgeleitete Transferaufgabe auf Basis der angegebenen Projektquellen.",
+      "difficulty": 3,
+      "concepts": [
+        "BPMN",
+        "Pool",
+        "Lane",
+        "Sequenzfluss",
+        "Nachrichtenfluss"
+      ]
+    },
+    {
+      "id": "unit-dmn-fachregeln-1",
+      "module": "dmn-entscheidungslogik-und-bpmn",
+      "unit": "dmn-fachregeln",
+      "competency": "Business",
+      "type": "recall",
+      "question": "Warum DMN statt komplexer Gateway-Bedingungen?",
+      "answer": "Weil Fachregeln eigenständig, nachvollziehbar und änderbar bleiben.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „DMN: Fachregeln aus Prozess und Code lösen“.",
+      "difficulty": 2,
+      "concepts": [
+        "DMN",
+        "Decision Table",
+        "DRD",
+        "BPMN"
+      ]
+    },
+    {
+      "id": "unit-dmn-fachregeln-2",
+      "module": "dmn-entscheidungslogik-und-bpmn",
+      "unit": "dmn-fachregeln",
+      "competency": "Business",
+      "type": "understanding",
+      "question": "Was ist der Kernunterschied BPMN/DMN?",
+      "answer": "BPMN modelliert Ablauf; DMN modelliert Entscheidungslogik.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „DMN: Fachregeln aus Prozess und Code lösen“.",
+      "difficulty": 2,
+      "concepts": [
+        "DMN",
+        "Decision Table",
+        "DRD",
+        "BPMN"
+      ]
+    },
+    {
+      "id": "unit-dmn-fachregeln-3",
+      "module": "dmn-entscheidungslogik-und-bpmn",
+      "unit": "dmn-fachregeln",
+      "competency": "Business",
+      "type": "understanding",
+      "question": "Was sollte eine Entscheidungstabelle sichtbar machen?",
+      "answer": "Eingaben, Regeln/Bedingungen und resultierende Entscheidungsausgaben.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „DMN: Fachregeln aus Prozess und Code lösen“.",
+      "difficulty": 2,
+      "concepts": [
+        "DMN",
+        "Decision Table",
+        "DRD",
+        "BPMN"
+      ]
+    },
+    {
+      "id": "unit-dmn-fachregeln-4",
+      "module": "dmn-entscheidungslogik-und-bpmn",
+      "unit": "dmn-fachregeln",
+      "competency": "Business",
+      "type": "scenario",
+      "question": "Ein Gateway im BPMN enthält fünf verschachtelte Bedingungen für Nachweispflichten. Was ist die bessere Modellierungsstrategie?",
+      "answer": "Die fachliche Entscheidungslogik in DMN auslagern und im BPMN nur den Entscheidungspunkt bzw. das Ergebnis verwenden.",
+      "explanation": "Abgeleitete Transferaufgabe auf Basis der angegebenen Projektquellen.",
+      "difficulty": 3,
+      "concepts": [
+        "DMN",
+        "Decision Table",
+        "DRD",
+        "BPMN"
+      ]
+    },
+    {
+      "id": "unit-datenfuehrerschaft-landkarte-1",
+      "module": "datenlandkarten-fur-behorden",
+      "unit": "datenfuehrerschaft-landkarte",
+      "competency": "Data",
+      "type": "recall",
+      "question": "Welche Frage deckt ungeklärte Datenführerschaft schnell auf?",
+      "answer": "Wer darf dieses Datum fachlich verbindlich ändern?",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „Datenführerschaft mit Datenlandkarten klären“.",
+      "difficulty": 2,
+      "concepts": [
+        "Datenführerschaft",
+        "Data Owner",
+        "CRUD",
+        "Datenlandkarte"
+      ]
+    },
+    {
+      "id": "unit-datenfuehrerschaft-landkarte-2",
+      "module": "datenlandkarten-fur-behorden",
+      "unit": "datenfuehrerschaft-landkarte",
+      "competency": "Data",
+      "type": "understanding",
+      "question": "Warum reicht eine Speicherortliste nicht?",
+      "answer": "Weil Verantwortung, Flüsse, Änderungsrechte, Schutzbedarf und Lebenszyklus fehlen.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „Datenführerschaft mit Datenlandkarten klären“.",
+      "difficulty": 2,
+      "concepts": [
+        "Datenführerschaft",
+        "Data Owner",
+        "CRUD",
+        "Datenlandkarte"
+      ]
+    },
+    {
+      "id": "unit-datenfuehrerschaft-landkarte-3",
+      "module": "datenlandkarten-fur-behorden",
+      "unit": "datenfuehrerschaft-landkarte",
+      "competency": "Data",
+      "type": "understanding",
+      "question": "Darf ein Reporting-System Daten kopieren?",
+      "answer": "Ja, sofern Führerschaft, Aktualisierung, Zweck und Konfliktregeln geklärt sind.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „Datenführerschaft mit Datenlandkarten klären“.",
+      "difficulty": 2,
+      "concepts": [
+        "Datenführerschaft",
+        "Data Owner",
+        "CRUD",
+        "Datenlandkarte"
+      ]
+    },
+    {
+      "id": "unit-datenfuehrerschaft-landkarte-4",
+      "module": "datenlandkarten-fur-behorden",
+      "unit": "datenfuehrerschaft-landkarte",
+      "competency": "Data",
+      "type": "scenario",
+      "question": "Fachverfahren, DMS und Reporting enthalten jeweils einen „Vorgangsstatus“. Was prüfst du zuerst?",
+      "answer": "Fachliche Definition und Zustandsmodell, wer den Status ändern darf, welches System führend ist, wie Kopien aktualisiert werden und wie Konflikte behandelt werden.",
+      "explanation": "Abgeleitete Transferaufgabe auf Basis der angegebenen Projektquellen.",
+      "difficulty": 3,
+      "concepts": [
+        "Datenführerschaft",
+        "Data Owner",
+        "CRUD",
+        "Datenlandkarte",
+        "System of Record"
+      ]
+    },
+    {
+      "id": "unit-applikationsportfolio-steuern-1",
+      "module": "applikationsportfolio-bewerten",
+      "unit": "applikationsportfolio-steuern",
+      "competency": "Transformation",
+      "type": "recall",
+      "question": "Warum ist ein Portfolio mehr als Inventur?",
+      "answer": "Weil es Anwendungen anhand fachlichem Wert, Risiko und strategischer Zielrolle steuerbar macht.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „Applikationsportfolio: Wert, Risiko und Zielrolle“.",
+      "difficulty": 2,
+      "concepts": [
+        "Applikationsportfolio",
+        "fachlicher Wert",
+        "technisches Risiko",
+        "Zielrolle"
+      ]
+    },
+    {
+      "id": "unit-applikationsportfolio-steuern-2",
+      "module": "applikationsportfolio-bewerten",
+      "unit": "applikationsportfolio-steuern",
+      "competency": "Transformation",
+      "type": "understanding",
+      "question": "Warum wird eine rote Anwendung nicht automatisch abgeschaltet?",
+      "answer": "Weil fachliche Kritikalität, Abhängigkeiten und Übergangsfähigkeit berücksichtigt werden müssen.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „Applikationsportfolio: Wert, Risiko und Zielrolle“.",
+      "difficulty": 2,
+      "concepts": [
+        "Applikationsportfolio",
+        "fachlicher Wert",
+        "technisches Risiko",
+        "Zielrolle"
+      ]
+    },
+    {
+      "id": "unit-applikationsportfolio-steuern-3",
+      "module": "applikationsportfolio-bewerten",
+      "unit": "applikationsportfolio-steuern",
+      "competency": "Transformation",
+      "type": "understanding",
+      "question": "Was verbindet Portfolio und Roadmap?",
+      "answer": "Bewertete Handlungsbedarfe werden in priorisierte Work Packages und Übergangsschritte übersetzt.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „Applikationsportfolio: Wert, Risiko und Zielrolle“.",
+      "difficulty": 2,
+      "concepts": [
+        "Applikationsportfolio",
+        "fachlicher Wert",
+        "technisches Risiko",
+        "Zielrolle"
+      ]
+    },
+    {
+      "id": "unit-applikationsportfolio-steuern-4",
+      "module": "applikationsportfolio-bewerten",
+      "unit": "applikationsportfolio-steuern",
+      "competency": "Transformation",
+      "type": "scenario",
+      "question": "Ein Legacy-System ist technisch kritisch, unterstützt aber eine zentrale Verwaltungsleistung ohne kurzfristige Alternative. Was folgt daraus?",
+      "answer": "Nicht automatische Ablösung, sondern Risikoabsicherung, Zielrolle, Übergangsarchitektur, Abhängigkeiten und ein belastbarer Ablösepfad.",
+      "explanation": "Abgeleitete Transferaufgabe auf Basis der angegebenen Projektquellen.",
+      "difficulty": 3,
+      "concepts": [
+        "Applikationsportfolio",
+        "fachlicher Wert",
+        "technisches Risiko",
+        "Zielrolle"
+      ]
+    },
+    {
+      "id": "unit-adr-entscheidungsqualitaet-1",
+      "module": "adr-erstellung-und-praxis",
+      "unit": "adr-entscheidungsqualitaet",
+      "competency": "Governance",
+      "type": "recall",
+      "question": "Wann lohnt sich ein ADR?",
+      "answer": "Bei architekturrelevanten Entscheidungen mit längerfristigen, bereichsübergreifenden oder schwer reversiblen Auswirkungen.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „ADR: Entscheidungen nachvollziehbar machen“.",
+      "difficulty": 2,
+      "concepts": [
+        "ADR",
+        "Decision Driver",
+        "Konsequenz",
+        "Superseded"
+      ]
+    },
+    {
+      "id": "unit-adr-entscheidungsqualitaet-2",
+      "module": "adr-erstellung-und-praxis",
+      "unit": "adr-entscheidungsqualitaet",
+      "competency": "Governance",
+      "type": "understanding",
+      "question": "Warum gehören Alternativen hinein?",
+      "answer": "Damit sichtbar wird, dass die Entscheidung gegenüber realistischen Optionen abgewogen wurde.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „ADR: Entscheidungen nachvollziehbar machen“.",
+      "difficulty": 2,
+      "concepts": [
+        "ADR",
+        "Decision Driver",
+        "Konsequenz",
+        "Superseded"
+      ]
+    },
+    {
+      "id": "unit-adr-entscheidungsqualitaet-3",
+      "module": "adr-erstellung-und-praxis",
+      "unit": "adr-entscheidungsqualitaet",
+      "competency": "Governance",
+      "type": "understanding",
+      "question": "Was bedeutet „superseded“?",
+      "answer": "Eine frühere Entscheidung bleibt historisch nachvollziehbar, wurde aber durch eine neue ADR ersetzt.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „ADR: Entscheidungen nachvollziehbar machen“.",
+      "difficulty": 2,
+      "concepts": [
+        "ADR",
+        "Decision Driver",
+        "Konsequenz",
+        "Superseded"
+      ]
+    },
+    {
+      "id": "unit-adr-entscheidungsqualitaet-4",
+      "module": "adr-erstellung-und-praxis",
+      "unit": "adr-entscheidungsqualitaet",
+      "competency": "Governance",
+      "type": "scenario",
+      "question": "Ein Projekt entscheidet „Kafka einsetzen“, dokumentiert aber keine Alternativen oder Konsequenzen. Was fehlt?",
+      "answer": "Entscheidungskontext, fachliche und technische Treiber, realistische Alternativen, Konsequenzen, Risiken, Gültigkeitsbereich und ggf. Review-/Ablösebedingungen.",
+      "explanation": "Abgeleitete Transferaufgabe auf Basis der angegebenen Projektquellen.",
+      "difficulty": 3,
+      "concepts": [
+        "ADR",
+        "Decision Driver",
+        "Konsequenz",
+        "Superseded"
+      ]
+    },
+    {
+      "id": "unit-archimate-sichten-1",
+      "module": "archimate-fur-behorden-ea",
+      "unit": "archimate-sichten",
+      "competency": "Modeling",
+      "type": "recall",
+      "question": "Warum ist „alles zeigen“ eine schlechte ArchiMate-Praxis?",
+      "answer": "Weil die Sicht unlesbar wird und keine konkrete Entscheidung mehr unterstützt.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „ArchiMate: Sichten für Entscheidungen statt Vollmodell“.",
+      "difficulty": 2,
+      "concepts": [
+        "ArchiMate",
+        "View",
+        "Viewpoint",
+        "Capability"
+      ]
+    },
+    {
+      "id": "unit-archimate-sichten-2",
+      "module": "archimate-fur-behorden-ea",
+      "unit": "archimate-sichten",
+      "competency": "Modeling",
+      "type": "understanding",
+      "question": "Was ist eine View?",
+      "answer": "Ein zielgruppen- und fragestellungsbezogener Ausschnitt aus dem Architekturmodell.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „ArchiMate: Sichten für Entscheidungen statt Vollmodell“.",
+      "difficulty": 2,
+      "concepts": [
+        "ArchiMate",
+        "View",
+        "Viewpoint",
+        "Capability"
+      ]
+    },
+    {
+      "id": "unit-archimate-sichten-3",
+      "module": "archimate-fur-behorden-ea",
+      "unit": "archimate-sichten",
+      "competency": "Modeling",
+      "type": "understanding",
+      "question": "Warum Capabilities in ArchiMate nutzen?",
+      "answer": "Sie verbinden strategische/fachliche Bedürfnisse mit späteren Business-, Application- und Technology-Sichten.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „ArchiMate: Sichten für Entscheidungen statt Vollmodell“.",
+      "difficulty": 2,
+      "concepts": [
+        "ArchiMate",
+        "View",
+        "Viewpoint",
+        "Capability"
+      ]
+    },
+    {
+      "id": "unit-archimate-sichten-4",
+      "module": "archimate-fur-behorden-ea",
+      "unit": "archimate-sichten",
+      "competency": "Modeling",
+      "type": "scenario",
+      "question": "Die Leitung will wissen, welche kritischen Fähigkeiten von einer auslaufenden Plattform abhängen. Welche Sicht baust du?",
+      "answer": "Eine fokussierte Capability-to-Application-to-Technology-Sicht mit betroffenen Fähigkeiten, Anwendungen, Technologiekomponenten und relevanten Risiken.",
+      "explanation": "Abgeleitete Transferaufgabe auf Basis der angegebenen Projektquellen.",
+      "difficulty": 3,
+      "concepts": [
+        "ArchiMate",
+        "View",
+        "Viewpoint",
+        "Capability",
+        "Application Component"
+      ]
+    },
+    {
+      "id": "unit-arc42-solution-dokumentation-1",
+      "module": "arc42-in-behorden-anwenden",
+      "unit": "arc42-solution-dokumentation",
+      "competency": "Modeling",
+      "type": "recall",
+      "question": "Was ist arc42 im Kern?",
+      "answer": "Eine strukturierte Kommunikations- und Dokumentationsform für konkrete Software-/Lösungsarchitektur.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „arc42 richtig in EA einordnen“.",
+      "difficulty": 2,
+      "concepts": [
+        "arc42",
+        "Systemkontext",
+        "Qualitätsziel",
+        "Bausteinsicht"
+      ]
+    },
+    {
+      "id": "unit-arc42-solution-dokumentation-2",
+      "module": "arc42-in-behorden-anwenden",
+      "unit": "arc42-solution-dokumentation",
+      "competency": "Modeling",
+      "type": "understanding",
+      "question": "Ersetzt arc42 TOGAF?",
+      "answer": "Nein. Es adressiert eine andere Ebene und kann EA-Arbeit ergänzen.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „arc42 richtig in EA einordnen“.",
+      "difficulty": 2,
+      "concepts": [
+        "arc42",
+        "Systemkontext",
+        "Qualitätsziel",
+        "Bausteinsicht"
+      ]
+    },
+    {
+      "id": "unit-arc42-solution-dokumentation-3",
+      "module": "arc42-in-behorden-anwenden",
+      "unit": "arc42-solution-dokumentation",
+      "competency": "Modeling",
+      "type": "understanding",
+      "question": "Warum sind Qualitätsziele wichtig?",
+      "answer": "Weil sie Architekturentscheidungen und spätere Bewertung der Lösung treiben.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „arc42 richtig in EA einordnen“.",
+      "difficulty": 2,
+      "concepts": [
+        "arc42",
+        "Systemkontext",
+        "Qualitätsziel",
+        "Bausteinsicht"
+      ]
+    },
+    {
+      "id": "unit-arc42-solution-dokumentation-4",
+      "module": "arc42-in-behorden-anwenden",
+      "unit": "arc42-solution-dokumentation",
+      "competency": "Modeling",
+      "type": "scenario",
+      "question": "Ein Dienstleister liefert ein 80-seitiges arc42-Dokument. Welche Teile prüfst du als EA zuerst?",
+      "answer": "Ziele und Randbedingungen, Systemkontext, relevante Schnittstellen, Architekturentscheidungen, Qualitätsanforderungen, Risiken sowie Abweichungen von Zielarchitektur und Standards.",
+      "explanation": "Abgeleitete Transferaufgabe auf Basis der angegebenen Projektquellen.",
+      "difficulty": 3,
+      "concepts": [
+        "arc42",
+        "Systemkontext",
+        "Qualitätsziel",
+        "Bausteinsicht"
+      ]
+    },
+    {
+      "id": "unit-schnittstellenvertrag-1",
+      "module": "schnittstellenvertrag-erstellen",
+      "unit": "schnittstellenvertrag",
+      "competency": "Integration",
+      "type": "recall",
+      "question": "Warum ist ein Schnittstellenvertrag kein Swagger-File?",
+      "answer": "Weil fachliche, organisatorische, sicherheitsbezogene und betriebliche Vereinbarungen über die technische API-Beschreibung hinausgehen.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „Schnittstellenvertrag: fachliche Übergabe vor Technik“.",
+      "difficulty": 2,
+      "concepts": [
+        "Schnittstellenvertrag",
+        "Provider",
+        "Consumer",
+        "Versionierung"
+      ]
+    },
+    {
+      "id": "unit-schnittstellenvertrag-2",
+      "module": "schnittstellenvertrag-erstellen",
+      "unit": "schnittstellenvertrag",
+      "competency": "Integration",
+      "type": "understanding",
+      "question": "Welche Rollen müssen klar sein?",
+      "answer": "Mindestens Provider, Consumer und organisatorische Verantwortliche/Eskalationswege.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „Schnittstellenvertrag: fachliche Übergabe vor Technik“.",
+      "difficulty": 2,
+      "concepts": [
+        "Schnittstellenvertrag",
+        "Provider",
+        "Consumer",
+        "Versionierung"
+      ]
+    },
+    {
+      "id": "unit-schnittstellenvertrag-3",
+      "module": "schnittstellenvertrag-erstellen",
+      "unit": "schnittstellenvertrag",
+      "competency": "Integration",
+      "type": "understanding",
+      "question": "Warum gehört Versionierung in den Vertrag?",
+      "answer": "Damit Änderungen und Kompatibilität kontrolliert und nachvollziehbar bleiben.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „Schnittstellenvertrag: fachliche Übergabe vor Technik“.",
+      "difficulty": 2,
+      "concepts": [
+        "Schnittstellenvertrag",
+        "Provider",
+        "Consumer",
+        "Versionierung"
+      ]
+    },
+    {
+      "id": "unit-schnittstellenvertrag-4",
+      "module": "schnittstellenvertrag-erstellen",
+      "unit": "schnittstellenvertrag",
+      "competency": "Integration",
+      "type": "scenario",
+      "question": "Ein Dienstleister liefert ein vollständiges Swagger/OpenAPI-Dokument und nennt die Schnittstelle „abnahmefähig“. Was fehlt möglicherweise?",
+      "answer": "Fachlicher Zweck, Verantwortliche, Datenführerschaft, fachliche Fehler- und Quittierungslogik, Versionierung/Deprecation, Betriebs-SLOs, Support, Monitoring, Security und Abnahmekriterien.",
+      "explanation": "Abgeleitete Transferaufgabe auf Basis der angegebenen Projektquellen.",
+      "difficulty": 3,
+      "concepts": [
+        "Schnittstellenvertrag",
+        "Provider",
+        "Consumer",
+        "Versionierung",
+        "SLO"
+      ]
+    },
+    {
+      "id": "unit-openapi-asyncapi-1",
+      "module": "openapi-asyncapi-bewertung",
+      "unit": "openapi-asyncapi",
+      "competency": "Integration",
+      "type": "recall",
+      "question": "Was beschreibt OpenAPI primär?",
+      "answer": "HTTP-basierte APIs mit Operationen, Parametern, Schemas und weiteren Vertragsdetails.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „OpenAPI und AsyncAPI richtig einordnen“.",
+      "difficulty": 2,
+      "concepts": [
+        "OpenAPI",
+        "AsyncAPI",
+        "REST",
+        "Event"
+      ]
+    },
+    {
+      "id": "unit-openapi-asyncapi-2",
+      "module": "openapi-asyncapi-bewertung",
+      "unit": "openapi-asyncapi",
+      "competency": "Integration",
+      "type": "understanding",
+      "question": "Was beschreibt AsyncAPI primär?",
+      "answer": "Nachrichtengetriebene/asynchrone Schnittstellen und ihre Kanäle, Nachrichten und Schemas.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „OpenAPI und AsyncAPI richtig einordnen“.",
+      "difficulty": 2,
+      "concepts": [
+        "OpenAPI",
+        "AsyncAPI",
+        "REST",
+        "Event"
+      ]
+    },
+    {
+      "id": "unit-openapi-asyncapi-3",
+      "module": "openapi-asyncapi-bewertung",
+      "unit": "openapi-asyncapi",
+      "competency": "Integration",
+      "type": "understanding",
+      "question": "Warum ist Idempotenz wichtig?",
+      "answer": "Damit Wiederholung einer Operation oder Nachricht nicht ungewollt doppelte fachliche Wirkung erzeugt.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „OpenAPI und AsyncAPI richtig einordnen“.",
+      "difficulty": 2,
+      "concepts": [
+        "OpenAPI",
+        "AsyncAPI",
+        "REST",
+        "Event"
+      ]
+    },
+    {
+      "id": "unit-openapi-asyncapi-4",
+      "module": "openapi-asyncapi-bewertung",
+      "unit": "openapi-asyncapi",
+      "competency": "Integration",
+      "type": "scenario",
+      "question": "Eine Fachanwendung muss eine sofortige Registerauskunft anzeigen; ein anderes System soll nur informiert werden, dass ein Vorgang abgeschlossen wurde. Welche Integrationsarten liegen nahe?",
+      "answer": "Für die unmittelbare Auskunft eine synchrone HTTP/API-Interaktion; für die reine Ereignisinformation eine asynchrone Event-Kommunikation – jeweils nach fachlichen und betrieblichen Constraints zu prüfen.",
+      "explanation": "Abgeleitete Transferaufgabe auf Basis der angegebenen Projektquellen.",
+      "difficulty": 3,
+      "concepts": [
+        "OpenAPI",
+        "AsyncAPI",
+        "REST",
+        "Event",
+        "Idempotenz"
+      ]
+    },
+    {
+      "id": "unit-eda-kopplungsmodell-1",
+      "module": "eda-im-behordenkontext",
+      "unit": "eda-kopplungsmodell",
+      "competency": "Integration",
+      "type": "recall",
+      "question": "Warum entkoppelt Asynchronität Verantwortung nicht?",
+      "answer": "Weil weiterhin geklärt sein muss, wer Zustellung, Fehler, fachliche Wirkung und Nachbearbeitung verantwortet.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „EDA: Ereignisse als Kopplungsmodell“.",
+      "difficulty": 2,
+      "concepts": [
+        "EDA",
+        "Domain Event",
+        "Integration Event",
+        "Eventual Consistency"
+      ]
+    },
+    {
+      "id": "unit-eda-kopplungsmodell-2",
+      "module": "eda-im-behordenkontext",
+      "unit": "eda-kopplungsmodell",
+      "competency": "Integration",
+      "type": "understanding",
+      "question": "Was unterscheidet Event und Command?",
+      "answer": "Ein Event beschreibt etwas Geschehenes; ein Command fordert eine Handlung an.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „EDA: Ereignisse als Kopplungsmodell“.",
+      "difficulty": 2,
+      "concepts": [
+        "EDA",
+        "Domain Event",
+        "Integration Event",
+        "Eventual Consistency"
+      ]
+    },
+    {
+      "id": "unit-eda-kopplungsmodell-3",
+      "module": "eda-im-behordenkontext",
+      "unit": "eda-kopplungsmodell",
+      "competency": "Integration",
+      "type": "understanding",
+      "question": "Welche Fehlerstrategie braucht EDA?",
+      "answer": "Explizite Regeln für Retry, Duplikate/Idempotenz, Poison Messages, ggf. DLQ/Replay und Monitoring.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „EDA: Ereignisse als Kopplungsmodell“.",
+      "difficulty": 2,
+      "concepts": [
+        "EDA",
+        "Domain Event",
+        "Integration Event",
+        "Eventual Consistency"
+      ]
+    },
+    {
+      "id": "unit-eda-kopplungsmodell-4",
+      "module": "eda-im-behordenkontext",
+      "unit": "eda-kopplungsmodell",
+      "competency": "Integration",
+      "type": "scenario",
+      "question": "Ein System publiziert „Vorgang abgeschlossen“. Drei Consumer reagieren. Welche EA-Fragen stellst du?",
+      "answer": "Fachliche Bedeutung und Schema, Owner, Zustellgarantie, Reihenfolge, Duplikate/Idempotenz, Retry/DLQ, Replay, Datenschutz, Monitoring und Auswirkungen bei verzögerten Consumer-Verarbeitungen.",
+      "explanation": "Abgeleitete Transferaufgabe auf Basis der angegebenen Projektquellen.",
+      "difficulty": 3,
+      "concepts": [
+        "EDA",
+        "Domain Event",
+        "Integration Event",
+        "Eventual Consistency",
+        "Replay"
+      ]
+    },
+    {
+      "id": "unit-dlq-retry-idempotenz-1",
+      "module": "dead-letter-queue",
+      "unit": "dlq-retry-idempotenz",
+      "competency": "Integration",
+      "type": "recall",
+      "question": "Wann ist Retry sinnvoll?",
+      "answer": "Vor allem bei temporären technischen Fehlern, wenn Wiederholung fachlich sicher ist.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „DLQ, Retry und Idempotenz zusammen denken“.",
+      "difficulty": 2,
+      "concepts": [
+        "Dead Letter Queue",
+        "Retry",
+        "Idempotenz",
+        "Replay"
+      ]
+    },
+    {
+      "id": "unit-dlq-retry-idempotenz-2",
+      "module": "dead-letter-queue",
+      "unit": "dlq-retry-idempotenz",
+      "competency": "Integration",
+      "type": "understanding",
+      "question": "Was löst eine DLQ nicht automatisch?",
+      "answer": "Ursache, Ownership, Nachbearbeitung, Datenschutz, Replay- und Betriebsprozess.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „DLQ, Retry und Idempotenz zusammen denken“.",
+      "difficulty": 2,
+      "concepts": [
+        "Dead Letter Queue",
+        "Retry",
+        "Idempotenz",
+        "Replay"
+      ]
+    },
+    {
+      "id": "unit-dlq-retry-idempotenz-3",
+      "module": "dead-letter-queue",
+      "unit": "dlq-retry-idempotenz",
+      "competency": "Integration",
+      "type": "understanding",
+      "question": "Warum ist Idempotenz bei Replay wichtig?",
+      "answer": "Damit erneut eingespielte Nachrichten keine unerwünschten Doppelwirkungen erzeugen.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „DLQ, Retry und Idempotenz zusammen denken“.",
+      "difficulty": 2,
+      "concepts": [
+        "Dead Letter Queue",
+        "Retry",
+        "Idempotenz",
+        "Replay"
+      ]
+    },
+    {
+      "id": "unit-dlq-retry-idempotenz-4",
+      "module": "dead-letter-queue",
+      "unit": "dlq-retry-idempotenz",
+      "competency": "Integration",
+      "type": "scenario",
+      "question": "Eine Dokumentübergabe wurde erfolgreich verarbeitet, die Bestätigung ging aber verloren. Ein Retry erfolgt. Welches Risiko besteht?",
+      "answer": "Doppelte fachliche Wirkung, z. B. doppelte Dokumentanlage. Consumer bzw. Operation müssen deshalb eine Idempotenz- oder Deduplizierungsstrategie besitzen.",
+      "explanation": "Abgeleitete Transferaufgabe auf Basis der angegebenen Projektquellen.",
+      "difficulty": 3,
+      "concepts": [
+        "Dead Letter Queue",
+        "Retry",
+        "Idempotenz",
+        "Replay",
+        "Poison Message"
+      ]
+    },
+    {
+      "id": "unit-iam-authn-authz-1",
+      "module": "iam-architektur-fur-behorden",
+      "unit": "iam-authn-authz",
+      "competency": "Security",
+      "type": "recall",
+      "question": "Warum ist Login nicht Berechtigung?",
+      "answer": "Weil Identitätsnachweis und erlaubte Handlungen unterschiedliche Architekturfragen sind.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „IAM: Identität, Authentifizierung und Autorisierung“.",
+      "difficulty": 2,
+      "concepts": [
+        "IAM",
+        "Authentifizierung",
+        "Autorisierung",
+        "RBAC"
+      ]
+    },
+    {
+      "id": "unit-iam-authn-authz-2",
+      "module": "iam-architektur-fur-behorden",
+      "unit": "iam-authn-authz",
+      "competency": "Security",
+      "type": "understanding",
+      "question": "Was ist PAM?",
+      "answer": "Steuerung und Absicherung privilegierter administrativer Zugriffe.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „IAM: Identität, Authentifizierung und Autorisierung“.",
+      "difficulty": 2,
+      "concepts": [
+        "IAM",
+        "Authentifizierung",
+        "Autorisierung",
+        "RBAC"
+      ]
+    },
+    {
+      "id": "unit-iam-authn-authz-3",
+      "module": "iam-architektur-fur-behorden",
+      "unit": "iam-authn-authz",
+      "competency": "Security",
+      "type": "understanding",
+      "question": "Warum sind technische Konten kritisch?",
+      "answer": "Sie besitzen oft weitreichende Rechte, laufen dauerhaft und brauchen Owner, Zweck, Rotation und Nachvollziehbarkeit.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „IAM: Identität, Authentifizierung und Autorisierung“.",
+      "difficulty": 2,
+      "concepts": [
+        "IAM",
+        "Authentifizierung",
+        "Autorisierung",
+        "RBAC"
+      ]
+    },
+    {
+      "id": "unit-iam-authn-authz-4",
+      "module": "iam-architektur-fur-behorden",
+      "unit": "iam-authn-authz",
+      "competency": "Security",
+      "type": "scenario",
+      "question": "Ein Benutzer kann sich über SSO erfolgreich anmelden, darf danach aber alle Vorgänge sehen. Welcher Denkfehler liegt vor?",
+      "answer": "Authentifizierung wurde mit Autorisierung verwechselt. SSO bestätigt die Identität; fachliche und technische Berechtigungen müssen separat modelliert und durchgesetzt werden.",
+      "explanation": "Abgeleitete Transferaufgabe auf Basis der angegebenen Projektquellen.",
+      "difficulty": 3,
+      "concepts": [
+        "IAM",
+        "Authentifizierung",
+        "Autorisierung",
+        "RBAC",
+        "ABAC"
+      ]
+    },
+    {
+      "id": "unit-schutzbedarf-architektur-1",
+      "module": "schutzbedarf-einordnen-bsi",
+      "unit": "schutzbedarf-architektur",
+      "competency": "Security",
+      "type": "recall",
+      "question": "Welche drei Grundwerte betrachtet die Schutzbedarfslogik?",
+      "answer": "Vertraulichkeit, Integrität und Verfügbarkeit.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „Schutzbedarf in Architekturentscheidungen übersetzen“.",
+      "difficulty": 2,
+      "concepts": [
+        "Schutzbedarf",
+        "Vertraulichkeit",
+        "Integrität",
+        "Verfügbarkeit"
+      ]
+    },
+    {
+      "id": "unit-schutzbedarf-architektur-2",
+      "module": "schutzbedarf-einordnen-bsi",
+      "unit": "schutzbedarf-architektur",
+      "competency": "Security",
+      "type": "understanding",
+      "question": "Warum ist Schutzbedarf architekturrelevant?",
+      "answer": "Weil er technische und organisatorische Schutzmaßnahmen und Qualitätsanforderungen beeinflusst.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „Schutzbedarf in Architekturentscheidungen übersetzen“.",
+      "difficulty": 2,
+      "concepts": [
+        "Schutzbedarf",
+        "Vertraulichkeit",
+        "Integrität",
+        "Verfügbarkeit"
+      ]
+    },
+    {
+      "id": "unit-schutzbedarf-architektur-3",
+      "module": "schutzbedarf-einordnen-bsi",
+      "unit": "schutzbedarf-architektur",
+      "competency": "Security",
+      "type": "understanding",
+      "question": "Wer sollte Schutzbedarf fachlich begründen?",
+      "answer": "Die zuständigen fachlichen und sicherheitsbezogenen Rollen; der EA integriert die Auswirkungen in Architekturentscheidungen.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „Schutzbedarf in Architekturentscheidungen übersetzen“.",
+      "difficulty": 2,
+      "concepts": [
+        "Schutzbedarf",
+        "Vertraulichkeit",
+        "Integrität",
+        "Verfügbarkeit"
+      ]
+    },
+    {
+      "id": "unit-schutzbedarf-architektur-4",
+      "module": "schutzbedarf-einordnen-bsi",
+      "unit": "schutzbedarf-architektur",
+      "competency": "Security",
+      "type": "scenario",
+      "question": "Ein System verarbeitet sensible Personendaten, hat aber nur lokale Admin-Konten und unverschlüsselte Exporte. Wie nutzt du Schutzbedarf im Review?",
+      "answer": "Du leitest aus dem fachlich begründeten Schutzbedarf konkrete Anforderungen an Zugriff, Verschlüsselung, Nachvollziehbarkeit und Datenflüsse ab und lässt Abweichungen als Risiko behandeln.",
+      "explanation": "Abgeleitete Transferaufgabe auf Basis der angegebenen Projektquellen.",
+      "difficulty": 3,
+      "concepts": [
+        "Schutzbedarf",
+        "Vertraulichkeit",
+        "Integrität",
+        "Verfügbarkeit"
+      ]
+    },
+    {
+      "id": "unit-security-review-1",
+      "module": "security-by-architecture-review-anleitung",
+      "unit": "security-review",
+      "competency": "Security",
+      "type": "recall",
+      "question": "Warum gehört Security früh in Architektur?",
+      "answer": "Weil Schutzbedarf, Trust Boundaries, IAM und Betriebsanforderungen grundlegende Strukturentscheidungen beeinflussen.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „Security-by-Architecture-Review durchführen“.",
+      "difficulty": 2,
+      "concepts": [
+        "Security-by-Architecture",
+        "Trust Boundary",
+        "Threat",
+        "Befund"
+      ]
+    },
+    {
+      "id": "unit-security-review-2",
+      "module": "security-by-architecture-review-anleitung",
+      "unit": "security-review",
+      "competency": "Security",
+      "type": "understanding",
+      "question": "Was ist eine Trust Boundary?",
+      "answer": "Eine Grenze, an der sich Vertrauensannahmen, Verantwortungen oder Sicherheitskontexte ändern.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „Security-by-Architecture-Review durchführen“.",
+      "difficulty": 2,
+      "concepts": [
+        "Security-by-Architecture",
+        "Trust Boundary",
+        "Threat",
+        "Befund"
+      ]
+    },
+    {
+      "id": "unit-security-review-3",
+      "module": "security-by-architecture-review-anleitung",
+      "unit": "security-review",
+      "competency": "Security",
+      "type": "understanding",
+      "question": "Wie wird ein Befund entscheidungsfähig?",
+      "answer": "Durch klaren Kontext, Risiko/Wirkung, Priorisierung und umsetzbare Maßnahme.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „Security-by-Architecture-Review durchführen“.",
+      "difficulty": 2,
+      "concepts": [
+        "Security-by-Architecture",
+        "Trust Boundary",
+        "Threat",
+        "Befund"
+      ]
+    },
+    {
+      "id": "unit-security-review-4",
+      "module": "security-by-architecture-review-anleitung",
+      "unit": "security-review",
+      "competency": "Security",
+      "type": "scenario",
+      "question": "Ein Antragsportal nutzt externen Dienstleisterbetrieb, zentrale IAM-Anmeldung und mehrere Register. Welche drei Sichten sind für den Security-Review zuerst zentral?",
+      "answer": "System-/Trust-Boundary-Kontext, Datenflüsse samt Schutzbedarf sowie Identitäts-/Berechtigungs- und Dienstleisterzugriffe; anschließend Logging, Plattform, Wiederanlauf und Lieferkette.",
+      "explanation": "Abgeleitete Transferaufgabe auf Basis der angegebenen Projektquellen.",
+      "difficulty": 3,
+      "concepts": [
+        "Security-by-Architecture",
+        "Trust Boundary",
+        "Threat",
+        "Befund"
+      ]
+    },
+    {
+      "id": "unit-kubernetes-plattformreview-1",
+      "module": "kubernetes-architektur-bewerten",
+      "unit": "kubernetes-plattformreview",
+      "competency": "Platform",
+      "type": "recall",
+      "question": "Welche Dimensionen prüft ein EA bei Kubernetes?",
+      "answer": "U. a. Mandantentrennung, Schutzbedarf/Zonen, Betrieb, Patching, Backup/DR, Observability, Deployment, Rechte/Secrets.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „Kubernetes als Plattformarchitektur bewerten“.",
+      "difficulty": 2,
+      "concepts": [
+        "Kubernetes",
+        "Mandantentrennung",
+        "Secrets Management",
+        "Observability"
+      ]
+    },
+    {
+      "id": "unit-kubernetes-plattformreview-2",
+      "module": "kubernetes-architektur-bewerten",
+      "unit": "kubernetes-plattformreview",
+      "competency": "Platform",
+      "type": "understanding",
+      "question": "Löst Kubernetes automatisch Resilienz?",
+      "answer": "Nein. Resilienz entsteht aus Architektur, Konfiguration, Betrieb und getesteten Wiederanlaufverfahren.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „Kubernetes als Plattformarchitektur bewerten“.",
+      "difficulty": 2,
+      "concepts": [
+        "Kubernetes",
+        "Mandantentrennung",
+        "Secrets Management",
+        "Observability"
+      ]
+    },
+    {
+      "id": "unit-kubernetes-plattformreview-3",
+      "module": "kubernetes-architektur-bewerten",
+      "unit": "kubernetes-plattformreview",
+      "competency": "Platform",
+      "type": "understanding",
+      "question": "Warum ist Secrets Management zentral?",
+      "answer": "Weil Zugangsdaten/Schlüssel nicht wie normale Konfiguration behandelt und geschützt, rotiert und nachvollziehbar verwaltet werden müssen.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „Kubernetes als Plattformarchitektur bewerten“.",
+      "difficulty": 2,
+      "concepts": [
+        "Kubernetes",
+        "Mandantentrennung",
+        "Secrets Management",
+        "Observability"
+      ]
+    },
+    {
+      "id": "unit-kubernetes-plattformreview-4",
+      "module": "kubernetes-architektur-bewerten",
+      "unit": "kubernetes-plattformreview",
+      "competency": "Platform",
+      "type": "scenario",
+      "question": "Ein Projekt argumentiert: „Wir gehen auf Kubernetes, dann sind Hochverfügbarkeit und Betrieb gelöst.“ Wie reagierst du?",
+      "answer": "Kubernetes kann technische Mechanismen bereitstellen, ersetzt aber keine fachlich abgeleiteten Verfügbarkeitsziele, Wiederanlaufkonzepte, Owner, Monitoring, Backup/Restore, Kapazitäts- oder Incident-Prozesse.",
+      "explanation": "Abgeleitete Transferaufgabe auf Basis der angegebenen Projektquellen.",
+      "difficulty": 3,
+      "concepts": [
+        "Kubernetes",
+        "Mandantentrennung",
+        "Secrets Management",
+        "Observability",
+        "Disaster Recovery"
+      ]
+    },
+    {
+      "id": "unit-cicd-iac-1",
+      "module": "cd-und-iac-architektur",
+      "unit": "cicd-iac",
+      "competency": "Platform",
+      "type": "recall",
+      "question": "Warum ist CI/CD Architekturthema?",
+      "answer": "Weil der Lieferweg Qualität, Sicherheit, Reproduzierbarkeit, Betriebsfähigkeit und Nachweisführung bestimmt.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „CI/CD und IaC als kontrollierte Lieferfähigkeit“.",
+      "difficulty": 2,
+      "concepts": [
+        "CI/CD",
+        "Infrastructure as Code",
+        "GitOps",
+        "Pipeline Gate"
+      ]
+    },
+    {
+      "id": "unit-cicd-iac-2",
+      "module": "cd-und-iac-architektur",
+      "unit": "cicd-iac",
+      "competency": "Platform",
+      "type": "understanding",
+      "question": "Was ist der Architekturwert von IaC?",
+      "answer": "Versionierung, Reviewbarkeit, Reproduzierbarkeit und kontrollierte Änderung von Infrastruktur.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „CI/CD und IaC als kontrollierte Lieferfähigkeit“.",
+      "difficulty": 2,
+      "concepts": [
+        "CI/CD",
+        "Infrastructure as Code",
+        "GitOps",
+        "Pipeline Gate"
+      ]
+    },
+    {
+      "id": "unit-cicd-iac-3",
+      "module": "cd-und-iac-architektur",
+      "unit": "cicd-iac",
+      "competency": "Platform",
+      "type": "understanding",
+      "question": "Warum braucht eine Pipeline Gates?",
+      "answer": "Damit relevante Qualitäts-, Security- und Compliance-Anforderungen vor Weitergabe oder Produktion geprüft werden.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „CI/CD und IaC als kontrollierte Lieferfähigkeit“.",
+      "difficulty": 2,
+      "concepts": [
+        "CI/CD",
+        "Infrastructure as Code",
+        "GitOps",
+        "Pipeline Gate"
+      ]
+    },
+    {
+      "id": "unit-cicd-iac-4",
+      "module": "cd-und-iac-architektur",
+      "unit": "cicd-iac",
+      "competency": "Platform",
+      "type": "scenario",
+      "question": "Ein Dienstleister kann produktiv deployen, ohne dass der verwendete Build eindeutig einem Commit und Prüfnachweisen zugeordnet werden kann. Was ist das EA-Risiko?",
+      "answer": "Fehlende Reproduzierbarkeit, Auditierbarkeit und Lieferkettenvertrauen. Ein Release muss Herkunft, Artefakt, Prüfungen, Freigabe und Zielumgebung nachvollziehbar verbinden.",
+      "explanation": "Abgeleitete Transferaufgabe auf Basis der angegebenen Projektquellen.",
+      "difficulty": 3,
+      "concepts": [
+        "CI/CD",
+        "Infrastructure as Code",
+        "GitOps",
+        "Pipeline Gate",
+        "Release-Dossier"
+      ]
+    },
+    {
+      "id": "unit-observability-1",
+      "module": "observability-anforderungen-definieren",
+      "unit": "observability",
+      "competency": "Operations",
+      "type": "recall",
+      "question": "Was sind die drei klassischen Telemetriesignale?",
+      "answer": "Logs, Metriken und Traces.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „Observability: technische und fachliche Wirkung sehen“.",
+      "difficulty": 2,
+      "concepts": [
+        "Observability",
+        "Logs",
+        "Metrics",
+        "Traces"
+      ]
+    },
+    {
+      "id": "unit-observability-2",
+      "module": "observability-anforderungen-definieren",
+      "unit": "observability",
+      "competency": "Operations",
+      "type": "understanding",
+      "question": "Was unterscheidet SLI und SLO?",
+      "answer": "SLI ist die Messgröße; SLO der angestrebte Zielwert.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „Observability: technische und fachliche Wirkung sehen“.",
+      "difficulty": 2,
+      "concepts": [
+        "Observability",
+        "Logs",
+        "Metrics",
+        "Traces"
+      ]
+    },
+    {
+      "id": "unit-observability-3",
+      "module": "observability-anforderungen-definieren",
+      "unit": "observability",
+      "competency": "Operations",
+      "type": "understanding",
+      "question": "Warum ist ein Dashboard allein keine Observability?",
+      "answer": "Weil Signale, Korrelation, Alarmierung, Handlungswege und Ursachenanalyse zusammengehören.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „Observability: technische und fachliche Wirkung sehen“.",
+      "difficulty": 2,
+      "concepts": [
+        "Observability",
+        "Logs",
+        "Metrics",
+        "Traces"
+      ]
+    },
+    {
+      "id": "unit-observability-4",
+      "module": "observability-anforderungen-definieren",
+      "unit": "observability",
+      "competency": "Operations",
+      "type": "scenario",
+      "question": "Portal, API und Datenbank sind „grün“, aber 2.400 Vorgänge warten seit Stunden auf Registerrückmeldungen. Was fehlt?",
+      "answer": "Eine service-/prozessrelevante Observability-Sicht auf fachliche Warteschlangen, externe Abhängigkeiten und Durchlauf-/Rückmeldezeiten statt nur Infrastrukturmetriken.",
+      "explanation": "Abgeleitete Transferaufgabe auf Basis der angegebenen Projektquellen.",
+      "difficulty": 3,
+      "concepts": [
+        "Observability",
+        "Logs",
+        "Metrics",
+        "Traces",
+        "SLI"
+      ]
+    },
+    {
+      "id": "unit-rto-rpo-1",
+      "module": "rpo-betriebsfahigkeit-prufen",
+      "unit": "rto-rpo",
+      "competency": "Operations",
+      "type": "recall",
+      "question": "Was ist der Unterschied RTO/RPO?",
+      "answer": "RTO betrifft Wiederherstellungszeit; RPO maximal tolerierbaren Datenverlust.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „RTO/RPO und Betriebsfähigkeit fachlich ableiten“.",
+      "difficulty": 2,
+      "concepts": [
+        "RTO",
+        "RPO",
+        "Backup",
+        "Restore"
+      ]
+    },
+    {
+      "id": "unit-rto-rpo-2",
+      "module": "rpo-betriebsfahigkeit-prufen",
+      "unit": "rto-rpo",
+      "competency": "Operations",
+      "type": "understanding",
+      "question": "Warum ist Backup nicht gleich Restore?",
+      "answer": "Weil vorhandene Sicherungen noch nicht beweisen, dass Daten und Systemketten erfolgreich wiederhergestellt werden können.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „RTO/RPO und Betriebsfähigkeit fachlich ableiten“.",
+      "difficulty": 2,
+      "concepts": [
+        "RTO",
+        "RPO",
+        "Backup",
+        "Restore"
+      ]
+    },
+    {
+      "id": "unit-rto-rpo-3",
+      "module": "rpo-betriebsfahigkeit-prufen",
+      "unit": "rto-rpo",
+      "competency": "Operations",
+      "type": "understanding",
+      "question": "Was muss beim RTO-Zielzustand geklärt werden?",
+      "answer": "Ob Notbetrieb, Teilbetrieb oder vollständiger Normalbetrieb gemeint ist.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „RTO/RPO und Betriebsfähigkeit fachlich ableiten“.",
+      "difficulty": 2,
+      "concepts": [
+        "RTO",
+        "RPO",
+        "Backup",
+        "Restore"
+      ]
+    },
+    {
+      "id": "unit-rto-rpo-4",
+      "module": "rpo-betriebsfahigkeit-prufen",
+      "unit": "rto-rpo",
+      "competency": "Operations",
+      "type": "scenario",
+      "question": "Ein Dienstleister sagt: „Wir haben tägliche Backups, also RPO 24h und DR sind erfüllt.“ Warum reicht das nicht?",
+      "answer": "Backup-Frequenz allein beweist weder Restore-Fähigkeit noch End-to-End-Wiederanlauf, Zielzustand, Abhängigkeiten oder fachliche Nachpflege. RPO/RTO müssen fachlich begründet und Wiederherstellung getestet werden.",
+      "explanation": "Abgeleitete Transferaufgabe auf Basis der angegebenen Projektquellen.",
+      "difficulty": 3,
+      "concepts": [
+        "RTO",
+        "RPO",
+        "Backup",
+        "Restore",
+        "Disaster Recovery"
+      ]
+    },
+    {
+      "id": "unit-roadmap-transition-1",
+      "module": "roadmap-mit-ubergangsarchitekturen",
+      "unit": "roadmap-transition",
+      "competency": "Transformation",
+      "type": "recall",
+      "question": "Was ist ein Plateau?",
+      "answer": "Ein zeitlich begrenzter, relativ stabiler Architekturzustand.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „Roadmaps mit Übergangsarchitekturen“.",
+      "difficulty": 2,
+      "concepts": [
+        "Roadmap",
+        "Transition Architecture",
+        "Plateau",
+        "Gap"
+      ]
+    },
+    {
+      "id": "unit-roadmap-transition-2",
+      "module": "roadmap-mit-ubergangsarchitekturen",
+      "unit": "roadmap-transition",
+      "competency": "Transformation",
+      "type": "understanding",
+      "question": "Was ist ein Work Package?",
+      "answer": "Ein logisch zusammengehöriges Veränderungspaket, das einen Teil der Zielarchitektur realisiert.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „Roadmaps mit Übergangsarchitekturen“.",
+      "difficulty": 2,
+      "concepts": [
+        "Roadmap",
+        "Transition Architecture",
+        "Plateau",
+        "Gap"
+      ]
+    },
+    {
+      "id": "unit-roadmap-transition-3",
+      "module": "roadmap-mit-ubergangsarchitekturen",
+      "unit": "roadmap-transition",
+      "competency": "Transformation",
+      "type": "understanding",
+      "question": "Warum sind Entscheidungsfenster wichtig?",
+      "answer": "Weil verspätete Architekturentscheidungen nachgelagerte Maßnahmen blockieren oder verteuern können.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „Roadmaps mit Übergangsarchitekturen“.",
+      "difficulty": 2,
+      "concepts": [
+        "Roadmap",
+        "Transition Architecture",
+        "Plateau",
+        "Gap"
+      ]
+    },
+    {
+      "id": "unit-roadmap-transition-4",
+      "module": "roadmap-mit-ubergangsarchitekturen",
+      "unit": "roadmap-transition",
+      "competency": "Transformation",
+      "type": "scenario",
+      "question": "Legacy-Fachverfahren kann erst in 18 Monaten ersetzt werden, muss aber heute sicherer integriert werden. Wie sieht eine Transition Architecture aus?",
+      "answer": "Das Legacy bleibt befristet, erhält klar dokumentierte Schnittstellen/Adapter, Monitoring, Daten- und Betriebsverantwortung, ggf. IAM-Integration sowie einen expliziten Rückbau-/Ablösepfad.",
+      "explanation": "Abgeleitete Transferaufgabe auf Basis der angegebenen Projektquellen.",
+      "difficulty": 3,
+      "concepts": [
+        "Roadmap",
+        "Transition Architecture",
+        "Plateau",
+        "Gap",
+        "Work Package"
+      ]
+    },
+    {
+      "id": "unit-governance-light-1",
+      "module": "architektur-governance-fur-behorden",
+      "unit": "governance-light",
+      "competency": "Governance",
+      "type": "recall",
+      "question": "Warum ist Governance nicht gleich Genehmigung?",
+      "answer": "Weil gute Governance klare Spielregeln, frühe Beratung, risikobasierte Reviews und dokumentierte Abweichungen kombiniert.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „Architecture Governance: leichtgewichtig und risikobasiert“.",
+      "difficulty": 2,
+      "concepts": [
+        "Architecture Governance",
+        "Architecture Board",
+        "Review Gate",
+        "Exception"
+      ]
+    },
+    {
+      "id": "unit-governance-light-2",
+      "module": "architektur-governance-fur-behorden",
+      "unit": "governance-light",
+      "competency": "Governance",
+      "type": "understanding",
+      "question": "Wann gehört ein Thema ins Architecture Board?",
+      "answer": "Vor allem bei hohem Risiko, bereichsübergreifender Wirkung oder relevanter Standardabweichung.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „Architecture Governance: leichtgewichtig und risikobasiert“.",
+      "difficulty": 2,
+      "concepts": [
+        "Architecture Governance",
+        "Architecture Board",
+        "Review Gate",
+        "Exception"
+      ]
+    },
+    {
+      "id": "unit-governance-light-3",
+      "module": "architektur-governance-fur-behorden",
+      "unit": "governance-light",
+      "competency": "Governance",
+      "type": "understanding",
+      "question": "Warum braucht Governance Ausnahmen?",
+      "answer": "Damit notwendige Abweichungen transparent und kontrolliert statt als Schattenentscheidung erfolgen.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „Architecture Governance: leichtgewichtig und risikobasiert“.",
+      "difficulty": 2,
+      "concepts": [
+        "Architecture Governance",
+        "Architecture Board",
+        "Review Gate",
+        "Exception"
+      ]
+    },
+    {
+      "id": "unit-governance-light-4",
+      "module": "architektur-governance-fur-behorden",
+      "unit": "governance-light",
+      "competency": "Governance",
+      "type": "scenario",
+      "question": "Ein Projekt möchte wegen Legacy-Zwang vom zentralen IAM-Standard abweichen. Was sollte Governance leisten?",
+      "answer": "Früh prüfen, ADR/Exception dokumentieren, Risiko und Kompensationsmaßnahmen bewerten, Gültigkeitsdauer bzw. Rückbaupfad festlegen und zuständige interne Entscheidung einholen.",
+      "explanation": "Abgeleitete Transferaufgabe auf Basis der angegebenen Projektquellen.",
+      "difficulty": 3,
+      "concepts": [
+        "Architecture Governance",
+        "Architecture Board",
+        "Review Gate",
+        "Exception",
+        "ADR"
+      ]
+    },
+    {
+      "id": "unit-ausschreibung-abnahme-1",
+      "module": "architekturqualitat-in-ausschreibungen",
+      "unit": "ausschreibung-abnahme",
+      "competency": "Governance",
+      "type": "recall",
+      "question": "Warum reichen Architekturprinzipien allein in Ausschreibungen nicht?",
+      "answer": "Weil sie in prüfbare Anforderungen, Liefergegenstände und Nachweise übersetzt werden müssen.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „Architekturqualität beschaffbar und abnahmefähig machen“.",
+      "difficulty": 2,
+      "concepts": [
+        "Leistungsbeschreibung",
+        "Liefergegenstand",
+        "Nachweis",
+        "Abnahmekriterium"
+      ]
+    },
+    {
+      "id": "unit-ausschreibung-abnahme-2",
+      "module": "architekturqualitat-in-ausschreibungen",
+      "unit": "ausschreibung-abnahme",
+      "competency": "Governance",
+      "type": "understanding",
+      "question": "Was ist ein guter Nachweis?",
+      "answer": "Ein überprüfbares Artefakt oder Testergebnis, das direkt auf eine Anforderung verweist.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „Architekturqualität beschaffbar und abnahmefähig machen“.",
+      "difficulty": 2,
+      "concepts": [
+        "Leistungsbeschreibung",
+        "Liefergegenstand",
+        "Nachweis",
+        "Abnahmekriterium"
+      ]
+    },
+    {
+      "id": "unit-ausschreibung-abnahme-3",
+      "module": "architekturqualitat-in-ausschreibungen",
+      "unit": "ausschreibung-abnahme",
+      "competency": "Governance",
+      "type": "understanding",
+      "question": "Was sollte ein EA bei Abnahme prüfen?",
+      "answer": "Nicht nur Funktion, sondern Architekturkonformität, Security, Betrieb, Schnittstellen, Nachweise und offene Abweichungen.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „Architekturqualität beschaffbar und abnahmefähig machen“.",
+      "difficulty": 2,
+      "concepts": [
+        "Leistungsbeschreibung",
+        "Liefergegenstand",
+        "Nachweis",
+        "Abnahmekriterium"
+      ]
+    },
+    {
+      "id": "unit-ausschreibung-abnahme-4",
+      "module": "architekturqualitat-in-ausschreibungen",
+      "unit": "ausschreibung-abnahme",
+      "competency": "Governance",
+      "type": "scenario",
+      "question": "In einer Ausschreibung steht nur „Die Lösung muss hochverfügbar sein“. Warum ist das zu schwach?",
+      "answer": "Der Begriff ist nicht prüfbar genug. Es fehlen fachlich begründete Ziele, Mess-/Nachweisverfahren, Abhängigkeiten, Wiederanlauf/Restore, Betriebsmodell und konkrete Abnahmekriterien.",
+      "explanation": "Abgeleitete Transferaufgabe auf Basis der angegebenen Projektquellen.",
+      "difficulty": 3,
+      "concepts": [
+        "Leistungsbeschreibung",
+        "Liefergegenstand",
+        "Nachweis",
+        "Abnahmekriterium",
+        "Quality Gate"
+      ]
+    },
+    {
+      "id": "unit-architecture-review-fragelogik-1",
+      "module": "architekturqualitat-in-ausschreibungen",
+      "unit": "architecture-review-fragelogik",
+      "competency": "Governance",
+      "type": "recall",
+      "question": "Was ist der Zweck guter Architekturfragen?",
+      "answer": "Komplexität in prüfbare Entscheidungen, Risiken, Verantwortungen und Liefergegenstände zu überführen.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „Architecture Review: vom Unklaren zum Prüfbaren“.",
+      "difficulty": 2,
+      "concepts": [
+        "Architecture Review",
+        "Orientierungsfrage",
+        "Kontextfrage",
+        "Review Gate"
+      ]
+    },
+    {
+      "id": "unit-architecture-review-fragelogik-2",
+      "module": "architekturqualitat-in-ausschreibungen",
+      "unit": "architecture-review-fragelogik",
+      "competency": "Governance",
+      "type": "understanding",
+      "question": "Warum sind frühe Technikfragen problematisch?",
+      "answer": "Sie können Lösungen vorwegnehmen, bevor fachlicher Kontext und Qualitätsanforderungen geklärt sind.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „Architecture Review: vom Unklaren zum Prüfbaren“.",
+      "difficulty": 2,
+      "concepts": [
+        "Architecture Review",
+        "Orientierungsfrage",
+        "Kontextfrage",
+        "Review Gate"
+      ]
+    },
+    {
+      "id": "unit-architecture-review-fragelogik-3",
+      "module": "architekturqualitat-in-ausschreibungen",
+      "unit": "architecture-review-fragelogik",
+      "competency": "Governance",
+      "type": "understanding",
+      "question": "Wie endet ein gutes Review?",
+      "answer": "Mit offenen Punkten, Entscheidungen, Verantwortlichen, Fristen/Nachweisen und nächstem Artefakt/Gate.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „Architecture Review: vom Unklaren zum Prüfbaren“.",
+      "difficulty": 2,
+      "concepts": [
+        "Architecture Review",
+        "Orientierungsfrage",
+        "Kontextfrage",
+        "Review Gate"
+      ]
+    },
+    {
+      "id": "unit-architecture-review-fragelogik-4",
+      "module": "architekturqualitat-in-ausschreibungen",
+      "unit": "architecture-review-fragelogik",
+      "competency": "Governance",
+      "type": "scenario",
+      "question": "Du startest ein Review und fragst sofort „Welche Datenbank nutzt ihr?“. Was wäre eine bessere erste Sequenz?",
+      "answer": "Zuerst fachliches Ziel und Scope, dann Stakeholder/Verantwortung, Fähigkeiten/Prozesse, Daten und Abhängigkeiten; technische Detailfragen folgen aus dem Kontext.",
+      "explanation": "Abgeleitete Transferaufgabe auf Basis der angegebenen Projektquellen.",
+      "difficulty": 3,
+      "concepts": [
+        "Architecture Review",
+        "Orientierungsfrage",
+        "Kontextfrage",
+        "Review Gate"
+      ]
+    },
+    {
+      "id": "unit-cross-domain-modernisierung-1",
+      "module": "togaf-adm-im-behordenkontext",
+      "unit": "cross-domain-modernisierung",
+      "competency": "EA Core",
+      "type": "recall",
+      "question": "Was ist der häufigste Fehler bei komplexer Modernisierung?",
+      "answer": "Zu früh auf eine technische Lösung zu springen, bevor Problem, Fähigkeiten, Daten und Verantwortungen geklärt sind.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „Capstone: Fachverfahrensmodernisierung als EA-End-to-End-Fall“.",
+      "difficulty": 2,
+      "concepts": [
+        "Capability",
+        "Datenführerschaft",
+        "Schnittstellenvertrag",
+        "Transition Architecture"
+      ]
+    },
+    {
+      "id": "unit-cross-domain-modernisierung-2",
+      "module": "togaf-adm-im-behordenkontext",
+      "unit": "cross-domain-modernisierung",
+      "competency": "EA Core",
+      "type": "understanding",
+      "question": "Wie entsteht die Roadmap?",
+      "answer": "Aus Zielbild, Gaps, Abhängigkeiten, Risiken, Work Packages und beherrschbaren Übergangsarchitekturen.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „Capstone: Fachverfahrensmodernisierung als EA-End-to-End-Fall“.",
+      "difficulty": 2,
+      "concepts": [
+        "Capability",
+        "Datenführerschaft",
+        "Schnittstellenvertrag",
+        "Transition Architecture"
+      ]
+    },
+    {
+      "id": "unit-cross-domain-modernisierung-3",
+      "module": "togaf-adm-im-behordenkontext",
+      "unit": "cross-domain-modernisierung",
+      "competency": "EA Core",
+      "type": "understanding",
+      "question": "Wie bleibt der externe EA in seiner Rolle?",
+      "answer": "Er strukturiert, bewertet und empfiehlt; die interne Behörde entscheidet und bleibt Owner der Governance.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „Capstone: Fachverfahrensmodernisierung als EA-End-to-End-Fall“.",
+      "difficulty": 2,
+      "concepts": [
+        "Capability",
+        "Datenführerschaft",
+        "Schnittstellenvertrag",
+        "Transition Architecture"
+      ]
+    },
+    {
+      "id": "unit-cross-domain-modernisierung-4",
+      "module": "togaf-adm-im-behordenkontext",
+      "unit": "cross-domain-modernisierung",
+      "competency": "EA Core",
+      "type": "scenario",
+      "question": "Drei Fachverfahren, zwei Dienstleister, uneinheitliches IAM, manuelle Registerabgleiche und unterschiedliche DMS-Anbindungen sollen modernisiert werden. Welche ersten sechs EA-Schritte setzt du?",
+      "answer": "1 Mandat/Scope und Entscheider klären; 2 Capabilities und kritische Prozesse erfassen; 3 Datenobjekte/Führerschaft klären; 4 Anwendungen/Schnittstellen/Abhängigkeiten ordnen; 5 Security/Betrieb/Plattformconstraints erfassen; 6 Optionen, Gaps, Übergangsarchitekturen und Roadmap zur Entscheidung vorbereiten.",
+      "explanation": "Abgeleitete Transferaufgabe auf Basis der angegebenen Projektquellen.",
+      "difficulty": 3,
+      "concepts": [
+        "Capability",
+        "Datenführerschaft",
+        "Schnittstellenvertrag",
+        "Transition Architecture",
+        "Governance"
+      ]
+    },
+    {
+      "id": "unit-technische-entscheidung-fachgrund-1",
+      "module": "technische-leitsaetze-kritisch-1-3",
+      "unit": "technische-entscheidung-fachgrund",
+      "competency": "Technical",
+      "type": "recall",
+      "question": "Was macht eine technische Entscheidung architekturrelevant?",
+      "answer": "Wenn sie systemische Wirkung auf Kopplung, Daten, Qualität, Risiko, Lebenszyklus, Standards oder andere Teams erzeugt.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „Technische Entscheidungen fachlich begründen“.",
+      "difficulty": 2,
+      "concepts": [
+        "Decision Driver",
+        "Qualitätsanforderung",
+        "Constraint"
+      ]
+    },
+    {
+      "id": "unit-technische-entscheidung-fachgrund-2",
+      "module": "technische-leitsaetze-kritisch-1-3",
+      "unit": "technische-entscheidung-fachgrund",
+      "competency": "Technical",
+      "type": "understanding",
+      "question": "Was ist ein Decision Driver?",
+      "answer": "Ein maßgeblicher fachlicher oder qualitativer Grund, der eine Architekturentscheidung beeinflusst.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „Technische Entscheidungen fachlich begründen“.",
+      "difficulty": 2,
+      "concepts": [
+        "Decision Driver",
+        "Qualitätsanforderung",
+        "Constraint"
+      ]
+    },
+    {
+      "id": "unit-technische-entscheidung-fachgrund-3",
+      "module": "technische-leitsaetze-kritisch-1-3",
+      "unit": "technische-entscheidung-fachgrund",
+      "competency": "Technical",
+      "type": "understanding",
+      "question": "Warum Alternativen dokumentieren?",
+      "answer": "Damit die Eignung der gewählten Lösung gegenüber realistischen Optionen nachvollziehbar ist.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „Technische Entscheidungen fachlich begründen“.",
+      "difficulty": 2,
+      "concepts": [
+        "Decision Driver",
+        "Qualitätsanforderung",
+        "Constraint"
+      ]
+    },
+    {
+      "id": "unit-technische-entscheidung-fachgrund-4",
+      "module": "technische-leitsaetze-kritisch-1-3",
+      "unit": "technische-entscheidung-fachgrund",
+      "competency": "Technical",
+      "type": "scenario",
+      "question": "Ein Team will Kafka einsetzen, weil es „modern und skalierbar“ ist. Welche Antwort erwartest du?",
+      "answer": "Welcher fachliche Kommunikationsbedarf, welche Last-/Zeit-/Kopplungsanforderung und welches Fehler-/Betriebsmodell rechtfertigen EDA/Kafka gegenüber einfacheren Optionen?",
+      "explanation": "Abgeleitete Transferaufgabe auf Basis der angegebenen Projektquellen.",
+      "difficulty": 3,
+      "concepts": [
+        "Decision Driver",
+        "Qualitätsanforderung",
+        "Constraint"
+      ]
+    },
+    {
+      "id": "unit-betriebsfaehigkeit-vor-eleganz-1",
+      "module": "technische-leitsaetze-kritisch-1-3",
+      "unit": "betriebsfaehigkeit-vor-eleganz",
+      "competency": "Operations",
+      "type": "recall",
+      "question": "Warum ist Betriebsfähigkeit Architekturqualität?",
+      "answer": "Weil Zielarchitektur und Lösungsdesign Ausfall, Beobachtbarkeit, Wiederanlauf und Verantwortungen von Anfang an berücksichtigen müssen.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „Technische Eleganz vs. Betriebsfähigkeit“.",
+      "difficulty": 2,
+      "concepts": [
+        "Betriebsfähigkeit",
+        "Runbook",
+        "Operational Handover",
+        "RTO"
+      ]
+    },
+    {
+      "id": "unit-betriebsfaehigkeit-vor-eleganz-2",
+      "module": "technische-leitsaetze-kritisch-1-3",
+      "unit": "betriebsfaehigkeit-vor-eleganz",
+      "competency": "Operations",
+      "type": "understanding",
+      "question": "Ist Backup ein Betriebsfähigkeitsnachweis?",
+      "answer": "Nein. Erst erfolgreicher Restore und getestete Wiederanlaufkette liefern belastbare Evidenz.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „Technische Eleganz vs. Betriebsfähigkeit“.",
+      "difficulty": 2,
+      "concepts": [
+        "Betriebsfähigkeit",
+        "Runbook",
+        "Operational Handover",
+        "RTO"
+      ]
+    },
+    {
+      "id": "unit-betriebsfaehigkeit-vor-eleganz-3",
+      "module": "technische-leitsaetze-kritisch-1-3",
+      "unit": "betriebsfaehigkeit-vor-eleganz",
+      "competency": "Operations",
+      "type": "understanding",
+      "question": "Was ist Operational Handover?",
+      "answer": "Geregelte Übergabe in Betrieb inklusive Rollen, Runbooks, Monitoring, Support, Nachweisen und offenen Risiken.",
+      "explanation": "Quellengebundener Lerncheck aus der Lerneinheit „Technische Eleganz vs. Betriebsfähigkeit“.",
+      "difficulty": 2,
+      "concepts": [
+        "Betriebsfähigkeit",
+        "Runbook",
+        "Operational Handover",
+        "RTO"
+      ]
+    },
+    {
+      "id": "unit-betriebsfaehigkeit-vor-eleganz-4",
+      "module": "technische-leitsaetze-kritisch-1-3",
+      "unit": "betriebsfaehigkeit-vor-eleganz",
+      "competency": "Operations",
+      "type": "scenario",
+      "question": "Ein Microservice-System ist sauber geschnitten, aber es gibt keine Runbooks, kein End-to-End-Monitoring und nie getestete Restores. Ist es produktionsreif?",
+      "answer": "Nein. Technische Struktur allein beweist keine Betriebsfähigkeit. Die fehlenden Betriebs- und Wiederherstellungsnachweise sind Go-live-relevant.",
+      "explanation": "Abgeleitete Transferaufgabe auf Basis der angegebenen Projektquellen.",
+      "difficulty": 3,
+      "concepts": [
+        "Betriebsfähigkeit",
+        "Runbook",
+        "Operational Handover",
+        "RTO",
+        "RPO"
+      ]
     }
   ],
   "paths": [
@@ -661,6 +2579,22 @@
         "applikationsportfolio-bewerten",
         "kubernetes-architektur-bewerten",
         "cd-und-iac-architektur"
+      ]
+    },
+    {
+      "id": "curriculum-22",
+      "title": "EA Curriculum 2.2",
+      "description": "28 quellengebundene Lerneinheiten von EA-Grundlagen bis Capstone.",
+      "modules": [
+        "ea-kernaufgaben-12",
+        "togaf-adm-im-behordenkontext",
+        "capability-mapping-bundesbehorden",
+        "datenlandkarten-fur-behorden",
+        "schnittstellenvertrag-erstellen",
+        "iam-architektur-fur-behorden",
+        "rpo-betriebsfahigkeit-prufen",
+        "roadmap-mit-ubergangsarchitekturen",
+        "architektur-governance-fur-behorden"
       ]
     }
   ],

@@ -196,7 +196,7 @@ for term,(definition,aliases) in TERMS.items():
 # longest terms first is useful for client-side auto-linking
 entries.sort(key=lambda e:e['term'].lower())
 out={
-    'version':'2.1.0',
+    'version':'2.2.0',
     'generatedAt':'2026-09-18',
     'method':'Definitions are concise syntheses of project material. Examples are extracted from distinct project modules and link back to the corresponding section.',
     'entries':entries

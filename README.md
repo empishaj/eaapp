@@ -1,4 +1,4 @@
-# EA Learnings 2.1
+# EA Learnings 2.2.0
 
 Smartphone-first Progressive Web App für Enterprise Architecture im Behördenkontext.
 
@@ -42,3 +42,10 @@ Danach `content/version.json` erhöhen und deployen.
 ## GitHub Pages
 
 Der mitgelieferte Workflow unter `.github/workflows/pages.yml` veröffentlicht die statische PWA aus dem Repository-Root.
+
+## Curriculum 2.2
+- 28 quellengebundene Lerneinheiten
+- 155 aktive Lernkarten
+- Transferfälle und Praxis-Reviewfragen
+- Quellenbezug pro Einheit
+- Behörden-Capstone
