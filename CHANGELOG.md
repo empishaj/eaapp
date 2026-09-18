@@ -56,3 +56,39 @@
 - Vollständiger Behörden-Capstone zur Fachverfahrensmodernisierung.
 - Lerneinheiten werden in Suche und Offline-Pack aufgenommen.
 - Fortschritt je Lerneinheit wird lokal gespeichert und kann wiederholt werden.
+
+## 3.0.0 – 2026-09-18
+
+### Vollständiger Curriculum-Neuaufbau
+- 64 neu geschriebene Professoren-Einheiten in 16 Kompetenzfeldern.
+- Lernlogik konsequent auf **Verstehen → Verbinden → Anwenden → professionell liefern** umgestellt.
+- 256 aktive Lernkarten mit Konzept-, Verbindungs-, Szenario- und Delivery-Fragen.
+- 10 neue geführte Kompetenzpfade.
+- Startseite priorisiert das neue Professoren-Curriculum; bestehende Projekttexte bleiben Referenzbibliothek.
+
+### Professoren-/Coach-Didaktik
+- Warum-das-zählt pro Einheit.
+- mentales Modell für komplexe Themen.
+- sokratische Fragen vor der Erklärung.
+- ausführliche Querverbindungen zu benachbarten Architekturdisziplinen.
+- typische Fehlannahmen mit fachlicher Korrektur.
+- Behörden-Transferfälle.
+- klarer Profi-Liefergegenstand pro Einheit.
+- vier Beherrschungsstufen: Wissen, Verstehen, Anwenden, Liefern.
+
+### Wissensnetz
+- jede der 64 Einheiten ist mit sechs verwandten Einheiten verbunden.
+- Lexikon auf 316 Begriffe erweitert.
+- Lexikonbeispiele können Originalquellen und Professoren-Einheiten verknüpfen.
+
+### Kompetenzlücken geschlossen
+- Strategie & Operating Model
+- Requirements & Architecture Evaluation
+- Data Governance & Privacy
+- DDD, Microservices und Distributed Systems
+- Cloud, Platform Engineering und Netzwerk
+- Architecture Economics
+- DMS/eAkte und Interoperabilität
+- Consulting, Moderation, Konflikt und Change
+- AI Architecture und AI Governance
+- EA Metrics, Reifegrad, Repository und Principal-EA-Praxisführung

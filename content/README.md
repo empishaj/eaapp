@@ -1,46 +1,58 @@
-# Content-Modell
+# Content-Modell – EA Learnings 3.0
 
-Die App trennt Lerninhalte von der UI.
+Die App trennt drei Ebenen strikt voneinander.
 
-## Module
+## 1. Referenzbibliothek
 
-`content/index.json` registriert alle Module. Die eigentlichen Texte liegen unter:
+`content/index.json` registriert die Projektmodule. Die ursprünglichen Projekttexte liegen unter `content/modules/`. Frühere abgeleitete Projektartefakte liegen unter `content/derived/` und dienen weiterhin als Referenzmaterial.
 
-- `content/modules/` – vollständige Projektquellen
-- `content/derived/` – aus Projektgesprächen abgeleitete Lerninhalte
+## 2. Professoren-Curriculum
 
-## Lernengine
+`content/units.json` enthält 64 neu geschriebene Lerneinheiten. Jede Einheit enthält unter anderem:
+
+- Kompetenzfeld und Track
+- Quellenbasis / Kennzeichnung fachlicher Erweiterung
+- Lernziele
+- Kernidee und Why-it-matters
+- mentales Modell
+- Professoren-Erklärung
+- explizite Querverbindungen
+- Abgrenzungen
+- typische Fehlannahmen und Korrekturen
+- Beispiele
+- sokratische Fragen
+- Behörden-Transferfall
+- Profi-Liefergegenstand
+- Lernchecks
+- Reviewfragen
+- vier Beherrschungsstufen
+- sechs verwandte Lerneinheiten
+
+## 3. Lernengine
 
 `content/learning.json` enthält:
 
-- `cards` – Retrieval-, Definitions-, Unterschieds- und Szenariokarten
-- `paths` – geführte Lernpfade
-- `competencies` – Kompetenzbereiche für das Profil
-- `sessionMinutes` – angebotene Microlearning-Zeiten
-
-Neue Karten lassen sich ohne Codeänderung ergänzen. Jede Karte referenziert ein vorhandenes `module` über dessen ID.
-
-## Suche
-
-`content/search-index.json` wird mit `python tools/rebuild_search.py` aus den registrierten Markdown-Modulen erzeugt. Lernkarten und persönliche Notizen werden zur Laufzeit zusätzlich durchsucht.
-
-## Versionen
-
-Bei Content-Änderungen `contentVersion` in `content/index.json` und `version` in `content/version.json` erhöhen. Für App-/Cache-Änderungen auch den Cache-Namen in `sw.js` erhöhen.
+- `cards` – 256 Lern-, Verbindungs-, Szenario- und Delivery-Karten
+- `curriculumPaths` – 10 geführte Pfade über die Professoren-Einheiten
+- `paths` – Referenzpfade durch die bestehende Projektbibliothek
+- `competencies` – Kompetenzfelder für das Profil
+- `sessionMinutes` – Microlearning-Zeiten
 
 ## Lexikon
 
-`lexicon.json` enthält das zentrale Begriffssystem der App. Jeder Eintrag hat:
+`content/lexicon.json` enthält 316 Begriffe. Beispiele können aus Originalmodulen oder aus Professoren-Einheiten stammen. Die UI kennzeichnet den Kontext und verlinkt in beide Richtungen.
 
-- `term` und optionale `aliases`
-- eine verdichtete `definition`
-- mehrere `examples` aus unterschiedlichen Lernmodulen
-- Modul-ID, Abschnitt und Anchor für den Rücksprung in den Ursprungstext
+## Quellenprinzip
 
-`tools/rebuild_lexicon.py` ermittelt die Beispiele neu aus den vorhandenen Projektmodulen. Definitionen bleiben kuratiert; Beispiele bleiben quellengebunden.
+Projektquellen werden nicht stillschweigend korrigiert oder ersetzt. Fachliche Synthese und Erweiterungen werden in `basis` und `sourceNote` der jeweiligen Einheit kenntlich gemacht.
 
+## Pflege
 
-## Lerneinheiten (2.2)
-`units.json` enthält quellengebundene Lerneinheiten. Jede Einheit besitzt Lernziele, Kernidee, Abgrenzungen, verlinkte Projektquellen, einen ausdrücklich als Transfer gekennzeichneten Behördenfall, Lernchecks und Reviewfragen.
+Bei Inhaltsänderungen:
 
-`learning.json` enthält zusätzlich vier Karten pro Lerneinheit für Spaced Repetition. Neue Einheiten können über `tools/rebuild_learning_units.py` reproduzierbar aufgebaut werden.
+```bash
+python tools/validate_professor_curriculum.py
+python tools/rebuild_search.py
+```
+
+Danach Versionsnummer in `content/version.json`, `content/index.json` und Service-Worker-Cache konsistent halten.
