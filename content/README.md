@@ -27,3 +27,14 @@ Neue Karten lassen sich ohne Codeänderung ergänzen. Jede Karte referenziert ei
 ## Versionen
 
 Bei Content-Änderungen `contentVersion` in `content/index.json` und `version` in `content/version.json` erhöhen. Für App-/Cache-Änderungen auch den Cache-Namen in `sw.js` erhöhen.
+
+## Lexikon
+
+`lexicon.json` enthält das zentrale Begriffssystem der App. Jeder Eintrag hat:
+
+- `term` und optionale `aliases`
+- eine verdichtete `definition`
+- mehrere `examples` aus unterschiedlichen Lernmodulen
+- Modul-ID, Abschnitt und Anchor für den Rücksprung in den Ursprungstext
+
+`tools/rebuild_lexicon.py` ermittelt die Beispiele neu aus den vorhandenen Projektmodulen. Definitionen bleiben kuratiert; Beispiele bleiben quellengebunden.

@@ -1,54 +1,44 @@
-# EA Learnings 2.0
+# EA Learnings 2.1
 
 Smartphone-first Progressive Web App für Enterprise Architecture im Behördenkontext.
 
-## Lernkonzept
+## Schwerpunkte
 
-- **Heute**: persönlicher Tagesplan aus fälligen Wiederholungen, Weiterlernen und EA des Tages
-- **Spaced Repetition**: lokale Wiederholungsplanung je Lernkarte
-- **Retrieval Practice**: Antwort erst selbst abrufen, danach aufdecken und Sicherheit bewerten
-- **Microlearning**: 3-, 5-, 10- und 20-Minuten-Sessions
-- **Falltraining**: EA-Szenarien mit Musterlösung und Selbsteinschätzung
-- **Lernpfade**: EA Grundlagen, Integration, Production Architecture, Behörden-EA, technische Vertiefung
-- **Kompetenzprofil**: nachgewiesener Abrufstand nach Themengebiet
-- **Reader 2.0**: Fokusmodus, Leseposition, Notizen, Modul-Quiz, mobile Inhaltsübersicht
+- 37 Lernmodule aus dem Projekt
+- 43 Start-Lernkarten mit Spaced Repetition
+- Microlearning, EA-Falltraining und Kompetenzprofil
+- vollständig lokale Lerndaten in IndexedDB
+- Offline-PWA ohne Server-Datenbank
+- **EA-Lexikon mit 74 Begriffen und 218 kontextuellen Textbeispielen**
+- automatische Begriffsverlinkung in Lerntexten
+- Rücksprung vom Lexikon zur ursprünglichen Leseposition
+- Begriffserklärungen direkt am Ende jedes Lerntextes
+- Suche über Module, Lexikon, Lernkarten und eigene Notizen
 
-## Smartphone UX
+## Lexikonprinzip
 
-- Bottom Navigation: Heute · Lernen · Wissen · Ich
-- Suche jederzeit über die Topbar
-- mindestens 48 px Touch-Ziele
-- Safe Areas für iPhone/Android
-- Dark Mode / Systemmodus
-- skalierbare Textgröße
-- `prefers-reduced-motion`
-- responsive Reader und Tabellen
-- installierbar und offline nutzbar
+Ein Begriff wird nicht isoliert erklärt. Jeder Eintrag besteht aus:
 
-## Lokales Gedächtnis
+1. kompakter Definition,
+2. mehreren Beispielen aus unterschiedlichen Projekttexten,
+3. Direktlinks zu den jeweiligen Textstellen,
+4. Rücknavigation zum aufrufenden Lerntext.
 
-Es gibt **keine Server-Datenbank**. Persönliche Daten werden in IndexedDB des Browsers gespeichert:
+Die Begriffe werden beim Rendern automatisch erkannt. Um die Lesbarkeit auf Smartphones zu erhalten, wird ein Begriff innerhalb eines Abschnitts nur beim ersten Auftreten verlinkt. Am Ende des Lerntextes werden die dort vorkommenden Lexikonbegriffe zusätzlich kompakt erklärt.
 
-- Karten- und Wiederholungsstatus
-- Lernhistorie
-- Lesefortschritt / Leseposition
-- Favoriten
-- Notizen
-- Einstellungen
+## Inhalte erweitern
 
-App- und Content-Dateien liegen separat im Cache Storage. Cache und Lerndaten können getrennt zurückgesetzt werden. Backup/Restore erfolgt als JSON-Datei.
+Lerninhalte liegen unter `content/modules/` und `content/derived/`. Der Katalog befindet sich in `content/index.json`.
 
-## Inhalte
+Das Lexikon liegt in `content/lexicon.json`. Die Quellexemplare werden mit `tools/rebuild_lexicon.py` aus den vorhandenen Modulen neu ermittelt.
 
-- alle 25 Projektquellen vollständig
-- abgeleitete EA-Lernmodule aus dem Projekt
-- 43 initiale Retrieval-/Szenario-Karten
-- 5 geführte Lernpfade
+```bash
+python tools/rebuild_lexicon.py
+python tools/rebuild_search.py
+```
 
-Neue Markdown-Module werden unter `content/modules/` oder `content/derived/` ergänzt und in `content/index.json` registriert. Lernkarten und Lernpfade liegen unabhängig davon in `content/learning.json`.
+Danach `content/version.json` erhöhen und deployen.
 
 ## GitHub Pages
 
-Der Workflow `.github/workflows/pages.yml` publiziert das Repository als statische GitHub-Pages-App. Für das Repository `empishaj/eaapp` ist die erwartete URL:
-
-`https://empishaj.github.io/eaapp/`
+Der mitgelieferte Workflow unter `.github/workflows/pages.yml` veröffentlicht die statische PWA aus dem Repository-Root.

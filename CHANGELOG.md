@@ -35,3 +35,15 @@
 - PWA-Shortcuts
 - neues Manifest für Education/Productivity
 - Update-Hinweis erhält lokale Lerndaten
+
+## 2.1.0 – Kontextuelles EA-Lexikon
+
+- Zentrales EA-Lexikon mit 74 kuratierten Begriffen.
+- Jeder Lexikoneintrag besitzt eine Kurzdefinition und mindestens zwei, meist drei Beispiele aus unterschiedlichen Projekttexten.
+- Beispiele verlinken direkt in den jeweiligen Ursprungstext und die passende Überschrift.
+- Fachbegriffe werden im Reader automatisch dezent mit dem Lexikon verknüpft – pro Abschnitt einmal, um Überverlinkung zu vermeiden.
+- Beim Öffnen eines Lexikonbegriffs aus einem Lerntext wird die ursprüngliche Leseposition gespeichert; „Zurück zum ursprünglichen Text“ springt exakt zurück.
+- Öffnet man ein Beispiel aus dem Lexikon, zeigt der Reader einen direkten Rückweg zum Lexikoneintrag.
+- Jeder Lerntext erhält am Ende „Begriffe in diesem Text“ mit Direktdefinitionen; die wichtigsten zwölf sind sofort sichtbar, weitere bleiben aufklappbar.
+- Volltextsuche durchsucht jetzt zusätzlich das Lexikon.
+- Lexikon ist Teil des Offline-Pakets und als PWA-Shortcut verfügbar.
