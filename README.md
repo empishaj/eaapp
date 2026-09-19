@@ -1,0 +1,33 @@
+# EA Mastery 5.0
+
+Neu konzipierte Progressive Web App für Enterprise-Architecture-Lernen im deutschen Behördenkontext.
+
+## Kernidee
+Die App trennt **Akademie**, **Training** und **Wissensbasis**. Kompetenz wird nicht über gelesene Seiten, sondern über vier Evidenzarten gemessen: Lernen, Recall, Fallanwendung und professionelles Artefakt.
+
+## Enthalten
+- 16 Kompetenzdomänen
+- 96 aufeinander aufbauende Lerneinheiten
+- 480 Lernkarten
+- 96 Behördenfälle
+- 316 Lexikonbegriffe
+- 160 Fachbuch-Einträge
+- 37 vollständige Projektquellen
+- Spaced Repetition
+- Artefakt-Lab
+- lokaler Lernstand über IndexedDB
+- Backup/Import/Reset
+- Offline-PWA
+
+## Start auf GitHub Pages
+Repository-Inhalt in den Branch `main` übernehmen und GitHub Pages auf **GitHub Actions** stellen. Der Workflow `.github/workflows/pages.yml` veröffentlicht die statische App.
+
+## Content erweitern
+Die UI enthält keine themenspezifische Logik. Neue Inhalte werden in den JSON-Dateien unter `content/` und als Markdown-Quellen ergänzt. Danach ausführen:
+
+```bash
+python tools/validate_content.py
+```
+
+## Architektur
+Siehe `APP_CONCEPT.md`.

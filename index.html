@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0b1220">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="EA Mastery – persönliche Lernakademie für Enterprise Architecture im deutschen Behördenkontext">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="assets/icon-192.png">
+  <link rel="apple-touch-icon" href="assets/icon-192.png">
+  <link rel="stylesheet" href="assets/styles.css">
+  <title>EA Mastery</title>
+</head>
+<body>
+  <a class="skip-link" href="#app">Zum Inhalt springen</a>
+  <div id="updateBanner" class="update-banner hidden" role="status">
+    <span><strong>Neue Version verfügbar.</strong> <span id="updateText"></span></span>
+    <button id="updateNow" class="btn btn-ghost">Aktualisieren</button>
+  </div>
+
+  <header class="topbar">
+    <a class="brand" href="#today" aria-label="EA Mastery Startseite">
+      <span class="brand-mark">EA</span>
+      <span class="brand-copy"><strong>EA Mastery</strong><small>Behörden · Enterprise Architecture</small></span>
+    </a>
+    <div class="top-actions">
+      <button id="globalSearchBtn" class="icon-btn" aria-label="Suche öffnen">⌕</button>
+      <span id="onlineState" class="status-pill">Online</span>
+    </div>
+  </header>
+
+  <div class="app-frame">
+    <aside class="rail" aria-label="Hauptnavigation">
+      <nav class="rail-nav">
+        <a href="#today" data-nav="today"><span>⌂</span><b>Heute</b></a>
+        <a href="#academy" data-nav="academy"><span>◫</span><b>Akademie</b></a>
+        <a href="#practice" data-nav="practice"><span>◎</span><b>Trainieren</b></a>
+        <a href="#knowledge" data-nav="knowledge"><span>▤</span><b>Wissen</b></a>
+        <a href="#profile" data-nav="profile"><span>◉</span><b>Profil</b></a>
+      </nav>
+      <div class="rail-meta"><span>v<span id="versionLabel">–</span></span></div>
+    </aside>
+    <main id="app" class="main" tabindex="-1"></main>
+  </div>
+
+  <nav class="bottom-nav" aria-label="Mobile Hauptnavigation">
+    <a href="#today" data-nav="today"><span>⌂</span><b>Heute</b></a>
+    <a href="#academy" data-nav="academy"><span>◫</span><b>Akademie</b></a>
+    <a href="#practice" data-nav="practice"><span>◎</span><b>Trainieren</b></a>
+    <a href="#knowledge" data-nav="knowledge"><span>▤</span><b>Wissen</b></a>
+    <a href="#profile" data-nav="profile"><span>◉</span><b>Profil</b></a>
+  </nav>
+
+  <div id="searchOverlay" class="overlay hidden" role="dialog" aria-modal="true" aria-labelledby="searchTitle">
+    <div class="sheet search-sheet">
+      <div class="sheet-head"><div><small>Wissensbasis</small><h2 id="searchTitle">Suchen</h2></div><button id="closeSearch" class="icon-btn" aria-label="Schließen">×</button></div>
+      <input id="searchInput" class="search-input" type="search" autocomplete="off" placeholder="Begriff, Thema, Buch, Quelle …">
+      <div id="searchResults" class="search-results"><div class="empty">Suche in Kursen, Lexikon und Quellen.</div></div>
+    </div>
+  </div>
+
+  <div id="toast" class="toast hidden" role="status" aria-live="polite"></div>
+  <script type="module" src="assets/js/app.js"></script>
+</body>
+</html>
