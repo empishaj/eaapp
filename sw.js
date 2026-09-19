@@ -1,4 +1,4 @@
-const CACHE='ea-mastery-v5.5.0';
+const CACHE='ea-mastery-v5.6.0';
 const CORE=[
   './','./index.html','./manifest.webmanifest','./assets/styles.css','./assets/js/app.js',
   './assets/js/core/content.js','./assets/js/core/store.js','./assets/js/core/srs.js','./assets/js/core/bsi-memory.js','./assets/js/core/ea-card-memory.js','./assets/js/core/mastery.js','./assets/js/core/utils.js','./assets/js/core/diagrams.js',

@@ -130,3 +130,6 @@ Grundsätze:
 4. Diagramme bleiben Daten (`content/visuals/diagrams.json`), nicht hart codiertes HTML.
 5. Lesson-Content und Visualisierung können unabhängig erweitert werden.
 6. Auf Smartphones öffnet sich jedes Diagramm in einer skalierbaren Vollbildansicht.
+
+## Responsive Content Engine
+Die Wissensbasis folgt dem Prinzip 'desktop dense, mobile readable'. Semantische Tabellen bleiben auf großen Bildschirmen tabellarisch; auf kleinen Displays werden Zeilen zu Feldkarten. Der Quelltext bleibt unverändert, Darstellung und Informationshierarchie werden responsiv adaptiert.

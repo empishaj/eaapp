@@ -52,3 +52,6 @@ Die App enthält zusätzlich eine eigenständige BSI-IT-Grundschutz-Akademie mit
 
 ### Kartengedächtnis (5.5.0)
 Jede BSI- und EA-Lernkarte speichert lokal Sichtung, vollständiges Lesen, Bewertungen, Bewertungshistorie und SRS-Wiederholungsdaten. Lern- und Review-Sessions werden zufällig gemischt; kürzlich gezeigte Karten werden nach Möglichkeit nicht zuerst erneut präsentiert.
+
+### Responsive Fachinhalte ab 5.6.0
+Projektquellen und Markdown-Inhalte werden über die responsive Content Engine gerendert. Tabellen erscheinen auf Desktop als echte Tabellen und auf Smartphones als beschriftete Karten. Lange Texte nutzen optimierte Lesebreite, Abstände und Abschnittshierarchie.

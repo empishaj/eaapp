@@ -55,3 +55,11 @@
 - Prüfungssimulator mit 50 zufällig ausgewählten Prüfungskarten und 60-Minuten-Timer.
 - Fehleranalyse nach Prüfung mit direkter Verlinkung in die Lernkarten.
 - BSI-Inhalte in globale Suche, Dashboard, Training, Profil, Backup und Offline-Paket integriert.
+
+## 5.6.0 – Responsive Content Engine
+- Markdown-Tabellen werden als semantische HTML-Tabellen gerendert.
+- Desktop: kompakte, scanbare Tabellen mit Sticky Header und sauberer Typografie.
+- Smartphone: jede Tabellenzeile wird automatisch als beschriftete Datenkarte dargestellt.
+- Neue Lesebreite, Abschnittsrhythmik, Callouts, Codeblöcke und Listenformatierung für lange Fachquellen.
+- Wissensquellen erhalten einen dedizierten Reading-Shell statt unstrukturierter Rohdarstellung.
+- Keine fachlichen Inhalte verändert; nur Rendering und Layout.
