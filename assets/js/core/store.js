@@ -1,10 +1,10 @@
 import {nowIso,dateKey} from './utils.js';
 const DB='ea-learnings-local', VERSION=3, STORE='kv';let db;
 const DEFAULT={
-  schema:5,createdAt:null,updatedAt:null,
+  schema:6,createdAt:null,updatedAt:null,
   profile:{onboarded:false,dailyGoal:20,mode:'guided',diagnosticDone:false},
   settings:{theme:'system',fontScale:1,autoResume:true},
-  lessonProgress:{},cardState:{},caseState:{},artifactState:{},notes:{},favorites:[],activity:[],lastLocation:'#today',migration:{}
+  lessonProgress:{},cardState:{},caseState:{},artifactState:{},bsiCardState:{},bsiExamHistory:[],bsiExamSession:null,notes:{},favorites:[],activity:[],lastLocation:'#today',migration:{}
 };
 function open(){return new Promise((res,rej)=>{const q=indexedDB.open(DB,VERSION);q.onupgradeneeded=()=>{const d=q.result;if(!d.objectStoreNames.contains(STORE))d.createObjectStore(STORE)};q.onsuccess=()=>res(q.result);q.onerror=()=>rej(q.error)})}
 function get(key){return new Promise((res,rej)=>{const q=db.transaction(STORE,'readonly').objectStore(STORE).get(key);q.onsuccess=()=>res(q.result);q.onerror=()=>rej(q.error)})}

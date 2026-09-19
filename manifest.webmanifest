@@ -1,7 +1,7 @@
 {
   "name": "EA Mastery – Enterprise Architecture Akademie",
   "short_name": "EA Mastery",
-  "description": "Persönliche Lernakademie für Enterprise Architecture im deutschen Behördenkontext.",
+  "description": "Lernakademie für Enterprise Architecture und BSI IT-Grundschutz im deutschen Behördenkontext.",
   "start_url": "/eaapp/#today",
   "scope": "/eaapp/",
   "display": "standalone",

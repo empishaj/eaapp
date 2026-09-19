@@ -30,3 +30,12 @@
 - Artefakt-Lab vollständig neu strukturiert
 - „Struktur übernehmen“ erzeugt ein eigenes Arbeitsgerüst ohne Musterinhalt zu kopieren
 - Artefakte in globaler Suche und Offline-Paket integriert
+
+## 5.3.0 – BSI Master Academy
+- 500 ausführliche BSI-IT-Grundschutz-Lernkarten integriert.
+- 9 Module und 53 Kernthemen als eigenes Curriculum.
+- Eigenständiger BSI-Lernstand und Spaced-Repetition-Status.
+- BSI Review mit fälligen Wiederholungen plus kontrollierter Neu-Karten-Zufuhr.
+- Prüfungssimulator mit 50 zufällig ausgewählten Prüfungskarten und 60-Minuten-Timer.
+- Fehleranalyse nach Prüfung mit direkter Verlinkung in die Lernkarten.
+- BSI-Inhalte in globale Suche, Dashboard, Training, Profil, Backup und Offline-Paket integriert.
