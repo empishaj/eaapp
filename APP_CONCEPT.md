@@ -116,3 +116,15 @@ Eine Lesson ist vollständig, wenn sie:
 - einen professionellen Liefergegenstand fordert,
 - Recall-Fragen besitzt,
 - Quellen und Literatur nachvollziehbar referenziert.
+
+## Visualization Layer – 5.1
+
+Visualisierung ist eine eigene Content-Schicht. Mermaid erzeugt aus strukturierten Definitionen SVG und ist damit unabhängig von Bildschirmauflösung und Zoom.
+
+Grundsätze:
+1. Diagramme dienen einer konkreten Lernfrage, nicht Dekoration.
+2. Jede Grafik benötigt Titel und Lernbotschaft.
+3. Flowcharts zeigen Kausalität/Struktur, Sequence Diagrams Interaktion über Zeit.
+4. Diagramme bleiben Daten (`content/visuals/diagrams.json`), nicht hart codiertes HTML.
+5. Lesson-Content und Visualisierung können unabhängig erweitert werden.
+6. Auf Smartphones öffnet sich jedes Diagramm in einer skalierbaren Vollbildansicht.

@@ -31,3 +31,15 @@ python tools/validate_content.py
 
 ## Architektur
 Siehe `APP_CONCEPT.md`.
+
+## Vektordiagramme (5.1.0)
+
+EA Mastery nutzt Mermaid 12.0.0, um Lernzusammenhänge im Browser als SVG zu rendern. Die Definitionen sind vom UI getrennt und liegen unter `content/visuals/diagrams.json`.
+
+Aktuell enthält die App:
+- 32 Kursdiagramme (mentales Modell + EA-Systembild je Kompetenzfeld)
+- 192 Lesson-Diagramme (mentales Modell + Querverbindungen je Lerneinheit)
+- Vollbild-/Zoomansicht
+- SVG-Export
+
+Neue Diagramme können durch einen zusätzlichen Datensatz in `diagrams.json` ergänzt werden. Die UI muss dafür nicht verändert werden.

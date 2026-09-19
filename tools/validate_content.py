@@ -10,7 +10,8 @@ cases=load('content/practice/cases.json')['cases']
 lex=load('content/knowledge/lexicon.json')['entries']
 sources=load('content/knowledge/sources.json')['sources']
 books=load('content/knowledge/books.json')['themes']
-course_ids={c['id'] for c in courses}; lesson_ids={l['id'] for l in lessons}; source_ids={s['id'] for s in sources}
+diagrams=load('content/visuals/diagrams.json')['diagrams']
+course_ids={c['id'] for c in courses}; lesson_ids={l['id'] for l in lessons}; source_ids={s['id'] for s in sources}; diagram_ids={d['id'] for d in diagrams}
 if len(courses)!=16: errors.append(f'expected 16 courses, got {len(courses)}')
 for c in courses:
     ls=sorted([l for l in lessons if l['courseId']==c['id']],key=lambda x:x['order'])
@@ -28,9 +29,19 @@ for c in cases:
     if c['lessonId'] not in lesson_ids: errors.append(f'case {c["id"]}: unknown lesson')
 for s in sources:
     if not (ROOT/s['path']).exists(): errors.append(f'source file missing: {s["path"]}')
+
+if len(diagrams)<200: errors.append(f'too few diagrams: {len(diagrams)}')
+if len(diagram_ids)!=len(diagrams): errors.append('duplicate diagram ids')
+for d in diagrams:
+    if d.get('lessonId') and d['lessonId'] not in lesson_ids: errors.append(f'diagram {d["id"]}: unknown lesson')
+    if d.get('courseId') and d['courseId'] not in course_ids: errors.append(f'diagram {d["id"]}: unknown course')
+    definition=d.get('definition','').strip()
+    if not definition: errors.append(f'diagram {d["id"]}: empty definition')
+    elif not (definition.startswith('flowchart') or definition.startswith('sequenceDiagram')): errors.append(f'diagram {d["id"]}: unsupported diagram syntax')
+
 if len(cards)<400: errors.append('too few cards')
 if len(lex)<250: errors.append('too few lexicon entries')
 if sum(len(x['books']) for x in books)<150: errors.append('too few book entries')
 if errors:
     print('\n'.join('ERROR: '+x for x in errors)); sys.exit(1)
-print(f'OK: {len(courses)} courses, {len(lessons)} lessons, {len(cards)} cards, {len(cases)} cases, {len(lex)} terms, {len(sources)} sources, {sum(len(x["books"]) for x in books)} books')
+print(f'OK: {len(courses)} courses, {len(lessons)} lessons, {len(cards)} cards, {len(cases)} cases, {len(lex)} terms, {len(sources)} sources, {sum(len(x["books"]) for x in books)} books, {len(diagrams)} diagrams')
