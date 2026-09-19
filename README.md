@@ -48,4 +48,8 @@ Neue Diagramme können durch einen zusätzlichen Datensatz in `diagrams.json` er
 EA Mastery enthält 48 ausgefüllte Muster-Arbeitsergebnisse. Für jedes der 16 Kompetenzfelder gibt es ein Arbeitsartefakt, eine Entscheidungsvorlage und ein Master-Arbeitsergebnis. Muster dienen als Referenz; über „Struktur übernehmen“ wird ein leeres eigenes Arbeitsgerüst erzeugt, das separat im lokalen Lernspeicher fortgeschrieben wird.
 
 ## BSI Master Academy (5.3.0)
+<<<<<<< HEAD
 Die App enthält zusätzlich eine eigenständige BSI-IT-Grundschutz-Akademie mit 950 ausführlichen Lernkarten, 15 Modulen, 83 Kernthemen, getrenntem SRS-Fortschritt und Prüfungssimulator. Die BSI-Daten liegen unter `content/bsi/` und werden unabhängig vom EA-Kartenmodell geladen.
+=======
+Die App enthält zusätzlich eine eigenständige BSI-IT-Grundschutz-Akademie mit 500 ausführlichen Lernkarten, 9 Modulen, 53 Kernthemen, getrenntem SRS-Fortschritt und Prüfungssimulator. Die BSI-Daten liegen unter `content/bsi/` und werden unabhängig vom EA-Kartenmodell geladen.
+>>>>>>> 7defe2fa0f7b407bc646ef14f72a4d2df23b3530

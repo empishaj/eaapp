@@ -4,7 +4,11 @@ const paths={
   cards:'content/practice/cards.json',cases:'content/practice/cases.json',lexicon:'content/knowledge/lexicon.json',
   books:'content/knowledge/books.json',sources:'content/knowledge/sources.json',search:'content/knowledge/search.json',
   artifacts:'content/practice/artifacts.json',diagrams:'content/visuals/diagrams.json',
+<<<<<<< HEAD
   bsiCards:'content/bsi/bsi_lernkarten_950.json',bsiCurriculum:'content/bsi/bsi_curriculum_map.json'
+=======
+  bsiCards:'content/bsi/bsi_lernkarten_500.json',bsiCurriculum:'content/bsi/bsi_curriculum_map.json'
+>>>>>>> 7defe2fa0f7b407bc646ef14f72a4d2df23b3530
 };
 async function j(path){const r=await fetch(new URL(path,ROOT));if(!r.ok)throw new Error(`${path}: ${r.status}`);return r.json()}
 const moduleId=name=>String(name).match(/^(\d+)/)?.[1]||name.toLowerCase().replace(/[^a-z0-9]+/g,'-');

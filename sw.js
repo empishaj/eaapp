@@ -1,10 +1,18 @@
+<<<<<<< HEAD
 const CACHE='ea-mastery-v5.4.0';
+=======
+const CACHE='ea-mastery-v5.3.0';
+>>>>>>> 7defe2fa0f7b407bc646ef14f72a4d2df23b3530
 const CORE=[
   './','./index.html','./manifest.webmanifest','./assets/styles.css','./assets/js/app.js',
   './assets/js/core/content.js','./assets/js/core/store.js','./assets/js/core/srs.js','./assets/js/core/mastery.js','./assets/js/core/utils.js','./assets/js/core/diagrams.js',
   './assets/js/views/dashboard.js','./assets/js/views/academy.js','./assets/js/views/lesson.js','./assets/js/views/practice.js','./assets/js/views/knowledge.js','./assets/js/views/profile.js','./assets/js/views/bsi.js',
   './content/version.json','./content/curriculum/courses.json','./content/curriculum/lessons.json','./content/visuals/diagrams.json',
+<<<<<<< HEAD
   './content/practice/cards.json','./content/practice/cases.json','./content/practice/artifacts.json','./content/bsi/bsi_lernkarten_950.json','./content/bsi/bsi_curriculum_map.json','./content/knowledge/lexicon.json','./content/knowledge/books.json','./content/knowledge/sources.json','./content/knowledge/search.json'
+=======
+  './content/practice/cards.json','./content/practice/cases.json','./content/practice/artifacts.json','./content/bsi/bsi_lernkarten_500.json','./content/bsi/bsi_curriculum_map.json','./content/knowledge/lexicon.json','./content/knowledge/books.json','./content/knowledge/sources.json','./content/knowledge/search.json'
+>>>>>>> 7defe2fa0f7b407bc646ef14f72a4d2df23b3530
 ];
 self.addEventListener('install',e=>e.waitUntil((async()=>{
   const c=await caches.open(CACHE);

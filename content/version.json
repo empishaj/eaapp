@@ -1,5 +1,12 @@
 {
+<<<<<<< HEAD
   "version": "5.4.0",
   "released": "2026-09-19",
   "message": "EA Mastery 5.4.0 – BSI Master Academy erweitert auf 950 Lernkarten, 15 Module, 83 Kernthemen und 83 Prüfungskarten; Vertiefung zu Recht/Compliance, Normen, Profilen, Audit, BCM 200-4, Lieferanten/Cloud/OT und Security Architecture."
 }
+=======
+  "version": "5.3.0",
+  "released": "2026-09-19",
+  "message": "EA Mastery 5.3.0 – BSI Master Academy mit 500 Lernkarten, 9 Modulen, 53 Kernthemen, getrenntem SRS-Fortschritt und 50-Fragen-Prüfungssimulator."
+}
+>>>>>>> 7defe2fa0f7b407bc646ef14f72a4d2df23b3530

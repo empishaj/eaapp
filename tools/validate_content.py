@@ -11,7 +11,11 @@ lex=load('content/knowledge/lexicon.json')['entries']
 sources=load('content/knowledge/sources.json')['sources']
 books=load('content/knowledge/books.json')['themes']
 diagrams=load('content/visuals/diagrams.json')['diagrams']
+<<<<<<< HEAD
 bsi=load('content/bsi/bsi_lernkarten_950.json')
+=======
+bsi=load('content/bsi/bsi_lernkarten_500.json')
+>>>>>>> 7defe2fa0f7b407bc646ef14f72a4d2df23b3530
 bsi_cards=bsi['cards']
 bsi_modules=load('content/bsi/bsi_curriculum_map.json')['modules']
 course_ids={c['id'] for c in courses}; lesson_ids={l['id'] for l in lessons}; source_ids={s['id'] for s in sources}; diagram_ids={d['id'] for d in diagrams}
@@ -44,12 +48,21 @@ if len(cards)<400: errors.append('too few EA cards')
 if len(lex)<250: errors.append('too few lexicon entries')
 if sum(len(x['books']) for x in books)<150: errors.append('too few book entries')
 # BSI academy
+<<<<<<< HEAD
 if len(bsi_cards)!=950: errors.append(f'expected 950 BSI cards, got {len(bsi_cards)}')
 if len(bsi_modules)!=15: errors.append(f'expected 15 BSI modules, got {len(bsi_modules)}')
 bsi_ids=[c['id'] for c in bsi_cards]
 if len(set(bsi_ids))!=len(bsi_ids): errors.append('duplicate BSI card ids')
 topics={c['topic_id'] for c in bsi_cards}
 if len(topics)!=83: errors.append(f'expected 83 BSI topics, got {len(topics)}')
+=======
+if len(bsi_cards)!=500: errors.append(f'expected 500 BSI cards, got {len(bsi_cards)}')
+if len(bsi_modules)!=9: errors.append(f'expected 9 BSI modules, got {len(bsi_modules)}')
+bsi_ids=[c['id'] for c in bsi_cards]
+if len(set(bsi_ids))!=len(bsi_ids): errors.append('duplicate BSI card ids')
+topics={c['topic_id'] for c in bsi_cards}
+if len(topics)!=53: errors.append(f'expected 53 BSI topics, got {len(topics)}')
+>>>>>>> 7defe2fa0f7b407bc646ef14f72a4d2df23b3530
 exam=[c for c in bsi_cards if c.get('card_type')=='Prüfungsfrage']
 if len(exam)<50: errors.append(f'need at least 50 BSI exam cards, got {len(exam)}')
 for c in bsi_cards:
