@@ -43,3 +43,6 @@ Aktuell enthält die App:
 - SVG-Export
 
 Neue Diagramme können durch einen zusätzlichen Datensatz in `diagrams.json` ergänzt werden. Die UI muss dafür nicht verändert werden.
+
+## Artefakt-Lab (5.2.0)
+EA Mastery enthält 48 ausgefüllte Muster-Arbeitsergebnisse. Für jedes der 16 Kompetenzfelder gibt es ein Arbeitsartefakt, eine Entscheidungsvorlage und ein Master-Arbeitsergebnis. Muster dienen als Referenz; über „Struktur übernehmen“ wird ein leeres eigenes Arbeitsgerüst erzeugt, das separat im lokalen Lernspeicher fortgeschrieben wird.

@@ -22,3 +22,11 @@
 - Vollbildansicht, Zoom und SVG-Export ergänzt.
 - Diagrammdefinitionen liegen getrennt unter `content/visuals/diagrams.json` und sind ohne UI-Code erweiterbar.
 - Service Worker cached Mermaid-CDN-Ressourcen nach der ersten Nutzung für spätere Offline-Verwendung.
+
+## 5.2.0 – 2026-09-19
+- 48 ausgefüllte EA-Muster-Arbeitsergebnisse integriert
+- je Kompetenzfeld: Arbeitsartefakt, Decision Brief und Master-Paket
+- Muster enthalten Zweck, Adressaten, Behördenfall, ausgefüllte Inhalte, Qualitätskriterien und Anti-Patterns
+- Artefakt-Lab vollständig neu strukturiert
+- „Struktur übernehmen“ erzeugt ein eigenes Arbeitsgerüst ohne Musterinhalt zu kopieren
+- Artefakte in globaler Suche und Offline-Paket integriert
