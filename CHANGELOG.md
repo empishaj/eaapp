@@ -1,3 +1,14 @@
+## 5.5.0
+- Alle 1.430 Lernkarten (950 BSI + 480 EA) besitzen ein persistentes Kartengedächtnis.
+- Getrennte Zustände für erstmals/zuletzt gesehen, vollständig gelesen und bewertet.
+- Anzahl der Aufrufe, Lesevorgänge und Bewertungen wird je Karte gespeichert.
+- Bewertungshistorie mit Zeitstempel sowie bestehende SRS-Daten bleiben sichtbar.
+- Alte 5.3/5.4-Bewertungen werden automatisch in das neue Gedächtnismodell migriert.
+- BSI- und EA-Lern-/Review-Sessions werden bei jedem Start zufällig gemischt.
+- Neue Karten werden zufällig aus dem gesamten verfügbaren Pool gewählt statt aus einer festen Dateireihenfolge.
+- Kürzlich gezeigte Karten werden nach Möglichkeit nach hinten gestellt.
+- Themenkatalog zeigt pro Karte Neu / gesehen / gelesen / bewertet.
+
 ## 5.4.0
 - BSI Master Academy auf 950 Lernkarten erweitert.
 - 15 Module, 83 Kernthemen und 83 Prüfungskarten.

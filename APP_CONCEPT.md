@@ -77,6 +77,8 @@ Jede Lesson hat sechs interne Lernschritte:
 IndexedDB `ea-learnings-local` speichert:
 - Lesson-Progress
 - Lernkartenstatus / SRS
+- Kartengedächtnis je EA- und BSI-Karte: gesehen, gelesen, bewertet, Zeitstempel und Bewertungshistorie
+- kürzlich gezeigte Karten zur zufälligen, wiederholungsarmen Sessionsteuerung
 - Fall-Evidenz
 - Artefaktstatus und Notizen
 - Aktivitätslog
