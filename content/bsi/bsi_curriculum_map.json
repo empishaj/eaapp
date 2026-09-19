@@ -1,4 +1,5 @@
 {
+  "version": "2.0.0",
   "modules": [
     {
       "module": "01 Grundlagen der Informationssicherheit",
@@ -206,6 +207,174 @@
         "Fehleranalyse",
         "Grundlage",
         "Nachweis/Audit",
+        "Prüfungsfrage",
+        "Vorgehen"
+      ]
+    },
+    {
+      "module": "10 Recht, Compliance und Governance",
+      "card_count": 75,
+      "topics": [
+        "BSIG, Bundesverwaltung und BSI-Rolle",
+        "Datenschutz und Informationssicherheit abgrenzen",
+        "IT-Compliance und IT-Governance",
+        "KRITIS und NIS2-Kontext verstehen",
+        "Rechts- und Normenlandkarte für Behörden"
+      ],
+      "card_types": [
+        "Abgrenzung",
+        "Behördenfall",
+        "EA-Transfer",
+        "Entscheidung",
+        "Executive-Synthese",
+        "Fehleranalyse",
+        "Governance",
+        "Grundlage",
+        "Kontrollfrage",
+        "Lifecycle",
+        "Master-Transfer",
+        "Nachweis/Audit",
+        "Praxisfall",
+        "Prüfungsfrage",
+        "Vorgehen"
+      ]
+    },
+    {
+      "module": "11 Normen, Profile, Mindeststandards und Technische Richtlinien",
+      "card_count": 75,
+      "topics": [
+        "BSI-Mindeststandards und Technische Richtlinien",
+        "ISO 22301 und BCM einordnen",
+        "ISO 27001 und ISO 27002 im Verhältnis zum IT-Grundschutz",
+        "ISO 31000 und Risikomanagement einordnen",
+        "IT-Grundschutz-Profile"
+      ],
+      "card_types": [
+        "Abgrenzung",
+        "Behördenfall",
+        "EA-Transfer",
+        "Entscheidung",
+        "Executive-Synthese",
+        "Fehleranalyse",
+        "Governance",
+        "Grundlage",
+        "Kontrollfrage",
+        "Lifecycle",
+        "Master-Transfer",
+        "Nachweis/Audit",
+        "Praxisfall",
+        "Prüfungsfrage",
+        "Vorgehen"
+      ]
+    },
+    {
+      "module": "12 Audit, Nachweise und Zertifizierung",
+      "card_count": 75,
+      "topics": [
+        "Auditprinzipien und Evidenz",
+        "Findings, Abweichungen und Korrekturmaßnahmen",
+        "Grundschutz-Check professionell durchführen",
+        "ISO-27001-Zertifizierung auf Basis IT-Grundschutz",
+        "Wirksamkeitskontrolle und kontinuierliche Verbesserung"
+      ],
+      "card_types": [
+        "Abgrenzung",
+        "Behördenfall",
+        "EA-Transfer",
+        "Entscheidung",
+        "Executive-Synthese",
+        "Fehleranalyse",
+        "Governance",
+        "Grundlage",
+        "Kontrollfrage",
+        "Lifecycle",
+        "Master-Transfer",
+        "Nachweis/Audit",
+        "Praxisfall",
+        "Prüfungsfrage",
+        "Vorgehen"
+      ]
+    },
+    {
+      "module": "13 BCM nach BSI 200-4 – Deep Dive",
+      "card_count": 75,
+      "topics": [
+        "BCMS-Aufbau und BCM-Prozess",
+        "Business Impact Analyse im Detail",
+        "Geschäftsfortführungs-, Wiederanlauf- und Wiederherstellungspläne",
+        "Kontinuitätsstrategien und Notbetriebsniveau",
+        "Übungen, Tests und BCM-Kennzahlen"
+      ],
+      "card_types": [
+        "Abgrenzung",
+        "Behördenfall",
+        "EA-Transfer",
+        "Entscheidung",
+        "Executive-Synthese",
+        "Fehleranalyse",
+        "Governance",
+        "Grundlage",
+        "Kontrollfrage",
+        "Lifecycle",
+        "Master-Transfer",
+        "Nachweis/Audit",
+        "Praxisfall",
+        "Prüfungsfrage",
+        "Vorgehen"
+      ]
+    },
+    {
+      "module": "14 Menschen, Lieferanten, Cloud und OT/ICS",
+      "card_count": 75,
+      "topics": [
+        "Cloud-Sicherheit in der Bundesverwaltung",
+        "ICS/OT im Grundschutzkontext",
+        "Lieferanten- und Outsourcing-Risiken",
+        "Security Awareness und Personal",
+        "Sichere Administration und privilegierte Zugriffe"
+      ],
+      "card_types": [
+        "Abgrenzung",
+        "Behördenfall",
+        "EA-Transfer",
+        "Entscheidung",
+        "Executive-Synthese",
+        "Fehleranalyse",
+        "Governance",
+        "Grundlage",
+        "Kontrollfrage",
+        "Lifecycle",
+        "Master-Transfer",
+        "Nachweis/Audit",
+        "Praxisfall",
+        "Prüfungsfrage",
+        "Vorgehen"
+      ]
+    },
+    {
+      "module": "15 Bundesbehörden-Security Architecture und EA-Transfer",
+      "card_count": 75,
+      "topics": [
+        "BSI-Anforderungen in Vergabe und Abnahme",
+        "IT-Grundschutz-Profil für Bundesbehörden nutzen",
+        "Security Architecture Decision Records",
+        "Security-Metriken für Architektursteuerung",
+        "Security-by-Architecture Reviews"
+      ],
+      "card_types": [
+        "Abgrenzung",
+        "Behördenfall",
+        "EA-Transfer",
+        "Entscheidung",
+        "Executive-Synthese",
+        "Fehleranalyse",
+        "Governance",
+        "Grundlage",
+        "Kontrollfrage",
+        "Lifecycle",
+        "Master-Transfer",
+        "Nachweis/Audit",
+        "Praxisfall",
         "Prüfungsfrage",
         "Vorgehen"
       ]

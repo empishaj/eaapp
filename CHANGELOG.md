@@ -1,3 +1,8 @@
+## 5.4.0
+- BSI Master Academy auf 950 Lernkarten erweitert.
+- 15 Module, 83 Kernthemen und 83 Prüfungskarten.
+- Neue Vertiefungen: Recht/Compliance, BSI-Rolle Bund, KRITIS/NIS2-Kontext, ISO 27001/27002/31000/22301, Grundschutz-Profile, Mindeststandards/TR, Audit/Zertifizierung, BCM 200-4 Deep Dive, Awareness, Lieferanten/Cloud/OT, Bundesbehörden-Security-Architecture, Vergabe/Abnahme und Security-Metriken.
+
 # Changelog
 
 ## 5.0.0 – 2026-09-19
@@ -30,3 +35,12 @@
 - Artefakt-Lab vollständig neu strukturiert
 - „Struktur übernehmen“ erzeugt ein eigenes Arbeitsgerüst ohne Musterinhalt zu kopieren
 - Artefakte in globaler Suche und Offline-Paket integriert
+
+## 5.3.0 – BSI Master Academy
+- 500 ausführliche BSI-IT-Grundschutz-Lernkarten integriert.
+- 9 Module und 53 Kernthemen als eigenes Curriculum.
+- Eigenständiger BSI-Lernstand und Spaced-Repetition-Status.
+- BSI Review mit fälligen Wiederholungen plus kontrollierter Neu-Karten-Zufuhr.
+- Prüfungssimulator mit 50 zufällig ausgewählten Prüfungskarten und 60-Minuten-Timer.
+- Fehleranalyse nach Prüfung mit direkter Verlinkung in die Lernkarten.
+- BSI-Inhalte in globale Suche, Dashboard, Training, Profil, Backup und Offline-Paket integriert.
