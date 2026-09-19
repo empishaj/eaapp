@@ -1,9 +1,10 @@
+const ROOT=new URL('../../../',import.meta.url);
 const paths={
   version:'content/version.json',courses:'content/curriculum/courses.json',lessons:'content/curriculum/lessons.json',
   cards:'content/practice/cards.json',cases:'content/practice/cases.json',lexicon:'content/knowledge/lexicon.json',
   books:'content/knowledge/books.json',sources:'content/knowledge/sources.json',search:'content/knowledge/search.json'
 };
-async function j(path){const r=await fetch(path);if(!r.ok)throw new Error(`${path}: ${r.status}`);return r.json()}
+async function j(path){const r=await fetch(new URL(path,ROOT));if(!r.ok)throw new Error(`${path}: ${r.status}`);return r.json()}
 export async function loadContent(){
   const [version,courses,lessons,cards,cases,lexicon,books,sources,search]=await Promise.all(Object.values(paths).map(j));
   const data={version,courses:courses.courses,stages:courses.stages,lessons:lessons.lessons,cards:cards.cards,cases:cases.cases,lexicon:lexicon.entries||[],books:books.themes||[],sources:sources.sources||[],search:search.items||[]};
