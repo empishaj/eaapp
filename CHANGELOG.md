@@ -1,94 +1,31 @@
 # Changelog
 
-## 2.0.0 – 2026-09-18
+## 4.0.0 – 2026-09-19
 
-### Smartphone-first
-- feste Bottom-Navigation: Heute, Lernen, Wissen, Ich
-- mobile Suche jederzeit in der Topbar
-- 48-px-Touchziele und Safe-Area-Unterstützung
-- Dark Mode / Systemmodus
-- skalierbare Schriftgröße
-- `prefers-reduced-motion`
-- Reader mit mobilem Inhaltsverzeichnis und Fokusmodus
+### Vollständiger didaktischer Neuaufbau
+- 16 Kompetenzfelder als eigenständige Kurse.
+- Jeder Kurs besteht aus sechs aufeinander aufbauenden Stufen.
+- 96 neue Schritt-für-Schritt-Lerneinheiten.
+- 480 aktive Lernkarten für Retrieval Practice und Spaced Repetition.
+- Kursnavigation zeigt Stufe 1–6 und Fortschritt direkt im Reader.
 
-### Lernengine
-- Tageslernplan
-- Spaced Repetition
-- Retrieval Practice mit vier Sicherheitsstufen
-- 3-, 5-, 10- und 20-Minuten-Sessions
-- 43 initiale Lern- und Fallkarten
-- fünf Lernpfade
-- EA-Falltraining
-- Modul-Quiz
-- Kompetenzprofil und Wissenslückenhinweis
+### Fachliche Vertiefung
+- 160 Fachbücher (10 je Kompetenzfeld) als Literaturbasis eingebunden.
+- Literatur wird pro Einheit passend rotierend angezeigt.
+- aktuelle Behördenanker: Nationale IT-Architekturrichtlinie, BSI, EVB-IT, FIT-Connect, DSGVO und EU AI Act.
+- Projektquellen bleiben als fachlicher Behördenanker vollständig erhalten.
 
-### Lokales Gedächtnis
-- IndexedDB für Lernstand, Wiederholungsplan und Historie
-- Migration bestehender v1-Lerndaten
-- Leseposition, Notizen, Favoriten und Einstellungen
-- Backup/Restore als JSON
-- Cache und Lerndaten getrennt löschbar
-- vollständiger Offline-Pack auf Wunsch
+### Lernlogik
+- Einstieg bewusst einfach und beispielorientiert.
+- danach Begriffsabgrenzung, Querverbindungen und Trade-offs.
+- anschließend wiederholbare Methode im externen EA-Mandat.
+- realistischer Behördenfall mit Muster-Denkweg.
+- Abschluss jeder Lernreise mit professionellem EA-Liefergegenstand und Board-/Reviewfähigkeit.
+
+### Lexikon
+- 316 Begriffe bleiben erhalten.
+- alle Lexikoneinträge besitzen nun mindestens zwei gültige Kontextbeispiele aus Projektquellen oder Curriculum 4.0.
 
 ### PWA
-- Version 2.0.0 Service Worker
-- PWA-Shortcuts
-- neues Manifest für Education/Productivity
-- Update-Hinweis erhält lokale Lerndaten
-
-## 2.1.0 – Kontextuelles EA-Lexikon
-
-- Zentrales EA-Lexikon mit 74 kuratierten Begriffen.
-- Jeder Lexikoneintrag besitzt eine Kurzdefinition und mindestens zwei, meist drei Beispiele aus unterschiedlichen Projekttexten.
-- Beispiele verlinken direkt in den jeweiligen Ursprungstext und die passende Überschrift.
-- Fachbegriffe werden im Reader automatisch dezent mit dem Lexikon verknüpft – pro Abschnitt einmal, um Überverlinkung zu vermeiden.
-- Beim Öffnen eines Lexikonbegriffs aus einem Lerntext wird die ursprüngliche Leseposition gespeichert; „Zurück zum ursprünglichen Text“ springt exakt zurück.
-- Öffnet man ein Beispiel aus dem Lexikon, zeigt der Reader einen direkten Rückweg zum Lexikoneintrag.
-- Jeder Lerntext erhält am Ende „Begriffe in diesem Text“ mit Direktdefinitionen; die wichtigsten zwölf sind sofort sichtbar, weitere bleiben aufklappbar.
-- Volltextsuche durchsucht jetzt zusätzlich das Lexikon.
-- Lexikon ist Teil des Offline-Pakets und als PWA-Shortcut verfügbar.
-
-## 2.2.0 – 2026-09-18
-- 28 neue, quellengebundene Lerneinheiten mit Lernzielen, Kernidee, Abgrenzungen, Projektquellen, Transferfall, Lerncheck und Reviewfragen.
-- 112 neue Karten aus den Lerneinheiten; insgesamt 155 aktive Lernkarten.
-- Neuer Bereich „Vertiefte Lerneinheiten“ und Gesamtübersicht mit Kompetenzfiltern.
-- Neues EA Curriculum 2.2 von Grundlagen bis Capstone.
-- Vollständiger Behörden-Capstone zur Fachverfahrensmodernisierung.
-- Lerneinheiten werden in Suche und Offline-Pack aufgenommen.
-- Fortschritt je Lerneinheit wird lokal gespeichert und kann wiederholt werden.
-
-## 3.0.0 – 2026-09-18
-
-### Vollständiger Curriculum-Neuaufbau
-- 64 neu geschriebene Professoren-Einheiten in 16 Kompetenzfeldern.
-- Lernlogik konsequent auf **Verstehen → Verbinden → Anwenden → professionell liefern** umgestellt.
-- 256 aktive Lernkarten mit Konzept-, Verbindungs-, Szenario- und Delivery-Fragen.
-- 10 neue geführte Kompetenzpfade.
-- Startseite priorisiert das neue Professoren-Curriculum; bestehende Projekttexte bleiben Referenzbibliothek.
-
-### Professoren-/Coach-Didaktik
-- Warum-das-zählt pro Einheit.
-- mentales Modell für komplexe Themen.
-- sokratische Fragen vor der Erklärung.
-- ausführliche Querverbindungen zu benachbarten Architekturdisziplinen.
-- typische Fehlannahmen mit fachlicher Korrektur.
-- Behörden-Transferfälle.
-- klarer Profi-Liefergegenstand pro Einheit.
-- vier Beherrschungsstufen: Wissen, Verstehen, Anwenden, Liefern.
-
-### Wissensnetz
-- jede der 64 Einheiten ist mit sechs verwandten Einheiten verbunden.
-- Lexikon auf 316 Begriffe erweitert.
-- Lexikonbeispiele können Originalquellen und Professoren-Einheiten verknüpfen.
-
-### Kompetenzlücken geschlossen
-- Strategie & Operating Model
-- Requirements & Architecture Evaluation
-- Data Governance & Privacy
-- DDD, Microservices und Distributed Systems
-- Cloud, Platform Engineering und Netzwerk
-- Architecture Economics
-- DMS/eAkte und Interoperabilität
-- Consulting, Moderation, Konflikt und Change
-- AI Architecture und AI Governance
-- EA Metrics, Reifegrad, Repository und Principal-EA-Praxisführung
+- Cache-Version auf 4.0.0 erhöht.
+- `books.json` in Offline-Paket aufgenommen.

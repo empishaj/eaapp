@@ -1,81 +1,40 @@
-# EA Learnings 3.0.0
+# EA Learnings 4.0.0
 
-Smartphone-first Progressive Web App für professionelles Enterprise-Architecture-Lernen im Behördenkontext.
+Smartphone-first Progressive Web App für die Ausbildung zum Enterprise Architect im deutschen Behördenkontext.
 
-## Leitidee
+## Was in 4.0 neu ist
 
-EA Learnings 3.0 ist kein Dokumentenordner. Das Curriculum arbeitet wie ein Coach/Professor:
+Die App wurde als **16 vollständige Schritt-für-Schritt-Kurse** neu strukturiert. Jeder Kurs führt in sechs Stufen vom einfachen Verständnis bis zur professionellen Lieferfähigkeit:
 
-1. **Verstehen** – Kernidee und mentales Modell aufbauen.
-2. **Verbinden** – Querverbindungen zu Fachlichkeit, Daten, Anwendungen, Integration, Security, Betrieb, Governance, Kosten und Transformation erkennen.
-3. **Anwenden** – Behördenfälle und Architekturentscheidungen lösen.
-4. **Professionell liefern** – ein belastbares EA-Artefakt erstellen oder reviewen und die Entscheidung gegenüber Stakeholdern begründen.
+1. Grundlagen einfach verstehen
+2. Begriffe, Bausteine und Abgrenzungen
+3. Querverbindungen und systemisches Denken
+4. Methode im EA-Mandat anwenden
+5. Behördenfall Schritt für Schritt lösen
+6. Profi-Niveau: liefern, reviewen und verteidigen
 
-## Curriculum 3.0
+Aktueller Umfang:
 
-- **64 komplett neu geschriebene Professoren-Einheiten**
-- **16 Kompetenzfelder**
-- **256 aktive Lernkarten** für Retrieval Practice und Spaced Repetition
-- **10 geführte Kompetenzpfade**
-- jede Einheit mit sokratischen Fragen, mentalem Modell, Querverbindungen, Denkfehlern, Behördenfall, Reviewfragen und Profi-Liefergegenstand
-- jede Einheit ist mit sechs verwandten Einheiten zu einem Wissensnetz verbunden
-- **316 Lexikonbegriffe** mit Kontextbeispielen aus Quellen und Curriculum
+- 16 Kompetenzkurse
+- 96 Lerneinheiten
+- 480 aktive Lernkarten
+- 316 Lexikonbegriffe mit mindestens zwei Kontextbeispielen
+- 160 Fachbücher als Literaturbasis (10 je Kompetenzfeld)
+- 25 vollständige Projektquellen plus abgeleitete Referenzmodule
+- aktuelle Behördenanker für NITA/BMDS, BSI, EVB-IT, FIT-Connect, DSGVO und EU AI Act
 
-## Die 16 Kompetenzfelder
+## Didaktisches Ziel
 
-1. EA Profession
-2. Strategie & Operating Model
-3. Business Architecture
-4. Requirements & Qualität
-5. Daten & Privacy
-6. Anwendungen & Domänen
-7. Integration & Distributed Systems
-8. Cloud, Plattform & Netz
-9. Security, IAM & Privacy
-10. Betrieb & Resilienz
-11. Transformation & Ökonomie
-12. Governance, Entscheidungen & Vergabe
-13. Behördenarchitektur
-14. Consulting, Change & Leadership
-15. Innovation & AI
-16. EA Practice & Principal Skills
+Nicht nur Begriffe kennen, sondern komplexe Architekturthemen schrittweise beherrschen:
 
-## Quellenmodell
+**verstehen → unterscheiden → verbinden → anwenden → Fall lösen → professionell liefern**
 
-Die 25 ursprünglichen Projektquellen bleiben vollständig als Referenzbibliothek erhalten. Die Professoren-Einheiten sind neu formulierte Lerninhalte. Jede Einheit kennzeichnet, ob sie
+Jede Einheit enthält einfache Erklärungen, Beispiele, Denkfehler, Querverbindungen, sokratische Fragen, Behördenfälle, Literaturbasis, Projektquellen, Reviewfragen und einen konkreten EA-Liefergegenstand.
 
-- aus **Projektquellen + fachlicher Synthese** entsteht oder
-- bei einer bisherigen Curriculum-Lücke eine **explizite fachliche Erweiterung** enthält.
+## Lokale Lerndaten
 
-Damit bleibt nachvollziehbar, was aus dem Projektmaterial stammt und wo professionelles EA-Wissen ergänzend eingebracht wurde.
-
-## Lernengine
-
-- Smartphone-first Bottom Navigation
-- lokales Gedächtnis in IndexedDB
-- Spaced Repetition
-- Retrieval Practice
-- 3/5/10/20-Minuten-Sessions
-- Szenario- und Transferkarten
-- Kompetenzprofil
-- Lernfortschritt je Professoren-Einheit
-- Fokusmodus
-- Dark Mode und skalierbare Schrift
-- vollständiger Offline-Betrieb
-- Backup/Restore und getrennte Reset-Funktionen
-
-## Lexikon und Wissensnetz
-
-Begriffe werden in den Referenztexten automatisch mit dem Lexikon verknüpft. Lexikoneinträge zeigen Kontextbeispiele und führen zurück in Originalquelle oder Professoren-Einheit. Jede Professoren-Einheit verlinkt zusätzlich zu fachlich verwandten Einheiten.
-
-## Validierung
-
-```bash
-python tools/validate_professor_curriculum.py
-python tools/rebuild_search.py
-node --check assets/app.js
-```
+Fortschritt, Wiederholungen, Notizen, Favoriten und Einstellungen bleiben lokal (IndexedDB/localStorage) und können exportiert/importiert oder getrennt zurückgesetzt werden.
 
 ## GitHub Pages
 
-Der Workflow unter `.github/workflows/pages.yml` veröffentlicht die statische PWA direkt aus dem Repository-Root.
+Das Repository ist für `https://empishaj.github.io/eaapp/` vorbereitet. Der Workflow unter `.github/workflows/pages.yml` veröffentlicht den statischen Build.

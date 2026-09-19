@@ -1,7 +1,7 @@
 {
   "app": "EA Learnings",
-  "contentVersion": "3.0.0",
-  "generated": "2026-09-18",
+  "contentVersion": "4.0.0",
+  "generated": "2026-09-19T15:57:14.994171+00:00",
   "modules": [
     {
       "id": "bamf-ea-kontext",
