@@ -1,0 +1,3894 @@
+{
+  "version": "1.0",
+  "generatedFor": "EA Mastery 5.2",
+  "description": "48 ausgefüllte Muster-Arbeitsergebnisse für EA-Dienstleistung im deutschen Behördenkontext.",
+  "artifacts": [
+    {
+      "id": "course-01-working",
+      "courseId": "course-01",
+      "lessonId": "v4-01-04-ea-profession-togaf",
+      "kind": "working",
+      "title": "Arbeitsplan + Mandatssteckbrief",
+      "label": "Arbeitsartefakt",
+      "purpose": "Strukturiert die Analyse und macht Annahmen, Scope, Evidenz und offene Entscheidungen arbeitsfähig.",
+      "audience": [
+        "Auftraggeber/Fachreferat",
+        "IT-Steuerung",
+        "Architekturboard",
+        "Security/Betrieb"
+      ],
+      "scenario": "Modernisierung des Fachverfahrens „LeistungPlus“ in einer Bundesbehörde",
+      "format": "1–3 Seiten plus Diagramm/Matrix",
+      "exampleSections": [
+        {
+          "heading": "1. Ausgangslage",
+          "body": "Modernisierung des Fachverfahrens „LeistungPlus“ in einer Bundesbehörde. Die Architekturarbeit soll die fachlich und technisch relevanten Entscheidungsräume klären, bevor Umsetzung oder Beschaffung Fakten schafft."
+        },
+        {
+          "heading": "2. Ziel und Scope",
+          "items": [
+            "Scope: Antragseingang, Vorgangsbearbeitung, Register, DMS/eAkte, IAM, Betrieb",
+            "Außer Scope: Personalverfahren und Haushaltsverfahren"
+          ]
+        },
+        {
+          "heading": "3. Beobachtungen / Evidenz",
+          "items": [
+            "Sponsor: Referatsleitung IT; fachlicher Co-Sponsor: Fachreferat",
+            "Architekturentscheidungen werden vorbereitet, formale Beschlüsse bleiben bei den zuständigen Behördenrollen"
+          ]
+        },
+        {
+          "heading": "4. Risiken",
+          "items": [
+            "unklares Mandat führt zu Parallelentscheidungen",
+            "Lieferant setzt technische Fakten vor fachlicher Klärung",
+            "Security/Betrieb werden zu spät eingebunden"
+          ]
+        },
+        {
+          "heading": "5. Arbeitsfragen",
+          "items": [
+            "Welche Annahme muss fachlich bestätigt werden?",
+            "Welche Entscheidung darf der EA nur vorbereiten, wer beschließt sie formal?",
+            "Welche Evidenz fehlt vor dem nächsten Gate?"
+          ]
+        },
+        {
+          "heading": "6. Nächste Schritte",
+          "items": [
+            "Stakeholder-Review des Arbeitsartefakts",
+            "offene Punkte als Owner/Termin in Decision Log übernehmen",
+            "relevante Sicht/Matrix im Architektur-Repository versionieren"
+          ]
+        }
+      ],
+      "qualityCriteria": [
+        "Entscheidungsfrage und Scope sind explizit",
+        "Annahmen sind als Annahmen gekennzeichnet",
+        "Evidenz und Meinung werden getrennt",
+        "Risiken besitzen Ursache und Auswirkung",
+        "nächster Schritt hat Owner und Termin"
+      ],
+      "antiPatterns": [
+        "reine Bestandsdokumentation ohne Entscheidungszweck",
+        "technische Details ohne fachlichen Bezug",
+        "unbestätigte Annahmen als Fakten formulieren"
+      ]
+    },
+    {
+      "id": "course-01-decision",
+      "courseId": "course-01",
+      "lessonId": "v4-01-05-ea-profession-togaf",
+      "kind": "decision",
+      "title": "Decision Brief – EA Profession & TOGAF",
+      "label": "Entscheidungsvorlage",
+      "purpose": "Verdichtet eine komplexe Architekturfrage auf Optionen, Kriterien, Empfehlung, Konsequenzen und benötigten Beschluss.",
+      "audience": [
+        "Auftraggeber/Fachreferat",
+        "IT-Steuerung",
+        "Architekturboard",
+        "Security/Betrieb"
+      ],
+      "scenario": "Modernisierung des Fachverfahrens „LeistungPlus“ in einer Bundesbehörde",
+      "format": "max. 2 Seiten + 1 Entscheidungsdiagramm",
+      "exampleSections": [
+        {
+          "heading": "Entscheidung benötigt",
+          "body": "Welches Architekturmandat wird für die Modernisierung verbindlich eingerichtet?"
+        },
+        {
+          "heading": "Ausgangslage",
+          "body": "Modernisierung des Fachverfahrens „LeistungPlus“ in einer Bundesbehörde. Ohne eine bewusste Architekturentscheidung entstehen lokale Festlegungen mit späteren systemischen Folgen."
+        },
+        {
+          "heading": "Optionen",
+          "items": [
+            "A: rein technische Lösungsarchitektur durch Lieferant",
+            "B: leichtgewichtiges EA-Mandat mit klaren Decision Rights",
+            "C: vollständiges TOGAF-Programm mit breitem Repository-Aufbau"
+          ]
+        },
+        {
+          "heading": "Bewertungskriterien",
+          "items": [
+            "fachliche Zielerreichung",
+            "Security/Datenschutz/Compliance",
+            "Betriebsfähigkeit und Nachweisbarkeit",
+            "Änderbarkeit und Integrationswirkung",
+            "Kosten, Abhängigkeit und Transformationsrisiko"
+          ]
+        },
+        {
+          "heading": "Empfehlung",
+          "body": "Option B: ein leichtgewichtiges EA-Mandat mit fünf Kernartefakten, definierten Review-Gates und klaren Entscheidungsrechten."
+        },
+        {
+          "heading": "Konsequenzen / Auflagen",
+          "items": [
+            "Scope: Antragseingang, Vorgangsbearbeitung, Register, DMS/eAkte, IAM, Betrieb",
+            "Architekturentscheidungen werden vorbereitet, formale Beschlüsse bleiben bei den zuständigen Behördenrollen",
+            "Entscheidung im ADR/Decision Log dokumentieren und nach 6 Monaten auf Wirkung prüfen."
+          ]
+        },
+        {
+          "heading": "Top-Risiken",
+          "items": [
+            "unklares Mandat führt zu Parallelentscheidungen",
+            "Lieferant setzt technische Fakten vor fachlicher Klärung",
+            "Security/Betrieb werden zu spät eingebunden"
+          ]
+        },
+        {
+          "heading": "Beschlussvorschlag",
+          "body": "Das zuständige Gremium bestätigt die empfohlene Option einschließlich der genannten Auflagen. Abweichungen benötigen eine dokumentierte Ausnahmeentscheidung."
+        }
+      ],
+      "qualityCriteria": [
+        "maximal drei realistische Optionen",
+        "Bewertungskriterien vor Empfehlung transparent",
+        "Trade-offs werden nicht versteckt",
+        "Empfehlung ist nicht mit formaler Entscheidung verwechselt",
+        "Auflagen und Reviewpunkt sind konkret"
+      ],
+      "antiPatterns": [
+        "nur eine Scheinalternative",
+        "Produkt-/Toolentscheidung ohne Treiber",
+        "Risiken als allgemeine Floskeln",
+        "EA formuliert Beschluss außerhalb seines Mandats"
+      ]
+    },
+    {
+      "id": "course-01-master",
+      "courseId": "course-01",
+      "lessonId": "v4-01-06-ea-profession-togaf",
+      "kind": "master",
+      "title": "Mandatssteckbrief + Architecture Vision + Decision Map",
+      "label": "Master-Arbeitsergebnis",
+      "purpose": "Bündelt Zielbild, Entscheidung, Umsetzungssteuerung und Evidenz zu einem übergabefähigen Architekturpaket.",
+      "audience": [
+        "Auftraggeber/Fachreferat",
+        "IT-Steuerung",
+        "Architekturboard",
+        "Security/Betrieb"
+      ],
+      "scenario": "Modernisierung des Fachverfahrens „LeistungPlus“ in einer Bundesbehörde",
+      "format": "5–12 Seiten + Diagramme/Tabellen; Executive Summary auf 1 Seite",
+      "exampleSections": [
+        {
+          "heading": "Executive Summary",
+          "body": "Option B: ein leichtgewichtiges EA-Mandat mit fünf Kernartefakten, definierten Review-Gates und klaren Entscheidungsrechten. Das Paket macht Scope, Zielzustand, Verantwortungen, Risiken, Übergang und Nachweise so konkret, dass Fachseite, IT, Betrieb und Gremium dieselbe Entscheidungsgrundlage verwenden können."
+        },
+        {
+          "heading": "Zielbild / verbindliche Aussagen",
+          "items": [
+            "Scope: Antragseingang, Vorgangsbearbeitung, Register, DMS/eAkte, IAM, Betrieb",
+            "Außer Scope: Personalverfahren und Haushaltsverfahren",
+            "Sponsor: Referatsleitung IT; fachlicher Co-Sponsor: Fachreferat",
+            "Architekturentscheidungen werden vorbereitet, formale Beschlüsse bleiben bei den zuständigen Behördenrollen"
+          ]
+        },
+        {
+          "heading": "Governance & Verantwortungen",
+          "items": [
+            "Fachlicher Owner bestätigt Zweck, Begriffe und Prioritäten.",
+            "Technische Owner verantworten Umsetzung und Betriebsnachweise.",
+            "EA pflegt Zielbild, Decision Log und Abweichungen; formale Beschlüsse bleiben beim zuständigen Gremium."
+          ]
+        },
+        {
+          "heading": "Risiko- und Maßnahmenregister",
+          "items": [
+            "unklares Mandat führt zu Parallelentscheidungen → Maßnahme: konkretisieren, Owner benennen, Termin vor nächstem Gate.",
+            "Lieferant setzt technische Fakten vor fachlicher Klärung → Maßnahme: konkretisieren, Owner benennen, Termin vor nächstem Gate.",
+            "Security/Betrieb werden zu spät eingebunden → Maßnahme: konkretisieren, Owner benennen, Termin vor nächstem Gate."
+          ]
+        },
+        {
+          "heading": "Messbare Erfolgskriterien",
+          "items": [
+            "100 % der architekturrelevanten Entscheidungen im Decision Log",
+            "Review-Gates vor Ausschreibung, Umsetzung und Produktivsetzung",
+            "offene Architekturentscheidungen älter als 30 Tage < 5"
+          ]
+        },
+        {
+          "heading": "Evidenz vor Freigabe",
+          "items": [
+            "aktualisierte Architektur-/Kontextsicht",
+            "abgestimmte Anforderungen und relevante ADRs",
+            "testbare Abnahme-/Betriebsnachweise",
+            "offene Risiken mit akzeptiertem Owner und Termin"
+          ]
+        },
+        {
+          "heading": "Offene Entscheidungen",
+          "items": [
+            "Welche Abhängigkeit ist noch nicht bestätigt?",
+            "Welche Ausnahme benötigt formale Genehmigung?",
+            "Welche Messgröße entscheidet, ob das Zielbild in der Praxis wirkt?"
+          ]
+        }
+      ],
+      "qualityCriteria": [
+        "Executive und technische Sicht widersprechen sich nicht",
+        "jede zentrale Aussage ist auf Evidenz/Entscheidung rückführbar",
+        "Verantwortung und Lifecycle sind festgelegt",
+        "Betrieb, Security und Datenschutz sind integriert",
+        "Erfolg wird mit Wirkungsmetriken statt Dokumentmenge gemessen"
+      ],
+      "antiPatterns": [
+        "100-Seiten-Zielbild ohne Beschlussbedarf",
+        "Diagramme ohne Legende/Owner",
+        "Roadmap ohne Übergangszustände",
+        "Freigabe ohne Evidenz"
+      ]
+    },
+    {
+      "id": "course-02-working",
+      "courseId": "course-02",
+      "lessonId": "v4-02-04-strategie-operating-model",
+      "kind": "working",
+      "title": "Strategy-to-Architecture Map",
+      "label": "Arbeitsartefakt",
+      "purpose": "Strukturiert die Analyse und macht Annahmen, Scope, Evidenz und offene Entscheidungen arbeitsfähig.",
+      "audience": [
+        "Abteilungsleitung",
+        "Fachstrategie",
+        "IT-Steuerung",
+        "Programmleitung"
+      ],
+      "scenario": "Bundesweite digitale Antragstellung mit zentralen Basisdiensten und dezentraler Fachverantwortung",
+      "format": "1–3 Seiten plus Diagramm/Matrix",
+      "exampleSections": [
+        {
+          "heading": "1. Ausgangslage",
+          "body": "Bundesweite digitale Antragstellung mit zentralen Basisdiensten und dezentraler Fachverantwortung. Die Architekturarbeit soll die fachlich und technisch relevanten Entscheidungsräume klären, bevor Umsetzung oder Beschaffung Fakten schafft."
+        },
+        {
+          "heading": "2. Ziel und Scope",
+          "items": [
+            "Strategisches Ziel: medienbrucharme digitale Ende-zu-Ende-Bearbeitung",
+            "Gemeinsam: Portal, IAM, Benachrichtigung, DMS-Schnittstelle, Observability"
+          ]
+        },
+        {
+          "heading": "3. Beobachtungen / Evidenz",
+          "items": [
+            "Dezentral: Fachregeln, fachliche Datenverantwortung, Fallentscheidung",
+            "Value Stream: Antrag → Prüfung → Entscheidung → Bescheid → Akte"
+          ]
+        },
+        {
+          "heading": "4. Risiken",
+          "items": [
+            "Zentralisierung ohne fachliche Ownership",
+            "Parallelplattformen durch Projektlogik",
+            "Operating Model bleibt Organigramm statt Verantwortungsmodell"
+          ]
+        },
+        {
+          "heading": "5. Arbeitsfragen",
+          "items": [
+            "Welche Annahme muss fachlich bestätigt werden?",
+            "Welche Entscheidung darf der EA nur vorbereiten, wer beschließt sie formal?",
+            "Welche Evidenz fehlt vor dem nächsten Gate?"
+          ]
+        },
+        {
+          "heading": "6. Nächste Schritte",
+          "items": [
+            "Stakeholder-Review des Arbeitsartefakts",
+            "offene Punkte als Owner/Termin in Decision Log übernehmen",
+            "relevante Sicht/Matrix im Architektur-Repository versionieren"
+          ]
+        }
+      ],
+      "qualityCriteria": [
+        "Entscheidungsfrage und Scope sind explizit",
+        "Annahmen sind als Annahmen gekennzeichnet",
+        "Evidenz und Meinung werden getrennt",
+        "Risiken besitzen Ursache und Auswirkung",
+        "nächster Schritt hat Owner und Termin"
+      ],
+      "antiPatterns": [
+        "reine Bestandsdokumentation ohne Entscheidungszweck",
+        "technische Details ohne fachlichen Bezug",
+        "unbestätigte Annahmen als Fakten formulieren"
+      ]
+    },
+    {
+      "id": "course-02-decision",
+      "courseId": "course-02",
+      "lessonId": "v4-02-05-strategie-operating-model",
+      "kind": "decision",
+      "title": "Decision Brief – Strategie & Operating Model",
+      "label": "Entscheidungsvorlage",
+      "purpose": "Verdichtet eine komplexe Architekturfrage auf Optionen, Kriterien, Empfehlung, Konsequenzen und benötigten Beschluss.",
+      "audience": [
+        "Abteilungsleitung",
+        "Fachstrategie",
+        "IT-Steuerung",
+        "Programmleitung"
+      ],
+      "scenario": "Bundesweite digitale Antragstellung mit zentralen Basisdiensten und dezentraler Fachverantwortung",
+      "format": "max. 2 Seiten + 1 Entscheidungsdiagramm",
+      "exampleSections": [
+        {
+          "heading": "Entscheidung benötigt",
+          "body": "Wie soll die Zielorganisation Standardisierung und fachliche Autonomie austarieren?"
+        },
+        {
+          "heading": "Ausgangslage",
+          "body": "Bundesweite digitale Antragstellung mit zentralen Basisdiensten und dezentraler Fachverantwortung. Ohne eine bewusste Architekturentscheidung entstehen lokale Festlegungen mit späteren systemischen Folgen."
+        },
+        {
+          "heading": "Optionen",
+          "items": [
+            "A: jedes Fachreferat betreibt eigene Kanäle, IAM und DMS-Integration",
+            "B: zentrale Plattformfähigkeiten, fachlich dezentrale Regeln und Verantwortung",
+            "C: vollständige Zentralisierung aller fachlichen Prozesse"
+          ]
+        },
+        {
+          "heading": "Bewertungskriterien",
+          "items": [
+            "fachliche Zielerreichung",
+            "Security/Datenschutz/Compliance",
+            "Betriebsfähigkeit und Nachweisbarkeit",
+            "Änderbarkeit und Integrationswirkung",
+            "Kosten, Abhängigkeit und Transformationsrisiko"
+          ]
+        },
+        {
+          "heading": "Empfehlung",
+          "body": "Option B: gemeinsame Plattform- und Integrationsfähigkeiten zentral, fachliche Entscheidung und Regelverantwortung dezentral."
+        },
+        {
+          "heading": "Konsequenzen / Auflagen",
+          "items": [
+            "Strategisches Ziel: medienbrucharme digitale Ende-zu-Ende-Bearbeitung",
+            "Value Stream: Antrag → Prüfung → Entscheidung → Bescheid → Akte",
+            "Entscheidung im ADR/Decision Log dokumentieren und nach 6 Monaten auf Wirkung prüfen."
+          ]
+        },
+        {
+          "heading": "Top-Risiken",
+          "items": [
+            "Zentralisierung ohne fachliche Ownership",
+            "Parallelplattformen durch Projektlogik",
+            "Operating Model bleibt Organigramm statt Verantwortungsmodell"
+          ]
+        },
+        {
+          "heading": "Beschlussvorschlag",
+          "body": "Das zuständige Gremium bestätigt die empfohlene Option einschließlich der genannten Auflagen. Abweichungen benötigen eine dokumentierte Ausnahmeentscheidung."
+        }
+      ],
+      "qualityCriteria": [
+        "maximal drei realistische Optionen",
+        "Bewertungskriterien vor Empfehlung transparent",
+        "Trade-offs werden nicht versteckt",
+        "Empfehlung ist nicht mit formaler Entscheidung verwechselt",
+        "Auflagen und Reviewpunkt sind konkret"
+      ],
+      "antiPatterns": [
+        "nur eine Scheinalternative",
+        "Produkt-/Toolentscheidung ohne Treiber",
+        "Risiken als allgemeine Floskeln",
+        "EA formuliert Beschluss außerhalb seines Mandats"
+      ]
+    },
+    {
+      "id": "course-02-master",
+      "courseId": "course-02",
+      "lessonId": "v4-02-06-strategie-operating-model",
+      "kind": "master",
+      "title": "Target Operating Model + Capability/Value-Stream-Zielbild",
+      "label": "Master-Arbeitsergebnis",
+      "purpose": "Bündelt Zielbild, Entscheidung, Umsetzungssteuerung und Evidenz zu einem übergabefähigen Architekturpaket.",
+      "audience": [
+        "Abteilungsleitung",
+        "Fachstrategie",
+        "IT-Steuerung",
+        "Programmleitung"
+      ],
+      "scenario": "Bundesweite digitale Antragstellung mit zentralen Basisdiensten und dezentraler Fachverantwortung",
+      "format": "5–12 Seiten + Diagramme/Tabellen; Executive Summary auf 1 Seite",
+      "exampleSections": [
+        {
+          "heading": "Executive Summary",
+          "body": "Option B: gemeinsame Plattform- und Integrationsfähigkeiten zentral, fachliche Entscheidung und Regelverantwortung dezentral. Das Paket macht Scope, Zielzustand, Verantwortungen, Risiken, Übergang und Nachweise so konkret, dass Fachseite, IT, Betrieb und Gremium dieselbe Entscheidungsgrundlage verwenden können."
+        },
+        {
+          "heading": "Zielbild / verbindliche Aussagen",
+          "items": [
+            "Strategisches Ziel: medienbrucharme digitale Ende-zu-Ende-Bearbeitung",
+            "Gemeinsam: Portal, IAM, Benachrichtigung, DMS-Schnittstelle, Observability",
+            "Dezentral: Fachregeln, fachliche Datenverantwortung, Fallentscheidung",
+            "Value Stream: Antrag → Prüfung → Entscheidung → Bescheid → Akte"
+          ]
+        },
+        {
+          "heading": "Governance & Verantwortungen",
+          "items": [
+            "Fachlicher Owner bestätigt Zweck, Begriffe und Prioritäten.",
+            "Technische Owner verantworten Umsetzung und Betriebsnachweise.",
+            "EA pflegt Zielbild, Decision Log und Abweichungen; formale Beschlüsse bleiben beim zuständigen Gremium."
+          ]
+        },
+        {
+          "heading": "Risiko- und Maßnahmenregister",
+          "items": [
+            "Zentralisierung ohne fachliche Ownership → Maßnahme: konkretisieren, Owner benennen, Termin vor nächstem Gate.",
+            "Parallelplattformen durch Projektlogik → Maßnahme: konkretisieren, Owner benennen, Termin vor nächstem Gate.",
+            "Operating Model bleibt Organigramm statt Verantwortungsmodell → Maßnahme: konkretisieren, Owner benennen, Termin vor nächstem Gate."
+          ]
+        },
+        {
+          "heading": "Messbare Erfolgskriterien",
+          "items": [
+            "Anteil wiederverwendeter Plattformservices > 70 %",
+            "Reduktion lokaler IAM-Lösungen auf 0 bei Neuentwicklungen",
+            "fachliche Owner je Kernfähigkeit benannt"
+          ]
+        },
+        {
+          "heading": "Evidenz vor Freigabe",
+          "items": [
+            "aktualisierte Architektur-/Kontextsicht",
+            "abgestimmte Anforderungen und relevante ADRs",
+            "testbare Abnahme-/Betriebsnachweise",
+            "offene Risiken mit akzeptiertem Owner und Termin"
+          ]
+        },
+        {
+          "heading": "Offene Entscheidungen",
+          "items": [
+            "Welche Abhängigkeit ist noch nicht bestätigt?",
+            "Welche Ausnahme benötigt formale Genehmigung?",
+            "Welche Messgröße entscheidet, ob das Zielbild in der Praxis wirkt?"
+          ]
+        }
+      ],
+      "qualityCriteria": [
+        "Executive und technische Sicht widersprechen sich nicht",
+        "jede zentrale Aussage ist auf Evidenz/Entscheidung rückführbar",
+        "Verantwortung und Lifecycle sind festgelegt",
+        "Betrieb, Security und Datenschutz sind integriert",
+        "Erfolg wird mit Wirkungsmetriken statt Dokumentmenge gemessen"
+      ],
+      "antiPatterns": [
+        "100-Seiten-Zielbild ohne Beschlussbedarf",
+        "Diagramme ohne Legende/Owner",
+        "Roadmap ohne Übergangszustände",
+        "Freigabe ohne Evidenz"
+      ]
+    },
+    {
+      "id": "course-03-working",
+      "courseId": "course-03",
+      "lessonId": "v4-03-04-business-architecture",
+      "kind": "working",
+      "title": "Capability Map",
+      "label": "Arbeitsartefakt",
+      "purpose": "Strukturiert die Analyse und macht Annahmen, Scope, Evidenz und offene Entscheidungen arbeitsfähig.",
+      "audience": [
+        "Fachreferat",
+        "Prozessmanagement",
+        "IT",
+        "Programmleitung"
+      ],
+      "scenario": "Antragsbearbeitung mit Medienbrüchen, mehrfacher Datenerfassung und uneinheitlichen Zuständigkeiten",
+      "format": "1–3 Seiten plus Diagramm/Matrix",
+      "exampleSections": [
+        {
+          "heading": "1. Ausgangslage",
+          "body": "Antragsbearbeitung mit Medienbrüchen, mehrfacher Datenerfassung und uneinheitlichen Zuständigkeiten. Die Architekturarbeit soll die fachlich und technisch relevanten Entscheidungsräume klären, bevor Umsetzung oder Beschaffung Fakten schafft."
+        },
+        {
+          "heading": "2. Ziel und Scope",
+          "items": [
+            "Capability L1: Leistung bearbeiten",
+            "L2: Antrag entgegennehmen, Identität prüfen, Vorgang bearbeiten, Fachentscheidung treffen, Bescheid erstellen, Akte führen"
+          ]
+        },
+        {
+          "heading": "3. Beobachtungen / Evidenz",
+          "items": [
+            "Schwachstellen: manuelle Übergaben, Schattenlisten, doppelte Nachweiserfassung",
+            "Soll-Prozess nutzt führendes Vorgangssystem und standardisierte DMS-Übergabe"
+          ]
+        },
+        {
+          "heading": "4. Risiken",
+          "items": [
+            "Systemmodernisierung ohne Prozessverbesserung",
+            "Capability und Prozess werden verwechselt",
+            "lokale Optimierung verschiebt Wartezeiten nur"
+          ]
+        },
+        {
+          "heading": "5. Arbeitsfragen",
+          "items": [
+            "Welche Annahme muss fachlich bestätigt werden?",
+            "Welche Entscheidung darf der EA nur vorbereiten, wer beschließt sie formal?",
+            "Welche Evidenz fehlt vor dem nächsten Gate?"
+          ]
+        },
+        {
+          "heading": "6. Nächste Schritte",
+          "items": [
+            "Stakeholder-Review des Arbeitsartefakts",
+            "offene Punkte als Owner/Termin in Decision Log übernehmen",
+            "relevante Sicht/Matrix im Architektur-Repository versionieren"
+          ]
+        }
+      ],
+      "qualityCriteria": [
+        "Entscheidungsfrage und Scope sind explizit",
+        "Annahmen sind als Annahmen gekennzeichnet",
+        "Evidenz und Meinung werden getrennt",
+        "Risiken besitzen Ursache und Auswirkung",
+        "nächster Schritt hat Owner und Termin"
+      ],
+      "antiPatterns": [
+        "reine Bestandsdokumentation ohne Entscheidungszweck",
+        "technische Details ohne fachlichen Bezug",
+        "unbestätigte Annahmen als Fakten formulieren"
+      ]
+    },
+    {
+      "id": "course-03-decision",
+      "courseId": "course-03",
+      "lessonId": "v4-03-05-business-architecture",
+      "kind": "decision",
+      "title": "Decision Brief – Business Architecture",
+      "label": "Entscheidungsvorlage",
+      "purpose": "Verdichtet eine komplexe Architekturfrage auf Optionen, Kriterien, Empfehlung, Konsequenzen und benötigten Beschluss.",
+      "audience": [
+        "Fachreferat",
+        "Prozessmanagement",
+        "IT",
+        "Programmleitung"
+      ],
+      "scenario": "Antragsbearbeitung mit Medienbrüchen, mehrfacher Datenerfassung und uneinheitlichen Zuständigkeiten",
+      "format": "max. 2 Seiten + 1 Entscheidungsdiagramm",
+      "exampleSections": [
+        {
+          "heading": "Entscheidung benötigt",
+          "body": "Welche fachlichen Fähigkeiten müssen priorisiert modernisiert werden?"
+        },
+        {
+          "heading": "Ausgangslage",
+          "body": "Antragsbearbeitung mit Medienbrüchen, mehrfacher Datenerfassung und uneinheitlichen Zuständigkeiten. Ohne eine bewusste Architekturentscheidung entstehen lokale Festlegungen mit späteren systemischen Folgen."
+        },
+        {
+          "heading": "Optionen",
+          "items": [
+            "A: zuerst sichtbares Bürgerportal erneuern",
+            "B: Ende-zu-Ende-Fähigkeiten nach Kritikalität und Reife priorisieren",
+            "C: alle Prozesse gleichzeitig standardisieren"
+          ]
+        },
+        {
+          "heading": "Bewertungskriterien",
+          "items": [
+            "fachliche Zielerreichung",
+            "Security/Datenschutz/Compliance",
+            "Betriebsfähigkeit und Nachweisbarkeit",
+            "Änderbarkeit und Integrationswirkung",
+            "Kosten, Abhängigkeit und Transformationsrisiko"
+          ]
+        },
+        {
+          "heading": "Empfehlung",
+          "body": "Option B: Fähigkeiten „Eingang validieren“, „Vorgang steuern“, „Nachweise verwalten“ und „Akte führen“ zuerst adressieren."
+        },
+        {
+          "heading": "Konsequenzen / Auflagen",
+          "items": [
+            "Capability L1: Leistung bearbeiten",
+            "Soll-Prozess nutzt führendes Vorgangssystem und standardisierte DMS-Übergabe",
+            "Entscheidung im ADR/Decision Log dokumentieren und nach 6 Monaten auf Wirkung prüfen."
+          ]
+        },
+        {
+          "heading": "Top-Risiken",
+          "items": [
+            "Systemmodernisierung ohne Prozessverbesserung",
+            "Capability und Prozess werden verwechselt",
+            "lokale Optimierung verschiebt Wartezeiten nur"
+          ]
+        },
+        {
+          "heading": "Beschlussvorschlag",
+          "body": "Das zuständige Gremium bestätigt die empfohlene Option einschließlich der genannten Auflagen. Abweichungen benötigen eine dokumentierte Ausnahmeentscheidung."
+        }
+      ],
+      "qualityCriteria": [
+        "maximal drei realistische Optionen",
+        "Bewertungskriterien vor Empfehlung transparent",
+        "Trade-offs werden nicht versteckt",
+        "Empfehlung ist nicht mit formaler Entscheidung verwechselt",
+        "Auflagen und Reviewpunkt sind konkret"
+      ],
+      "antiPatterns": [
+        "nur eine Scheinalternative",
+        "Produkt-/Toolentscheidung ohne Treiber",
+        "Risiken als allgemeine Floskeln",
+        "EA formuliert Beschluss außerhalb seines Mandats"
+      ]
+    },
+    {
+      "id": "course-03-master",
+      "courseId": "course-03",
+      "lessonId": "v4-03-06-business-architecture",
+      "kind": "master",
+      "title": "Capability Map + Soll-BPMN + Architekturimplikationen",
+      "label": "Master-Arbeitsergebnis",
+      "purpose": "Bündelt Zielbild, Entscheidung, Umsetzungssteuerung und Evidenz zu einem übergabefähigen Architekturpaket.",
+      "audience": [
+        "Fachreferat",
+        "Prozessmanagement",
+        "IT",
+        "Programmleitung"
+      ],
+      "scenario": "Antragsbearbeitung mit Medienbrüchen, mehrfacher Datenerfassung und uneinheitlichen Zuständigkeiten",
+      "format": "5–12 Seiten + Diagramme/Tabellen; Executive Summary auf 1 Seite",
+      "exampleSections": [
+        {
+          "heading": "Executive Summary",
+          "body": "Option B: Fähigkeiten „Eingang validieren“, „Vorgang steuern“, „Nachweise verwalten“ und „Akte führen“ zuerst adressieren. Das Paket macht Scope, Zielzustand, Verantwortungen, Risiken, Übergang und Nachweise so konkret, dass Fachseite, IT, Betrieb und Gremium dieselbe Entscheidungsgrundlage verwenden können."
+        },
+        {
+          "heading": "Zielbild / verbindliche Aussagen",
+          "items": [
+            "Capability L1: Leistung bearbeiten",
+            "L2: Antrag entgegennehmen, Identität prüfen, Vorgang bearbeiten, Fachentscheidung treffen, Bescheid erstellen, Akte führen",
+            "Schwachstellen: manuelle Übergaben, Schattenlisten, doppelte Nachweiserfassung",
+            "Soll-Prozess nutzt führendes Vorgangssystem und standardisierte DMS-Übergabe"
+          ]
+        },
+        {
+          "heading": "Governance & Verantwortungen",
+          "items": [
+            "Fachlicher Owner bestätigt Zweck, Begriffe und Prioritäten.",
+            "Technische Owner verantworten Umsetzung und Betriebsnachweise.",
+            "EA pflegt Zielbild, Decision Log und Abweichungen; formale Beschlüsse bleiben beim zuständigen Gremium."
+          ]
+        },
+        {
+          "heading": "Risiko- und Maßnahmenregister",
+          "items": [
+            "Systemmodernisierung ohne Prozessverbesserung → Maßnahme: konkretisieren, Owner benennen, Termin vor nächstem Gate.",
+            "Capability und Prozess werden verwechselt → Maßnahme: konkretisieren, Owner benennen, Termin vor nächstem Gate.",
+            "lokale Optimierung verschiebt Wartezeiten nur → Maßnahme: konkretisieren, Owner benennen, Termin vor nächstem Gate."
+          ]
+        },
+        {
+          "heading": "Messbare Erfolgskriterien",
+          "items": [
+            "Medienbrüche im Kernprozess < 2",
+            "Doppeleingaben um 80 % reduziert",
+            "jede Capability besitzt Owner und Zielreife"
+          ]
+        },
+        {
+          "heading": "Evidenz vor Freigabe",
+          "items": [
+            "aktualisierte Architektur-/Kontextsicht",
+            "abgestimmte Anforderungen und relevante ADRs",
+            "testbare Abnahme-/Betriebsnachweise",
+            "offene Risiken mit akzeptiertem Owner und Termin"
+          ]
+        },
+        {
+          "heading": "Offene Entscheidungen",
+          "items": [
+            "Welche Abhängigkeit ist noch nicht bestätigt?",
+            "Welche Ausnahme benötigt formale Genehmigung?",
+            "Welche Messgröße entscheidet, ob das Zielbild in der Praxis wirkt?"
+          ]
+        }
+      ],
+      "qualityCriteria": [
+        "Executive und technische Sicht widersprechen sich nicht",
+        "jede zentrale Aussage ist auf Evidenz/Entscheidung rückführbar",
+        "Verantwortung und Lifecycle sind festgelegt",
+        "Betrieb, Security und Datenschutz sind integriert",
+        "Erfolg wird mit Wirkungsmetriken statt Dokumentmenge gemessen"
+      ],
+      "antiPatterns": [
+        "100-Seiten-Zielbild ohne Beschlussbedarf",
+        "Diagramme ohne Legende/Owner",
+        "Roadmap ohne Übergangszustände",
+        "Freigabe ohne Evidenz"
+      ]
+    },
+    {
+      "id": "course-04-working",
+      "courseId": "course-04",
+      "lessonId": "v4-04-04-requirements-qualitatsarchitektur",
+      "kind": "working",
+      "title": "Architecture Requirements Log",
+      "label": "Arbeitsartefakt",
+      "purpose": "Strukturiert die Analyse und macht Annahmen, Scope, Evidenz und offene Entscheidungen arbeitsfähig.",
+      "audience": [
+        "Fachseite",
+        "Architektur",
+        "Security",
+        "Betrieb",
+        "Vergabe"
+      ],
+      "scenario": "Neues Online-Portal mit unklaren Aussagen wie „hochverfügbar“, „sicher“ und „performant“",
+      "format": "1–3 Seiten plus Diagramm/Matrix",
+      "exampleSections": [
+        {
+          "heading": "1. Ausgangslage",
+          "body": "Neues Online-Portal mit unklaren Aussagen wie „hochverfügbar“, „sicher“ und „performant“. Die Architekturarbeit soll die fachlich und technisch relevanten Entscheidungsräume klären, bevor Umsetzung oder Beschaffung Fakten schafft."
+        },
+        {
+          "heading": "2. Ziel und Scope",
+          "items": [
+            "REQ-AV-01: 99,9 % Serviceverfügbarkeit im definierten Servicefenster",
+            "REQ-REC-02: RTO 4 h, RPO 15 min für Vorgangs- und Entscheidungsdaten"
+          ]
+        },
+        {
+          "heading": "3. Beobachtungen / Evidenz",
+          "items": [
+            "REQ-PERF-03: 95 % der Statusabfragen < 2 s bei 500 parallelen Sessions",
+            "REQ-SEC-04: administrative Zugriffe nur personalisiert, MFA, protokolliert"
+          ]
+        },
+        {
+          "heading": "4. Risiken",
+          "items": [
+            "nicht prüfbare Abnahmekriterien",
+            "Konflikte zwischen Sicherheit, Performance und Kosten",
+            "Anforderungen ohne fachlichen Owner"
+          ]
+        },
+        {
+          "heading": "5. Arbeitsfragen",
+          "items": [
+            "Welche Annahme muss fachlich bestätigt werden?",
+            "Welche Entscheidung darf der EA nur vorbereiten, wer beschließt sie formal?",
+            "Welche Evidenz fehlt vor dem nächsten Gate?"
+          ]
+        },
+        {
+          "heading": "6. Nächste Schritte",
+          "items": [
+            "Stakeholder-Review des Arbeitsartefakts",
+            "offene Punkte als Owner/Termin in Decision Log übernehmen",
+            "relevante Sicht/Matrix im Architektur-Repository versionieren"
+          ]
+        }
+      ],
+      "qualityCriteria": [
+        "Entscheidungsfrage und Scope sind explizit",
+        "Annahmen sind als Annahmen gekennzeichnet",
+        "Evidenz und Meinung werden getrennt",
+        "Risiken besitzen Ursache und Auswirkung",
+        "nächster Schritt hat Owner und Termin"
+      ],
+      "antiPatterns": [
+        "reine Bestandsdokumentation ohne Entscheidungszweck",
+        "technische Details ohne fachlichen Bezug",
+        "unbestätigte Annahmen als Fakten formulieren"
+      ]
+    },
+    {
+      "id": "course-04-decision",
+      "courseId": "course-04",
+      "lessonId": "v4-04-05-requirements-qualitatsarchitektur",
+      "kind": "decision",
+      "title": "Decision Brief – Requirements & Qualitätsarchitektur",
+      "label": "Entscheidungsvorlage",
+      "purpose": "Verdichtet eine komplexe Architekturfrage auf Optionen, Kriterien, Empfehlung, Konsequenzen und benötigten Beschluss.",
+      "audience": [
+        "Fachseite",
+        "Architektur",
+        "Security",
+        "Betrieb",
+        "Vergabe"
+      ],
+      "scenario": "Neues Online-Portal mit unklaren Aussagen wie „hochverfügbar“, „sicher“ und „performant“",
+      "format": "max. 2 Seiten + 1 Entscheidungsdiagramm",
+      "exampleSections": [
+        {
+          "heading": "Entscheidung benötigt",
+          "body": "Wie werden Qualitätsziele so formuliert, dass sie architektur- und abnahmefähig sind?"
+        },
+        {
+          "heading": "Ausgangslage",
+          "body": "Neues Online-Portal mit unklaren Aussagen wie „hochverfügbar“, „sicher“ und „performant“. Ohne eine bewusste Architekturentscheidung entstehen lokale Festlegungen mit späteren systemischen Folgen."
+        },
+        {
+          "heading": "Optionen",
+          "items": [
+            "A: qualitative Begriffe im Lastenheft belassen",
+            "B: Quality-Attribute-Szenarien + Evidenz je Anforderung",
+            "C: technische Detailwerte vollständig dem Dienstleister überlassen"
+          ]
+        },
+        {
+          "heading": "Bewertungskriterien",
+          "items": [
+            "fachliche Zielerreichung",
+            "Security/Datenschutz/Compliance",
+            "Betriebsfähigkeit und Nachweisbarkeit",
+            "Änderbarkeit und Integrationswirkung",
+            "Kosten, Abhängigkeit und Transformationsrisiko"
+          ]
+        },
+        {
+          "heading": "Empfehlung",
+          "body": "Option B: jede kritische Qualitätsanforderung erhält Kontext, Trigger, messbare Reaktion, Quelle, Owner und Nachweis."
+        },
+        {
+          "heading": "Konsequenzen / Auflagen",
+          "items": [
+            "REQ-AV-01: 99,9 % Serviceverfügbarkeit im definierten Servicefenster",
+            "REQ-SEC-04: administrative Zugriffe nur personalisiert, MFA, protokolliert",
+            "Entscheidung im ADR/Decision Log dokumentieren und nach 6 Monaten auf Wirkung prüfen."
+          ]
+        },
+        {
+          "heading": "Top-Risiken",
+          "items": [
+            "nicht prüfbare Abnahmekriterien",
+            "Konflikte zwischen Sicherheit, Performance und Kosten",
+            "Anforderungen ohne fachlichen Owner"
+          ]
+        },
+        {
+          "heading": "Beschlussvorschlag",
+          "body": "Das zuständige Gremium bestätigt die empfohlene Option einschließlich der genannten Auflagen. Abweichungen benötigen eine dokumentierte Ausnahmeentscheidung."
+        }
+      ],
+      "qualityCriteria": [
+        "maximal drei realistische Optionen",
+        "Bewertungskriterien vor Empfehlung transparent",
+        "Trade-offs werden nicht versteckt",
+        "Empfehlung ist nicht mit formaler Entscheidung verwechselt",
+        "Auflagen und Reviewpunkt sind konkret"
+      ],
+      "antiPatterns": [
+        "nur eine Scheinalternative",
+        "Produkt-/Toolentscheidung ohne Treiber",
+        "Risiken als allgemeine Floskeln",
+        "EA formuliert Beschluss außerhalb seines Mandats"
+      ]
+    },
+    {
+      "id": "course-04-master",
+      "courseId": "course-04",
+      "lessonId": "v4-04-06-requirements-qualitatsarchitektur",
+      "kind": "master",
+      "title": "Architecture Requirements & Evidence Matrix",
+      "label": "Master-Arbeitsergebnis",
+      "purpose": "Bündelt Zielbild, Entscheidung, Umsetzungssteuerung und Evidenz zu einem übergabefähigen Architekturpaket.",
+      "audience": [
+        "Fachseite",
+        "Architektur",
+        "Security",
+        "Betrieb",
+        "Vergabe"
+      ],
+      "scenario": "Neues Online-Portal mit unklaren Aussagen wie „hochverfügbar“, „sicher“ und „performant“",
+      "format": "5–12 Seiten + Diagramme/Tabellen; Executive Summary auf 1 Seite",
+      "exampleSections": [
+        {
+          "heading": "Executive Summary",
+          "body": "Option B: jede kritische Qualitätsanforderung erhält Kontext, Trigger, messbare Reaktion, Quelle, Owner und Nachweis. Das Paket macht Scope, Zielzustand, Verantwortungen, Risiken, Übergang und Nachweise so konkret, dass Fachseite, IT, Betrieb und Gremium dieselbe Entscheidungsgrundlage verwenden können."
+        },
+        {
+          "heading": "Zielbild / verbindliche Aussagen",
+          "items": [
+            "REQ-AV-01: 99,9 % Serviceverfügbarkeit im definierten Servicefenster",
+            "REQ-REC-02: RTO 4 h, RPO 15 min für Vorgangs- und Entscheidungsdaten",
+            "REQ-PERF-03: 95 % der Statusabfragen < 2 s bei 500 parallelen Sessions",
+            "REQ-SEC-04: administrative Zugriffe nur personalisiert, MFA, protokolliert"
+          ]
+        },
+        {
+          "heading": "Governance & Verantwortungen",
+          "items": [
+            "Fachlicher Owner bestätigt Zweck, Begriffe und Prioritäten.",
+            "Technische Owner verantworten Umsetzung und Betriebsnachweise.",
+            "EA pflegt Zielbild, Decision Log und Abweichungen; formale Beschlüsse bleiben beim zuständigen Gremium."
+          ]
+        },
+        {
+          "heading": "Risiko- und Maßnahmenregister",
+          "items": [
+            "nicht prüfbare Abnahmekriterien → Maßnahme: konkretisieren, Owner benennen, Termin vor nächstem Gate.",
+            "Konflikte zwischen Sicherheit, Performance und Kosten → Maßnahme: konkretisieren, Owner benennen, Termin vor nächstem Gate.",
+            "Anforderungen ohne fachlichen Owner → Maßnahme: konkretisieren, Owner benennen, Termin vor nächstem Gate."
+          ]
+        },
+        {
+          "heading": "Messbare Erfolgskriterien",
+          "items": [
+            "100 % kritischer NFR mit messbarem Akzeptanzkriterium",
+            "Traceability von Treiber → Requirement → Test/Evidenz",
+            "0 offene Muss-Anforderungen vor Produktivfreigabe"
+          ]
+        },
+        {
+          "heading": "Evidenz vor Freigabe",
+          "items": [
+            "aktualisierte Architektur-/Kontextsicht",
+            "abgestimmte Anforderungen und relevante ADRs",
+            "testbare Abnahme-/Betriebsnachweise",
+            "offene Risiken mit akzeptiertem Owner und Termin"
+          ]
+        },
+        {
+          "heading": "Offene Entscheidungen",
+          "items": [
+            "Welche Abhängigkeit ist noch nicht bestätigt?",
+            "Welche Ausnahme benötigt formale Genehmigung?",
+            "Welche Messgröße entscheidet, ob das Zielbild in der Praxis wirkt?"
+          ]
+        }
+      ],
+      "qualityCriteria": [
+        "Executive und technische Sicht widersprechen sich nicht",
+        "jede zentrale Aussage ist auf Evidenz/Entscheidung rückführbar",
+        "Verantwortung und Lifecycle sind festgelegt",
+        "Betrieb, Security und Datenschutz sind integriert",
+        "Erfolg wird mit Wirkungsmetriken statt Dokumentmenge gemessen"
+      ],
+      "antiPatterns": [
+        "100-Seiten-Zielbild ohne Beschlussbedarf",
+        "Diagramme ohne Legende/Owner",
+        "Roadmap ohne Übergangszustände",
+        "Freigabe ohne Evidenz"
+      ]
+    },
+    {
+      "id": "course-05-working",
+      "courseId": "course-05",
+      "lessonId": "v4-05-04-datenarchitektur-governance-privacy",
+      "kind": "working",
+      "title": "Datenlandkarte",
+      "label": "Arbeitsartefakt",
+      "purpose": "Strukturiert die Analyse und macht Annahmen, Scope, Evidenz und offene Entscheidungen arbeitsfähig.",
+      "audience": [
+        "Fachseite",
+        "Data Owner",
+        "Datenschutz",
+        "IT",
+        "Reporting"
+      ],
+      "scenario": "Personen-, Vorgangs- und Statusdaten liegen in mehreren Fachverfahren und Reporting-Kopien",
+      "format": "1–3 Seiten plus Diagramm/Matrix",
+      "exampleSections": [
+        {
+          "heading": "1. Ausgangslage",
+          "body": "Personen-, Vorgangs- und Statusdaten liegen in mehreren Fachverfahren und Reporting-Kopien. Die Architekturarbeit soll die fachlich und technisch relevanten Entscheidungsräume klären, bevor Umsetzung oder Beschaffung Fakten schafft."
+        },
+        {
+          "heading": "2. Ziel und Scope",
+          "items": [
+            "Personenstammdaten: Register als authoritative Source, Fachverfahren als zulässige Arbeitskopie",
+            "Vorgangsstatus: Fachverfahren führend"
+          ]
+        },
+        {
+          "heading": "3. Beobachtungen / Evidenz",
+          "items": [
+            "Dokumente/Bescheide: DMS/eAkte führend für aktenrelevante Fassung",
+            "Reporting: nur abgeleitete Daten, keine fachliche Änderung"
+          ]
+        },
+        {
+          "heading": "4. Risiken",
+          "items": [
+            "widersprüchliche Wahrheiten",
+            "Löschpflichten greifen nicht auf Kopien",
+            "Reporting korrigiert Daten manuell und wird Schatten-SoR"
+          ]
+        },
+        {
+          "heading": "5. Arbeitsfragen",
+          "items": [
+            "Welche Annahme muss fachlich bestätigt werden?",
+            "Welche Entscheidung darf der EA nur vorbereiten, wer beschließt sie formal?",
+            "Welche Evidenz fehlt vor dem nächsten Gate?"
+          ]
+        },
+        {
+          "heading": "6. Nächste Schritte",
+          "items": [
+            "Stakeholder-Review des Arbeitsartefakts",
+            "offene Punkte als Owner/Termin in Decision Log übernehmen",
+            "relevante Sicht/Matrix im Architektur-Repository versionieren"
+          ]
+        }
+      ],
+      "qualityCriteria": [
+        "Entscheidungsfrage und Scope sind explizit",
+        "Annahmen sind als Annahmen gekennzeichnet",
+        "Evidenz und Meinung werden getrennt",
+        "Risiken besitzen Ursache und Auswirkung",
+        "nächster Schritt hat Owner und Termin"
+      ],
+      "antiPatterns": [
+        "reine Bestandsdokumentation ohne Entscheidungszweck",
+        "technische Details ohne fachlichen Bezug",
+        "unbestätigte Annahmen als Fakten formulieren"
+      ]
+    },
+    {
+      "id": "course-05-decision",
+      "courseId": "course-05",
+      "lessonId": "v4-05-05-datenarchitektur-governance-privacy",
+      "kind": "decision",
+      "title": "Decision Brief – Datenarchitektur, Governance & Privacy",
+      "label": "Entscheidungsvorlage",
+      "purpose": "Verdichtet eine komplexe Architekturfrage auf Optionen, Kriterien, Empfehlung, Konsequenzen und benötigten Beschluss.",
+      "audience": [
+        "Fachseite",
+        "Data Owner",
+        "Datenschutz",
+        "IT",
+        "Reporting"
+      ],
+      "scenario": "Personen-, Vorgangs- und Statusdaten liegen in mehreren Fachverfahren und Reporting-Kopien",
+      "format": "max. 2 Seiten + 1 Entscheidungsdiagramm",
+      "exampleSections": [
+        {
+          "heading": "Entscheidung benötigt",
+          "body": "Welches System ist für welche Daten fachlich führend und wie werden Kopien beherrscht?"
+        },
+        {
+          "heading": "Ausgangslage",
+          "body": "Personen-, Vorgangs- und Statusdaten liegen in mehreren Fachverfahren und Reporting-Kopien. Ohne eine bewusste Architekturentscheidung entstehen lokale Festlegungen mit späteren systemischen Folgen."
+        },
+        {
+          "heading": "Optionen",
+          "items": [
+            "A: neuestes System wird pauschal führend",
+            "B: Ownership je fachlichem Datenobjekt festlegen und Replikationen regeln",
+            "C: Reporting-Plattform wird zentrale Wahrheit"
+          ]
+        },
+        {
+          "heading": "Bewertungskriterien",
+          "items": [
+            "fachliche Zielerreichung",
+            "Security/Datenschutz/Compliance",
+            "Betriebsfähigkeit und Nachweisbarkeit",
+            "Änderbarkeit und Integrationswirkung",
+            "Kosten, Abhängigkeit und Transformationsrisiko"
+          ]
+        },
+        {
+          "heading": "Empfehlung",
+          "body": "Option B: fachliche Führerschaft je Datenobjekt, klarer Owner, definierte Änderungsrechte und kontrollierte Replikation."
+        },
+        {
+          "heading": "Konsequenzen / Auflagen",
+          "items": [
+            "Personenstammdaten: Register als authoritative Source, Fachverfahren als zulässige Arbeitskopie",
+            "Reporting: nur abgeleitete Daten, keine fachliche Änderung",
+            "Entscheidung im ADR/Decision Log dokumentieren und nach 6 Monaten auf Wirkung prüfen."
+          ]
+        },
+        {
+          "heading": "Top-Risiken",
+          "items": [
+            "widersprüchliche Wahrheiten",
+            "Löschpflichten greifen nicht auf Kopien",
+            "Reporting korrigiert Daten manuell und wird Schatten-SoR"
+          ]
+        },
+        {
+          "heading": "Beschlussvorschlag",
+          "body": "Das zuständige Gremium bestätigt die empfohlene Option einschließlich der genannten Auflagen. Abweichungen benötigen eine dokumentierte Ausnahmeentscheidung."
+        }
+      ],
+      "qualityCriteria": [
+        "maximal drei realistische Optionen",
+        "Bewertungskriterien vor Empfehlung transparent",
+        "Trade-offs werden nicht versteckt",
+        "Empfehlung ist nicht mit formaler Entscheidung verwechselt",
+        "Auflagen und Reviewpunkt sind konkret"
+      ],
+      "antiPatterns": [
+        "nur eine Scheinalternative",
+        "Produkt-/Toolentscheidung ohne Treiber",
+        "Risiken als allgemeine Floskeln",
+        "EA formuliert Beschluss außerhalb seines Mandats"
+      ]
+    },
+    {
+      "id": "course-05-master",
+      "courseId": "course-05",
+      "lessonId": "v4-05-06-datenarchitektur-governance-privacy",
+      "kind": "master",
+      "title": "Data Ownership & System-of-Record Map",
+      "label": "Master-Arbeitsergebnis",
+      "purpose": "Bündelt Zielbild, Entscheidung, Umsetzungssteuerung und Evidenz zu einem übergabefähigen Architekturpaket.",
+      "audience": [
+        "Fachseite",
+        "Data Owner",
+        "Datenschutz",
+        "IT",
+        "Reporting"
+      ],
+      "scenario": "Personen-, Vorgangs- und Statusdaten liegen in mehreren Fachverfahren und Reporting-Kopien",
+      "format": "5–12 Seiten + Diagramme/Tabellen; Executive Summary auf 1 Seite",
+      "exampleSections": [
+        {
+          "heading": "Executive Summary",
+          "body": "Option B: fachliche Führerschaft je Datenobjekt, klarer Owner, definierte Änderungsrechte und kontrollierte Replikation. Das Paket macht Scope, Zielzustand, Verantwortungen, Risiken, Übergang und Nachweise so konkret, dass Fachseite, IT, Betrieb und Gremium dieselbe Entscheidungsgrundlage verwenden können."
+        },
+        {
+          "heading": "Zielbild / verbindliche Aussagen",
+          "items": [
+            "Personenstammdaten: Register als authoritative Source, Fachverfahren als zulässige Arbeitskopie",
+            "Vorgangsstatus: Fachverfahren führend",
+            "Dokumente/Bescheide: DMS/eAkte führend für aktenrelevante Fassung",
+            "Reporting: nur abgeleitete Daten, keine fachliche Änderung"
+          ]
+        },
+        {
+          "heading": "Governance & Verantwortungen",
+          "items": [
+            "Fachlicher Owner bestätigt Zweck, Begriffe und Prioritäten.",
+            "Technische Owner verantworten Umsetzung und Betriebsnachweise.",
+            "EA pflegt Zielbild, Decision Log und Abweichungen; formale Beschlüsse bleiben beim zuständigen Gremium."
+          ]
+        },
+        {
+          "heading": "Risiko- und Maßnahmenregister",
+          "items": [
+            "widersprüchliche Wahrheiten → Maßnahme: konkretisieren, Owner benennen, Termin vor nächstem Gate.",
+            "Löschpflichten greifen nicht auf Kopien → Maßnahme: konkretisieren, Owner benennen, Termin vor nächstem Gate.",
+            "Reporting korrigiert Daten manuell und wird Schatten-SoR → Maßnahme: konkretisieren, Owner benennen, Termin vor nächstem Gate."
+          ]
+        },
+        {
+          "heading": "Messbare Erfolgskriterien",
+          "items": [
+            "100 % kritischer Datenobjekte mit Owner und SoR",
+            "Lineage für Kernkennzahlen dokumentiert",
+            "ungeklärte Datenkopien = 0"
+          ]
+        },
+        {
+          "heading": "Evidenz vor Freigabe",
+          "items": [
+            "aktualisierte Architektur-/Kontextsicht",
+            "abgestimmte Anforderungen und relevante ADRs",
+            "testbare Abnahme-/Betriebsnachweise",
+            "offene Risiken mit akzeptiertem Owner und Termin"
+          ]
+        },
+        {
+          "heading": "Offene Entscheidungen",
+          "items": [
+            "Welche Abhängigkeit ist noch nicht bestätigt?",
+            "Welche Ausnahme benötigt formale Genehmigung?",
+            "Welche Messgröße entscheidet, ob das Zielbild in der Praxis wirkt?"
+          ]
+        }
+      ],
+      "qualityCriteria": [
+        "Executive und technische Sicht widersprechen sich nicht",
+        "jede zentrale Aussage ist auf Evidenz/Entscheidung rückführbar",
+        "Verantwortung und Lifecycle sind festgelegt",
+        "Betrieb, Security und Datenschutz sind integriert",
+        "Erfolg wird mit Wirkungsmetriken statt Dokumentmenge gemessen"
+      ],
+      "antiPatterns": [
+        "100-Seiten-Zielbild ohne Beschlussbedarf",
+        "Diagramme ohne Legende/Owner",
+        "Roadmap ohne Übergangszustände",
+        "Freigabe ohne Evidenz"
+      ]
+    },
+    {
+      "id": "course-06-working",
+      "courseId": "course-06",
+      "lessonId": "v4-06-04-anwendungen-ddd-domanen",
+      "kind": "working",
+      "title": "Domain Map",
+      "label": "Arbeitsartefakt",
+      "purpose": "Strukturiert die Analyse und macht Annahmen, Scope, Evidenz und offene Entscheidungen arbeitsfähig.",
+      "audience": [
+        "Facharchitektur",
+        "Solution Architecture",
+        "Entwicklung",
+        "Betrieb"
+      ],
+      "scenario": "Monolithisches Fachverfahren enthält Antrag, Zahlung, Dokumente, Kommunikation und Reporting",
+      "format": "1–3 Seiten plus Diagramm/Matrix",
+      "exampleSections": [
+        {
+          "heading": "1. Ausgangslage",
+          "body": "Monolithisches Fachverfahren enthält Antrag, Zahlung, Dokumente, Kommunikation und Reporting. Die Architekturarbeit soll die fachlich und technisch relevanten Entscheidungsräume klären, bevor Umsetzung oder Beschaffung Fakten schafft."
+        },
+        {
+          "heading": "2. Ziel und Scope",
+          "items": [
+            "Core Domain: fachliche Entscheidung und Vorgangssteuerung",
+            "Supporting: Dokumenterzeugung, Kommunikation"
+          ]
+        },
+        {
+          "heading": "3. Beobachtungen / Evidenz",
+          "items": [
+            "Generic: IAM, Benachrichtigung, Observability",
+            "Anti-Corruption Layer für Altregisterschnittstelle"
+          ]
+        },
+        {
+          "heading": "4. Risiken",
+          "items": [
+            "Servicegrenzen entlang Tabellen statt Domänen",
+            "gemeinsame Datenbank verhindert Autonomie",
+            "Microservices erhöhen Betriebskomplexität ohne Nutzen"
+          ]
+        },
+        {
+          "heading": "5. Arbeitsfragen",
+          "items": [
+            "Welche Annahme muss fachlich bestätigt werden?",
+            "Welche Entscheidung darf der EA nur vorbereiten, wer beschließt sie formal?",
+            "Welche Evidenz fehlt vor dem nächsten Gate?"
+          ]
+        },
+        {
+          "heading": "6. Nächste Schritte",
+          "items": [
+            "Stakeholder-Review des Arbeitsartefakts",
+            "offene Punkte als Owner/Termin in Decision Log übernehmen",
+            "relevante Sicht/Matrix im Architektur-Repository versionieren"
+          ]
+        }
+      ],
+      "qualityCriteria": [
+        "Entscheidungsfrage und Scope sind explizit",
+        "Annahmen sind als Annahmen gekennzeichnet",
+        "Evidenz und Meinung werden getrennt",
+        "Risiken besitzen Ursache und Auswirkung",
+        "nächster Schritt hat Owner und Termin"
+      ],
+      "antiPatterns": [
+        "reine Bestandsdokumentation ohne Entscheidungszweck",
+        "technische Details ohne fachlichen Bezug",
+        "unbestätigte Annahmen als Fakten formulieren"
+      ]
+    },
+    {
+      "id": "course-06-decision",
+      "courseId": "course-06",
+      "lessonId": "v4-06-05-anwendungen-ddd-domanen",
+      "kind": "decision",
+      "title": "Decision Brief – Anwendungen, DDD & Domänen",
+      "label": "Entscheidungsvorlage",
+      "purpose": "Verdichtet eine komplexe Architekturfrage auf Optionen, Kriterien, Empfehlung, Konsequenzen und benötigten Beschluss.",
+      "audience": [
+        "Facharchitektur",
+        "Solution Architecture",
+        "Entwicklung",
+        "Betrieb"
+      ],
+      "scenario": "Monolithisches Fachverfahren enthält Antrag, Zahlung, Dokumente, Kommunikation und Reporting",
+      "format": "max. 2 Seiten + 1 Entscheidungsdiagramm",
+      "exampleSections": [
+        {
+          "heading": "Entscheidung benötigt",
+          "body": "Wie wird das Fachverfahren fachlich sinnvoll geschnitten, ohne einen verteilten Monolithen zu erzeugen?"
+        },
+        {
+          "heading": "Ausgangslage",
+          "body": "Monolithisches Fachverfahren enthält Antrag, Zahlung, Dokumente, Kommunikation und Reporting. Ohne eine bewusste Architekturentscheidung entstehen lokale Festlegungen mit späteren systemischen Folgen."
+        },
+        {
+          "heading": "Optionen",
+          "items": [
+            "A: technische Layer als Services schneiden",
+            "B: Bounded Contexts nach fachlicher Verantwortung und Änderungslogik",
+            "C: Monolith unverändert lassen"
+          ]
+        },
+        {
+          "heading": "Bewertungskriterien",
+          "items": [
+            "fachliche Zielerreichung",
+            "Security/Datenschutz/Compliance",
+            "Betriebsfähigkeit und Nachweisbarkeit",
+            "Änderbarkeit und Integrationswirkung",
+            "Kosten, Abhängigkeit und Transformationsrisiko"
+          ]
+        },
+        {
+          "heading": "Empfehlung",
+          "body": "Option B mit schrittweiser Modularisierung: Vorgang, Entscheidung, Dokumente und Kommunikation als klare fachliche Kontexte; erst danach selektive Service-Auslagerung."
+        },
+        {
+          "heading": "Konsequenzen / Auflagen",
+          "items": [
+            "Core Domain: fachliche Entscheidung und Vorgangssteuerung",
+            "Anti-Corruption Layer für Altregisterschnittstelle",
+            "Entscheidung im ADR/Decision Log dokumentieren und nach 6 Monaten auf Wirkung prüfen."
+          ]
+        },
+        {
+          "heading": "Top-Risiken",
+          "items": [
+            "Servicegrenzen entlang Tabellen statt Domänen",
+            "gemeinsame Datenbank verhindert Autonomie",
+            "Microservices erhöhen Betriebskomplexität ohne Nutzen"
+          ]
+        },
+        {
+          "heading": "Beschlussvorschlag",
+          "body": "Das zuständige Gremium bestätigt die empfohlene Option einschließlich der genannten Auflagen. Abweichungen benötigen eine dokumentierte Ausnahmeentscheidung."
+        }
+      ],
+      "qualityCriteria": [
+        "maximal drei realistische Optionen",
+        "Bewertungskriterien vor Empfehlung transparent",
+        "Trade-offs werden nicht versteckt",
+        "Empfehlung ist nicht mit formaler Entscheidung verwechselt",
+        "Auflagen und Reviewpunkt sind konkret"
+      ],
+      "antiPatterns": [
+        "nur eine Scheinalternative",
+        "Produkt-/Toolentscheidung ohne Treiber",
+        "Risiken als allgemeine Floskeln",
+        "EA formuliert Beschluss außerhalb seines Mandats"
+      ]
+    },
+    {
+      "id": "course-06-master",
+      "courseId": "course-06",
+      "lessonId": "v4-06-06-anwendungen-ddd-domanen",
+      "kind": "master",
+      "title": "Domain/Bounded-Context Map + Decomposition ADR",
+      "label": "Master-Arbeitsergebnis",
+      "purpose": "Bündelt Zielbild, Entscheidung, Umsetzungssteuerung und Evidenz zu einem übergabefähigen Architekturpaket.",
+      "audience": [
+        "Facharchitektur",
+        "Solution Architecture",
+        "Entwicklung",
+        "Betrieb"
+      ],
+      "scenario": "Monolithisches Fachverfahren enthält Antrag, Zahlung, Dokumente, Kommunikation und Reporting",
+      "format": "5–12 Seiten + Diagramme/Tabellen; Executive Summary auf 1 Seite",
+      "exampleSections": [
+        {
+          "heading": "Executive Summary",
+          "body": "Option B mit schrittweiser Modularisierung: Vorgang, Entscheidung, Dokumente und Kommunikation als klare fachliche Kontexte; erst danach selektive Service-Auslagerung. Das Paket macht Scope, Zielzustand, Verantwortungen, Risiken, Übergang und Nachweise so konkret, dass Fachseite, IT, Betrieb und Gremium dieselbe Entscheidungsgrundlage verwenden können."
+        },
+        {
+          "heading": "Zielbild / verbindliche Aussagen",
+          "items": [
+            "Core Domain: fachliche Entscheidung und Vorgangssteuerung",
+            "Supporting: Dokumenterzeugung, Kommunikation",
+            "Generic: IAM, Benachrichtigung, Observability",
+            "Anti-Corruption Layer für Altregisterschnittstelle"
+          ]
+        },
+        {
+          "heading": "Governance & Verantwortungen",
+          "items": [
+            "Fachlicher Owner bestätigt Zweck, Begriffe und Prioritäten.",
+            "Technische Owner verantworten Umsetzung und Betriebsnachweise.",
+            "EA pflegt Zielbild, Decision Log und Abweichungen; formale Beschlüsse bleiben beim zuständigen Gremium."
+          ]
+        },
+        {
+          "heading": "Risiko- und Maßnahmenregister",
+          "items": [
+            "Servicegrenzen entlang Tabellen statt Domänen → Maßnahme: konkretisieren, Owner benennen, Termin vor nächstem Gate.",
+            "gemeinsame Datenbank verhindert Autonomie → Maßnahme: konkretisieren, Owner benennen, Termin vor nächstem Gate.",
+            "Microservices erhöhen Betriebskomplexität ohne Nutzen → Maßnahme: konkretisieren, Owner benennen, Termin vor nächstem Gate."
+          ]
+        },
+        {
+          "heading": "Messbare Erfolgskriterien",
+          "items": [
+            "jedes Datenobjekt genau einem führenden Context zugeordnet",
+            "keine direkte DB-Kopplung zwischen neuen Contexts",
+            "ADR je extrahiertem Service"
+          ]
+        },
+        {
+          "heading": "Evidenz vor Freigabe",
+          "items": [
+            "aktualisierte Architektur-/Kontextsicht",
+            "abgestimmte Anforderungen und relevante ADRs",
+            "testbare Abnahme-/Betriebsnachweise",
+            "offene Risiken mit akzeptiertem Owner und Termin"
+          ]
+        },
+        {
+          "heading": "Offene Entscheidungen",
+          "items": [
+            "Welche Abhängigkeit ist noch nicht bestätigt?",
+            "Welche Ausnahme benötigt formale Genehmigung?",
+            "Welche Messgröße entscheidet, ob das Zielbild in der Praxis wirkt?"
+          ]
+        }
+      ],
+      "qualityCriteria": [
+        "Executive und technische Sicht widersprechen sich nicht",
+        "jede zentrale Aussage ist auf Evidenz/Entscheidung rückführbar",
+        "Verantwortung und Lifecycle sind festgelegt",
+        "Betrieb, Security und Datenschutz sind integriert",
+        "Erfolg wird mit Wirkungsmetriken statt Dokumentmenge gemessen"
+      ],
+      "antiPatterns": [
+        "100-Seiten-Zielbild ohne Beschlussbedarf",
+        "Diagramme ohne Legende/Owner",
+        "Roadmap ohne Übergangszustände",
+        "Freigabe ohne Evidenz"
+      ]
+    },
+    {
+      "id": "course-07-working",
+      "courseId": "course-07",
+      "lessonId": "v4-07-04-integration-distributed-systems",
+      "kind": "working",
+      "title": "Interface Contract",
+      "label": "Arbeitsartefakt",
+      "purpose": "Strukturiert die Analyse und macht Annahmen, Scope, Evidenz und offene Entscheidungen arbeitsfähig.",
+      "audience": [
+        "Integration Architecture",
+        "Entwicklung",
+        "Betrieb",
+        "Fachseite"
+      ],
+      "scenario": "Portal erzeugt bei Timeouts doppelte Anträge und DMS-Akten",
+      "format": "1–3 Seiten plus Diagramm/Matrix",
+      "exampleSections": [
+        {
+          "heading": "1. Ausgangslage",
+          "body": "Portal erzeugt bei Timeouts doppelte Anträge und DMS-Akten. Die Architekturarbeit soll die fachlich und technisch relevanten Entscheidungsräume klären, bevor Umsetzung oder Beschaffung Fakten schafft."
+        },
+        {
+          "heading": "2. Ziel und Scope",
+          "items": [
+            "POST /applications akzeptiert Idempotency-Key",
+            "202 Accepted liefert operationId"
+          ]
+        },
+        {
+          "heading": "3. Beobachtungen / Evidenz",
+          "items": [
+            "Retry nur bei definierten technischen Fehlerklassen",
+            "fachliche Ablehnungen sind kein Retry-Fall",
+            "DLQ besitzt Owner, maximale Verweildauer und Replay-Verfahren"
+          ]
+        },
+        {
+          "heading": "4. Risiken",
+          "items": [
+            "Doppelverarbeitung",
+            "Poison Messages ohne Verantwortlichen",
+            "Replay verletzt Reihenfolge oder Datenschutz"
+          ]
+        },
+        {
+          "heading": "5. Arbeitsfragen",
+          "items": [
+            "Welche Annahme muss fachlich bestätigt werden?",
+            "Welche Entscheidung darf der EA nur vorbereiten, wer beschließt sie formal?",
+            "Welche Evidenz fehlt vor dem nächsten Gate?"
+          ]
+        },
+        {
+          "heading": "6. Nächste Schritte",
+          "items": [
+            "Stakeholder-Review des Arbeitsartefakts",
+            "offene Punkte als Owner/Termin in Decision Log übernehmen",
+            "relevante Sicht/Matrix im Architektur-Repository versionieren"
+          ]
+        }
+      ],
+      "qualityCriteria": [
+        "Entscheidungsfrage und Scope sind explizit",
+        "Annahmen sind als Annahmen gekennzeichnet",
+        "Evidenz und Meinung werden getrennt",
+        "Risiken besitzen Ursache und Auswirkung",
+        "nächster Schritt hat Owner und Termin"
+      ],
+      "antiPatterns": [
+        "reine Bestandsdokumentation ohne Entscheidungszweck",
+        "technische Details ohne fachlichen Bezug",
+        "unbestätigte Annahmen als Fakten formulieren"
+      ]
+    },
+    {
+      "id": "course-07-decision",
+      "courseId": "course-07",
+      "lessonId": "v4-07-05-integration-distributed-systems",
+      "kind": "decision",
+      "title": "Decision Brief – Integration & Distributed Systems",
+      "label": "Entscheidungsvorlage",
+      "purpose": "Verdichtet eine komplexe Architekturfrage auf Optionen, Kriterien, Empfehlung, Konsequenzen und benötigten Beschluss.",
+      "audience": [
+        "Integration Architecture",
+        "Entwicklung",
+        "Betrieb",
+        "Fachseite"
+      ],
+      "scenario": "Portal erzeugt bei Timeouts doppelte Anträge und DMS-Akten",
+      "format": "max. 2 Seiten + 1 Entscheidungsdiagramm",
+      "exampleSections": [
+        {
+          "heading": "Entscheidung benötigt",
+          "body": "Wie wird die Antragserzeugung trotz Timeout, Retry und Teilfehlern fachlich genau einmal wirksam?"
+        },
+        {
+          "heading": "Ausgangslage",
+          "body": "Portal erzeugt bei Timeouts doppelte Anträge und DMS-Akten. Ohne eine bewusste Architekturentscheidung entstehen lokale Festlegungen mit späteren systemischen Folgen."
+        },
+        {
+          "heading": "Optionen",
+          "items": [
+            "A: Client darf beliebig wiederholen",
+            "B: idempotente Create-Operation mit fachlicher Korrelations-ID und Statusabfrage",
+            "C: ausschließlich manuelle Wiederholung"
+          ]
+        },
+        {
+          "heading": "Bewertungskriterien",
+          "items": [
+            "fachliche Zielerreichung",
+            "Security/Datenschutz/Compliance",
+            "Betriebsfähigkeit und Nachweisbarkeit",
+            "Änderbarkeit und Integrationswirkung",
+            "Kosten, Abhängigkeit und Transformationsrisiko"
+          ]
+        },
+        {
+          "heading": "Empfehlung",
+          "body": "Option B: Idempotency-Key, persistierte Request-ID, definierter Retry, Statusressource und DMS-Seiteneffekt ebenfalls idempotent."
+        },
+        {
+          "heading": "Konsequenzen / Auflagen",
+          "items": [
+            "POST /applications akzeptiert Idempotency-Key",
+            "DLQ besitzt Owner, maximale Verweildauer und Replay-Verfahren",
+            "Entscheidung im ADR/Decision Log dokumentieren und nach 6 Monaten auf Wirkung prüfen."
+          ]
+        },
+        {
+          "heading": "Top-Risiken",
+          "items": [
+            "Doppelverarbeitung",
+            "Poison Messages ohne Verantwortlichen",
+            "Replay verletzt Reihenfolge oder Datenschutz"
+          ]
+        },
+        {
+          "heading": "Beschlussvorschlag",
+          "body": "Das zuständige Gremium bestätigt die empfohlene Option einschließlich der genannten Auflagen. Abweichungen benötigen eine dokumentierte Ausnahmeentscheidung."
+        }
+      ],
+      "qualityCriteria": [
+        "maximal drei realistische Optionen",
+        "Bewertungskriterien vor Empfehlung transparent",
+        "Trade-offs werden nicht versteckt",
+        "Empfehlung ist nicht mit formaler Entscheidung verwechselt",
+        "Auflagen und Reviewpunkt sind konkret"
+      ],
+      "antiPatterns": [
+        "nur eine Scheinalternative",
+        "Produkt-/Toolentscheidung ohne Treiber",
+        "Risiken als allgemeine Floskeln",
+        "EA formuliert Beschluss außerhalb seines Mandats"
+      ]
+    },
+    {
+      "id": "course-07-master",
+      "courseId": "course-07",
+      "lessonId": "v4-07-06-integration-distributed-systems",
+      "kind": "master",
+      "title": "Schnittstellenvertrag + Fehler-/Delivery-Matrix",
+      "label": "Master-Arbeitsergebnis",
+      "purpose": "Bündelt Zielbild, Entscheidung, Umsetzungssteuerung und Evidenz zu einem übergabefähigen Architekturpaket.",
+      "audience": [
+        "Integration Architecture",
+        "Entwicklung",
+        "Betrieb",
+        "Fachseite"
+      ],
+      "scenario": "Portal erzeugt bei Timeouts doppelte Anträge und DMS-Akten",
+      "format": "5–12 Seiten + Diagramme/Tabellen; Executive Summary auf 1 Seite",
+      "exampleSections": [
+        {
+          "heading": "Executive Summary",
+          "body": "Option B: Idempotency-Key, persistierte Request-ID, definierter Retry, Statusressource und DMS-Seiteneffekt ebenfalls idempotent. Das Paket macht Scope, Zielzustand, Verantwortungen, Risiken, Übergang und Nachweise so konkret, dass Fachseite, IT, Betrieb und Gremium dieselbe Entscheidungsgrundlage verwenden können."
+        },
+        {
+          "heading": "Zielbild / verbindliche Aussagen",
+          "items": [
+            "POST /applications akzeptiert Idempotency-Key",
+            "202 Accepted liefert operationId",
+            "Retry nur bei definierten technischen Fehlerklassen",
+            "fachliche Ablehnungen sind kein Retry-Fall",
+            "DLQ besitzt Owner, maximale Verweildauer und Replay-Verfahren"
+          ]
+        },
+        {
+          "heading": "Governance & Verantwortungen",
+          "items": [
+            "Fachlicher Owner bestätigt Zweck, Begriffe und Prioritäten.",
+            "Technische Owner verantworten Umsetzung und Betriebsnachweise.",
+            "EA pflegt Zielbild, Decision Log und Abweichungen; formale Beschlüsse bleiben beim zuständigen Gremium."
+          ]
+        },
+        {
+          "heading": "Risiko- und Maßnahmenregister",
+          "items": [
+            "Doppelverarbeitung → Maßnahme: konkretisieren, Owner benennen, Termin vor nächstem Gate.",
+            "Poison Messages ohne Verantwortlichen → Maßnahme: konkretisieren, Owner benennen, Termin vor nächstem Gate.",
+            "Replay verletzt Reihenfolge oder Datenschutz → Maßnahme: konkretisieren, Owner benennen, Termin vor nächstem Gate."
+          ]
+        },
+        {
+          "heading": "Messbare Erfolgskriterien",
+          "items": [
+            "0 doppelte Vorgänge bei Retry-Tests",
+            "100 % Requests mit Correlation-ID",
+            "DLQ-Age SLO < 4 h"
+          ]
+        },
+        {
+          "heading": "Evidenz vor Freigabe",
+          "items": [
+            "aktualisierte Architektur-/Kontextsicht",
+            "abgestimmte Anforderungen und relevante ADRs",
+            "testbare Abnahme-/Betriebsnachweise",
+            "offene Risiken mit akzeptiertem Owner und Termin"
+          ]
+        },
+        {
+          "heading": "Offene Entscheidungen",
+          "items": [
+            "Welche Abhängigkeit ist noch nicht bestätigt?",
+            "Welche Ausnahme benötigt formale Genehmigung?",
+            "Welche Messgröße entscheidet, ob das Zielbild in der Praxis wirkt?"
+          ]
+        }
+      ],
+      "qualityCriteria": [
+        "Executive und technische Sicht widersprechen sich nicht",
+        "jede zentrale Aussage ist auf Evidenz/Entscheidung rückführbar",
+        "Verantwortung und Lifecycle sind festgelegt",
+        "Betrieb, Security und Datenschutz sind integriert",
+        "Erfolg wird mit Wirkungsmetriken statt Dokumentmenge gemessen"
+      ],
+      "antiPatterns": [
+        "100-Seiten-Zielbild ohne Beschlussbedarf",
+        "Diagramme ohne Legende/Owner",
+        "Roadmap ohne Übergangszustände",
+        "Freigabe ohne Evidenz"
+      ]
+    },
+    {
+      "id": "course-08-working",
+      "courseId": "course-08",
+      "lessonId": "v4-08-04-cloud-plattform-netzwerk",
+      "kind": "working",
+      "title": "Cloud/Platform Decision Canvas",
+      "label": "Arbeitsartefakt",
+      "purpose": "Strukturiert die Analyse und macht Annahmen, Scope, Evidenz und offene Entscheidungen arbeitsfähig.",
+      "audience": [
+        "CIO/IT-Steuerung",
+        "Plattformteam",
+        "Security",
+        "Betrieb",
+        "Vergabe"
+      ],
+      "scenario": "Neue Plattform soll Kubernetes in einer souveränen Cloud nutzen; Exit und Betriebsmodell sind ungeklärt",
+      "format": "1–3 Seiten plus Diagramm/Matrix",
+      "exampleSections": [
+        {
+          "heading": "1. Ausgangslage",
+          "body": "Neue Plattform soll Kubernetes in einer souveränen Cloud nutzen; Exit und Betriebsmodell sind ungeklärt. Die Architekturarbeit soll die fachlich und technisch relevanten Entscheidungsräume klären, bevor Umsetzung oder Beschaffung Fakten schafft."
+        },
+        {
+          "heading": "2. Ziel und Scope",
+          "items": [
+            "Landing Zone mit getrennten Umgebungen und zentraler Policy",
+            "private Endpunkte für Daten- und Registerzugriffe"
+          ]
+        },
+        {
+          "heading": "3. Beobachtungen / Evidenz",
+          "items": [
+            "Secrets zentral verwaltet, keine Secrets in Git/Helm",
+            "Exit: Datenexport, IaC, Containerimages, Runbooks und Wiederanlauf regelmäßig testen"
+          ]
+        },
+        {
+          "heading": "4. Risiken",
+          "items": [
+            "Lock-in ohne Exit-Nachweis",
+            "unklare Shared Responsibility",
+            "Plattform wird Toolprojekt statt Produkt"
+          ]
+        },
+        {
+          "heading": "5. Arbeitsfragen",
+          "items": [
+            "Welche Annahme muss fachlich bestätigt werden?",
+            "Welche Entscheidung darf der EA nur vorbereiten, wer beschließt sie formal?",
+            "Welche Evidenz fehlt vor dem nächsten Gate?"
+          ]
+        },
+        {
+          "heading": "6. Nächste Schritte",
+          "items": [
+            "Stakeholder-Review des Arbeitsartefakts",
+            "offene Punkte als Owner/Termin in Decision Log übernehmen",
+            "relevante Sicht/Matrix im Architektur-Repository versionieren"
+          ]
+        }
+      ],
+      "qualityCriteria": [
+        "Entscheidungsfrage und Scope sind explizit",
+        "Annahmen sind als Annahmen gekennzeichnet",
+        "Evidenz und Meinung werden getrennt",
+        "Risiken besitzen Ursache und Auswirkung",
+        "nächster Schritt hat Owner und Termin"
+      ],
+      "antiPatterns": [
+        "reine Bestandsdokumentation ohne Entscheidungszweck",
+        "technische Details ohne fachlichen Bezug",
+        "unbestätigte Annahmen als Fakten formulieren"
+      ]
+    },
+    {
+      "id": "course-08-decision",
+      "courseId": "course-08",
+      "lessonId": "v4-08-05-cloud-plattform-netzwerk",
+      "kind": "decision",
+      "title": "Decision Brief – Cloud, Plattform & Netzwerk",
+      "label": "Entscheidungsvorlage",
+      "purpose": "Verdichtet eine komplexe Architekturfrage auf Optionen, Kriterien, Empfehlung, Konsequenzen und benötigten Beschluss.",
+      "audience": [
+        "CIO/IT-Steuerung",
+        "Plattformteam",
+        "Security",
+        "Betrieb",
+        "Vergabe"
+      ],
+      "scenario": "Neue Plattform soll Kubernetes in einer souveränen Cloud nutzen; Exit und Betriebsmodell sind ungeklärt",
+      "format": "max. 2 Seiten + 1 Entscheidungsdiagramm",
+      "exampleSections": [
+        {
+          "heading": "Entscheidung benötigt",
+          "body": "Welche Plattformoption erfüllt Souveränität, Betriebsfähigkeit und Portabilität angemessen?"
+        },
+        {
+          "heading": "Ausgangslage",
+          "body": "Neue Plattform soll Kubernetes in einer souveränen Cloud nutzen; Exit und Betriebsmodell sind ungeklärt. Ohne eine bewusste Architekturentscheidung entstehen lokale Festlegungen mit späteren systemischen Folgen."
+        },
+        {
+          "heading": "Optionen",
+          "items": [
+            "A: Public Cloud Managed Services maximal nutzen",
+            "B: portable Containerplattform mit kontrollierten Managed Services",
+            "C: vollständiger Eigenbetrieb ohne Cloud-Services"
+          ]
+        },
+        {
+          "heading": "Bewertungskriterien",
+          "items": [
+            "fachliche Zielerreichung",
+            "Security/Datenschutz/Compliance",
+            "Betriebsfähigkeit und Nachweisbarkeit",
+            "Änderbarkeit und Integrationswirkung",
+            "Kosten, Abhängigkeit und Transformationsrisiko"
+          ]
+        },
+        {
+          "heading": "Empfehlung",
+          "body": "Option B: standardisierte Containerplattform, portable Kernworkloads, zentrale IAM/Netz/Logging-Dienste und expliziter Exit-Plan."
+        },
+        {
+          "heading": "Konsequenzen / Auflagen",
+          "items": [
+            "Landing Zone mit getrennten Umgebungen und zentraler Policy",
+            "Exit: Datenexport, IaC, Containerimages, Runbooks und Wiederanlauf regelmäßig testen",
+            "Entscheidung im ADR/Decision Log dokumentieren und nach 6 Monaten auf Wirkung prüfen."
+          ]
+        },
+        {
+          "heading": "Top-Risiken",
+          "items": [
+            "Lock-in ohne Exit-Nachweis",
+            "unklare Shared Responsibility",
+            "Plattform wird Toolprojekt statt Produkt"
+          ]
+        },
+        {
+          "heading": "Beschlussvorschlag",
+          "body": "Das zuständige Gremium bestätigt die empfohlene Option einschließlich der genannten Auflagen. Abweichungen benötigen eine dokumentierte Ausnahmeentscheidung."
+        }
+      ],
+      "qualityCriteria": [
+        "maximal drei realistische Optionen",
+        "Bewertungskriterien vor Empfehlung transparent",
+        "Trade-offs werden nicht versteckt",
+        "Empfehlung ist nicht mit formaler Entscheidung verwechselt",
+        "Auflagen und Reviewpunkt sind konkret"
+      ],
+      "antiPatterns": [
+        "nur eine Scheinalternative",
+        "Produkt-/Toolentscheidung ohne Treiber",
+        "Risiken als allgemeine Floskeln",
+        "EA formuliert Beschluss außerhalb seines Mandats"
+      ]
+    },
+    {
+      "id": "course-08-master",
+      "courseId": "course-08",
+      "lessonId": "v4-08-06-cloud-plattform-netzwerk",
+      "kind": "master",
+      "title": "Cloud/Platform Architecture Brief + Exit Plan",
+      "label": "Master-Arbeitsergebnis",
+      "purpose": "Bündelt Zielbild, Entscheidung, Umsetzungssteuerung und Evidenz zu einem übergabefähigen Architekturpaket.",
+      "audience": [
+        "CIO/IT-Steuerung",
+        "Plattformteam",
+        "Security",
+        "Betrieb",
+        "Vergabe"
+      ],
+      "scenario": "Neue Plattform soll Kubernetes in einer souveränen Cloud nutzen; Exit und Betriebsmodell sind ungeklärt",
+      "format": "5–12 Seiten + Diagramme/Tabellen; Executive Summary auf 1 Seite",
+      "exampleSections": [
+        {
+          "heading": "Executive Summary",
+          "body": "Option B: standardisierte Containerplattform, portable Kernworkloads, zentrale IAM/Netz/Logging-Dienste und expliziter Exit-Plan. Das Paket macht Scope, Zielzustand, Verantwortungen, Risiken, Übergang und Nachweise so konkret, dass Fachseite, IT, Betrieb und Gremium dieselbe Entscheidungsgrundlage verwenden können."
+        },
+        {
+          "heading": "Zielbild / verbindliche Aussagen",
+          "items": [
+            "Landing Zone mit getrennten Umgebungen und zentraler Policy",
+            "private Endpunkte für Daten- und Registerzugriffe",
+            "Secrets zentral verwaltet, keine Secrets in Git/Helm",
+            "Exit: Datenexport, IaC, Containerimages, Runbooks und Wiederanlauf regelmäßig testen"
+          ]
+        },
+        {
+          "heading": "Governance & Verantwortungen",
+          "items": [
+            "Fachlicher Owner bestätigt Zweck, Begriffe und Prioritäten.",
+            "Technische Owner verantworten Umsetzung und Betriebsnachweise.",
+            "EA pflegt Zielbild, Decision Log und Abweichungen; formale Beschlüsse bleiben beim zuständigen Gremium."
+          ]
+        },
+        {
+          "heading": "Risiko- und Maßnahmenregister",
+          "items": [
+            "Lock-in ohne Exit-Nachweis → Maßnahme: konkretisieren, Owner benennen, Termin vor nächstem Gate.",
+            "unklare Shared Responsibility → Maßnahme: konkretisieren, Owner benennen, Termin vor nächstem Gate.",
+            "Plattform wird Toolprojekt statt Produkt → Maßnahme: konkretisieren, Owner benennen, Termin vor nächstem Gate."
+          ]
+        },
+        {
+          "heading": "Messbare Erfolgskriterien",
+          "items": [
+            "Recovery/Exit-Test jährlich",
+            "100 % Infrastruktur per IaC",
+            "kritische Plattformservices mit Owner und SLO"
+          ]
+        },
+        {
+          "heading": "Evidenz vor Freigabe",
+          "items": [
+            "aktualisierte Architektur-/Kontextsicht",
+            "abgestimmte Anforderungen und relevante ADRs",
+            "testbare Abnahme-/Betriebsnachweise",
+            "offene Risiken mit akzeptiertem Owner und Termin"
+          ]
+        },
+        {
+          "heading": "Offene Entscheidungen",
+          "items": [
+            "Welche Abhängigkeit ist noch nicht bestätigt?",
+            "Welche Ausnahme benötigt formale Genehmigung?",
+            "Welche Messgröße entscheidet, ob das Zielbild in der Praxis wirkt?"
+          ]
+        }
+      ],
+      "qualityCriteria": [
+        "Executive und technische Sicht widersprechen sich nicht",
+        "jede zentrale Aussage ist auf Evidenz/Entscheidung rückführbar",
+        "Verantwortung und Lifecycle sind festgelegt",
+        "Betrieb, Security und Datenschutz sind integriert",
+        "Erfolg wird mit Wirkungsmetriken statt Dokumentmenge gemessen"
+      ],
+      "antiPatterns": [
+        "100-Seiten-Zielbild ohne Beschlussbedarf",
+        "Diagramme ohne Legende/Owner",
+        "Roadmap ohne Übergangszustände",
+        "Freigabe ohne Evidenz"
+      ]
+    },
+    {
+      "id": "course-09-working",
+      "courseId": "course-09",
+      "lessonId": "v4-09-04-security-iam-privacy",
+      "kind": "working",
+      "title": "Security Architecture Review",
+      "label": "Arbeitsartefakt",
+      "purpose": "Strukturiert die Analyse und macht Annahmen, Scope, Evidenz und offene Entscheidungen arbeitsfähig.",
+      "audience": [
+        "ISB/Security",
+        "Datenschutz",
+        "IAM-Team",
+        "Betrieb",
+        "Fachseite"
+      ],
+      "scenario": "Externes Bürgerportal, interne Sachbearbeitung und Dienstleisterzugriffe auf dasselbe Fachverfahren",
+      "format": "1–3 Seiten plus Diagramm/Matrix",
+      "exampleSections": [
+        {
+          "heading": "1. Ausgangslage",
+          "body": "Externes Bürgerportal, interne Sachbearbeitung und Dienstleisterzugriffe auf dasselbe Fachverfahren. Die Architekturarbeit soll die fachlich und technisch relevanten Entscheidungsräume klären, bevor Umsetzung oder Beschaffung Fakten schafft."
+        },
+        {
+          "heading": "2. Ziel und Scope",
+          "items": [
+            "Bürger: OIDC/Federation über vorgesehenen Identitätsdienst",
+            "Sachbearbeitung: SSO + Rollen aus fachlichem Rollenmodell"
+          ]
+        },
+        {
+          "heading": "3. Beobachtungen / Evidenz",
+          "items": [
+            "Service Accounts: technische Owner, Rotation, minimale Rechte",
+            "Dienstleister: MFA, JIT, Ticketbindung, Session-Nachweis, Offboarding"
+          ]
+        },
+        {
+          "heading": "4. Risiken",
+          "items": [
+            "überprivilegierte Sammelrollen",
+            "API Gateway wird einzige Autorisierungsschicht",
+            "personenbezogene Daten in Logs"
+          ]
+        },
+        {
+          "heading": "5. Arbeitsfragen",
+          "items": [
+            "Welche Annahme muss fachlich bestätigt werden?",
+            "Welche Entscheidung darf der EA nur vorbereiten, wer beschließt sie formal?",
+            "Welche Evidenz fehlt vor dem nächsten Gate?"
+          ]
+        },
+        {
+          "heading": "6. Nächste Schritte",
+          "items": [
+            "Stakeholder-Review des Arbeitsartefakts",
+            "offene Punkte als Owner/Termin in Decision Log übernehmen",
+            "relevante Sicht/Matrix im Architektur-Repository versionieren"
+          ]
+        }
+      ],
+      "qualityCriteria": [
+        "Entscheidungsfrage und Scope sind explizit",
+        "Annahmen sind als Annahmen gekennzeichnet",
+        "Evidenz und Meinung werden getrennt",
+        "Risiken besitzen Ursache und Auswirkung",
+        "nächster Schritt hat Owner und Termin"
+      ],
+      "antiPatterns": [
+        "reine Bestandsdokumentation ohne Entscheidungszweck",
+        "technische Details ohne fachlichen Bezug",
+        "unbestätigte Annahmen als Fakten formulieren"
+      ]
+    },
+    {
+      "id": "course-09-decision",
+      "courseId": "course-09",
+      "lessonId": "v4-09-05-security-iam-privacy",
+      "kind": "decision",
+      "title": "Decision Brief – Security, IAM & Privacy",
+      "label": "Entscheidungsvorlage",
+      "purpose": "Verdichtet eine komplexe Architekturfrage auf Optionen, Kriterien, Empfehlung, Konsequenzen und benötigten Beschluss.",
+      "audience": [
+        "ISB/Security",
+        "Datenschutz",
+        "IAM-Team",
+        "Betrieb",
+        "Fachseite"
+      ],
+      "scenario": "Externes Bürgerportal, interne Sachbearbeitung und Dienstleisterzugriffe auf dasselbe Fachverfahren",
+      "format": "max. 2 Seiten + 1 Entscheidungsdiagramm",
+      "exampleSections": [
+        {
+          "heading": "Entscheidung benötigt",
+          "body": "Wie werden Identitäten, Rechte, Vertrauensgrenzen und Dienstleisterzugriffe kontrollierbar gestaltet?"
+        },
+        {
+          "heading": "Ausgangslage",
+          "body": "Externes Bürgerportal, interne Sachbearbeitung und Dienstleisterzugriffe auf dasselbe Fachverfahren. Ohne eine bewusste Architekturentscheidung entstehen lokale Festlegungen mit späteren systemischen Folgen."
+        },
+        {
+          "heading": "Optionen",
+          "items": [
+            "A: Rollen ausschließlich in der Anwendung verwalten",
+            "B: zentrales IAM + fachliche objektbezogene Autorisierung + PAM/JIT für Admins",
+            "C: Netzwerkzugang als primäre Sicherheitskontrolle"
+          ]
+        },
+        {
+          "heading": "Bewertungskriterien",
+          "items": [
+            "fachliche Zielerreichung",
+            "Security/Datenschutz/Compliance",
+            "Betriebsfähigkeit und Nachweisbarkeit",
+            "Änderbarkeit und Integrationswirkung",
+            "Kosten, Abhängigkeit und Transformationsrisiko"
+          ]
+        },
+        {
+          "heading": "Empfehlung",
+          "body": "Option B: zentrale Authentisierung/Föderation, fachliche Autorisierung serverseitig und privilegierte Zugriffe zeitlich begrenzt/protokolliert."
+        },
+        {
+          "heading": "Konsequenzen / Auflagen",
+          "items": [
+            "Bürger: OIDC/Federation über vorgesehenen Identitätsdienst",
+            "Dienstleister: MFA, JIT, Ticketbindung, Session-Nachweis, Offboarding",
+            "Entscheidung im ADR/Decision Log dokumentieren und nach 6 Monaten auf Wirkung prüfen."
+          ]
+        },
+        {
+          "heading": "Top-Risiken",
+          "items": [
+            "überprivilegierte Sammelrollen",
+            "API Gateway wird einzige Autorisierungsschicht",
+            "personenbezogene Daten in Logs"
+          ]
+        },
+        {
+          "heading": "Beschlussvorschlag",
+          "body": "Das zuständige Gremium bestätigt die empfohlene Option einschließlich der genannten Auflagen. Abweichungen benötigen eine dokumentierte Ausnahmeentscheidung."
+        }
+      ],
+      "qualityCriteria": [
+        "maximal drei realistische Optionen",
+        "Bewertungskriterien vor Empfehlung transparent",
+        "Trade-offs werden nicht versteckt",
+        "Empfehlung ist nicht mit formaler Entscheidung verwechselt",
+        "Auflagen und Reviewpunkt sind konkret"
+      ],
+      "antiPatterns": [
+        "nur eine Scheinalternative",
+        "Produkt-/Toolentscheidung ohne Treiber",
+        "Risiken als allgemeine Floskeln",
+        "EA formuliert Beschluss außerhalb seines Mandats"
+      ]
+    },
+    {
+      "id": "course-09-master",
+      "courseId": "course-09",
+      "lessonId": "v4-09-06-security-iam-privacy",
+      "kind": "master",
+      "title": "IAM & Security Architecture Review",
+      "label": "Master-Arbeitsergebnis",
+      "purpose": "Bündelt Zielbild, Entscheidung, Umsetzungssteuerung und Evidenz zu einem übergabefähigen Architekturpaket.",
+      "audience": [
+        "ISB/Security",
+        "Datenschutz",
+        "IAM-Team",
+        "Betrieb",
+        "Fachseite"
+      ],
+      "scenario": "Externes Bürgerportal, interne Sachbearbeitung und Dienstleisterzugriffe auf dasselbe Fachverfahren",
+      "format": "5–12 Seiten + Diagramme/Tabellen; Executive Summary auf 1 Seite",
+      "exampleSections": [
+        {
+          "heading": "Executive Summary",
+          "body": "Option B: zentrale Authentisierung/Föderation, fachliche Autorisierung serverseitig und privilegierte Zugriffe zeitlich begrenzt/protokolliert. Das Paket macht Scope, Zielzustand, Verantwortungen, Risiken, Übergang und Nachweise so konkret, dass Fachseite, IT, Betrieb und Gremium dieselbe Entscheidungsgrundlage verwenden können."
+        },
+        {
+          "heading": "Zielbild / verbindliche Aussagen",
+          "items": [
+            "Bürger: OIDC/Federation über vorgesehenen Identitätsdienst",
+            "Sachbearbeitung: SSO + Rollen aus fachlichem Rollenmodell",
+            "Service Accounts: technische Owner, Rotation, minimale Rechte",
+            "Dienstleister: MFA, JIT, Ticketbindung, Session-Nachweis, Offboarding"
+          ]
+        },
+        {
+          "heading": "Governance & Verantwortungen",
+          "items": [
+            "Fachlicher Owner bestätigt Zweck, Begriffe und Prioritäten.",
+            "Technische Owner verantworten Umsetzung und Betriebsnachweise.",
+            "EA pflegt Zielbild, Decision Log und Abweichungen; formale Beschlüsse bleiben beim zuständigen Gremium."
+          ]
+        },
+        {
+          "heading": "Risiko- und Maßnahmenregister",
+          "items": [
+            "überprivilegierte Sammelrollen → Maßnahme: konkretisieren, Owner benennen, Termin vor nächstem Gate.",
+            "API Gateway wird einzige Autorisierungsschicht → Maßnahme: konkretisieren, Owner benennen, Termin vor nächstem Gate.",
+            "personenbezogene Daten in Logs → Maßnahme: konkretisieren, Owner benennen, Termin vor nächstem Gate."
+          ]
+        },
+        {
+          "heading": "Messbare Erfolgskriterien",
+          "items": [
+            "100 % privilegierter Zugriffe personalisiert und protokolliert",
+            "Rezertifizierung kritischer Rollen halbjährlich",
+            "0 Shared Admin Accounts"
+          ]
+        },
+        {
+          "heading": "Evidenz vor Freigabe",
+          "items": [
+            "aktualisierte Architektur-/Kontextsicht",
+            "abgestimmte Anforderungen und relevante ADRs",
+            "testbare Abnahme-/Betriebsnachweise",
+            "offene Risiken mit akzeptiertem Owner und Termin"
+          ]
+        },
+        {
+          "heading": "Offene Entscheidungen",
+          "items": [
+            "Welche Abhängigkeit ist noch nicht bestätigt?",
+            "Welche Ausnahme benötigt formale Genehmigung?",
+            "Welche Messgröße entscheidet, ob das Zielbild in der Praxis wirkt?"
+          ]
+        }
+      ],
+      "qualityCriteria": [
+        "Executive und technische Sicht widersprechen sich nicht",
+        "jede zentrale Aussage ist auf Evidenz/Entscheidung rückführbar",
+        "Verantwortung und Lifecycle sind festgelegt",
+        "Betrieb, Security und Datenschutz sind integriert",
+        "Erfolg wird mit Wirkungsmetriken statt Dokumentmenge gemessen"
+      ],
+      "antiPatterns": [
+        "100-Seiten-Zielbild ohne Beschlussbedarf",
+        "Diagramme ohne Legende/Owner",
+        "Roadmap ohne Übergangszustände",
+        "Freigabe ohne Evidenz"
+      ]
+    },
+    {
+      "id": "course-10-working",
+      "courseId": "course-10",
+      "lessonId": "v4-10-04-betrieb-observability-resilienz",
+      "kind": "working",
+      "title": "Operational Architecture Brief",
+      "label": "Arbeitsartefakt",
+      "purpose": "Strukturiert die Analyse und macht Annahmen, Scope, Evidenz und offene Entscheidungen arbeitsfähig.",
+      "audience": [
+        "Betrieb",
+        "SRE/Observability",
+        "Fachseite",
+        "Architektur"
+      ],
+      "scenario": "Alle Komponenten sind „grün“, Bürger können Anträge aber zeitweise nicht erfolgreich abschließen",
+      "format": "1–3 Seiten plus Diagramm/Matrix",
+      "exampleSections": [
+        {
+          "heading": "1. Ausgangslage",
+          "body": "Alle Komponenten sind „grün“, Bürger können Anträge aber zeitweise nicht erfolgreich abschließen. Die Architekturarbeit soll die fachlich und technisch relevanten Entscheidungsräume klären, bevor Umsetzung oder Beschaffung Fakten schafft."
+        },
+        {
+          "heading": "2. Ziel und Scope",
+          "items": [
+            "SLI: Anteil erfolgreich abgeschlossener Antragseinreichungen",
+            "SLO: 99,5 % pro Monat im Servicefenster"
+          ]
+        },
+        {
+          "heading": "3. Beobachtungen / Evidenz",
+          "items": [
+            "RTO 4 h, RPO 15 min",
+            "Runbooks für Registerausfall, DMS-Rückstau, Auth-Störung",
+            "Restore-Test umfasst DB, DMS, Konfiguration, Secrets und fachlichen Wiederanlauf"
+          ]
+        },
+        {
+          "heading": "4. Risiken",
+          "items": [
+            "Komponentenmetriken ohne Nutzerwirkung",
+            "Backup ohne Restore",
+            "Alert-Flut ohne Runbook"
+          ]
+        },
+        {
+          "heading": "5. Arbeitsfragen",
+          "items": [
+            "Welche Annahme muss fachlich bestätigt werden?",
+            "Welche Entscheidung darf der EA nur vorbereiten, wer beschließt sie formal?",
+            "Welche Evidenz fehlt vor dem nächsten Gate?"
+          ]
+        },
+        {
+          "heading": "6. Nächste Schritte",
+          "items": [
+            "Stakeholder-Review des Arbeitsartefakts",
+            "offene Punkte als Owner/Termin in Decision Log übernehmen",
+            "relevante Sicht/Matrix im Architektur-Repository versionieren"
+          ]
+        }
+      ],
+      "qualityCriteria": [
+        "Entscheidungsfrage und Scope sind explizit",
+        "Annahmen sind als Annahmen gekennzeichnet",
+        "Evidenz und Meinung werden getrennt",
+        "Risiken besitzen Ursache und Auswirkung",
+        "nächster Schritt hat Owner und Termin"
+      ],
+      "antiPatterns": [
+        "reine Bestandsdokumentation ohne Entscheidungszweck",
+        "technische Details ohne fachlichen Bezug",
+        "unbestätigte Annahmen als Fakten formulieren"
+      ]
+    },
+    {
+      "id": "course-10-decision",
+      "courseId": "course-10",
+      "lessonId": "v4-10-05-betrieb-observability-resilienz",
+      "kind": "decision",
+      "title": "Decision Brief – Betrieb, Observability & Resilienz",
+      "label": "Entscheidungsvorlage",
+      "purpose": "Verdichtet eine komplexe Architekturfrage auf Optionen, Kriterien, Empfehlung, Konsequenzen und benötigten Beschluss.",
+      "audience": [
+        "Betrieb",
+        "SRE/Observability",
+        "Fachseite",
+        "Architektur"
+      ],
+      "scenario": "Alle Komponenten sind „grün“, Bürger können Anträge aber zeitweise nicht erfolgreich abschließen",
+      "format": "max. 2 Seiten + 1 Entscheidungsdiagramm",
+      "exampleSections": [
+        {
+          "heading": "Entscheidung benötigt",
+          "body": "Wie wird Betriebsfähigkeit entlang des fachlichen Ende-zu-Ende-Prozesses nachgewiesen?"
+        },
+        {
+          "heading": "Ausgangslage",
+          "body": "Alle Komponenten sind „grün“, Bürger können Anträge aber zeitweise nicht erfolgreich abschließen. Ohne eine bewusste Architekturentscheidung entstehen lokale Festlegungen mit späteren systemischen Folgen."
+        },
+        {
+          "heading": "Optionen",
+          "items": [
+            "A: CPU/RAM-Dashboards ausbauen",
+            "B: fachliche SLI/SLO + technische Telemetrie + Recovery-Nachweis",
+            "C: nur Incident-Tickets auswerten"
+          ]
+        },
+        {
+          "heading": "Bewertungskriterien",
+          "items": [
+            "fachliche Zielerreichung",
+            "Security/Datenschutz/Compliance",
+            "Betriebsfähigkeit und Nachweisbarkeit",
+            "Änderbarkeit und Integrationswirkung",
+            "Kosten, Abhängigkeit und Transformationsrisiko"
+          ]
+        },
+        {
+          "heading": "Empfehlung",
+          "body": "Option B: E2E-SLI „Antrag erfolgreich eingereicht“, Trace-Korrelation, Queue-/DMS-/Registermetriken sowie getestete Restore-Kette."
+        },
+        {
+          "heading": "Konsequenzen / Auflagen",
+          "items": [
+            "SLI: Anteil erfolgreich abgeschlossener Antragseinreichungen",
+            "Restore-Test umfasst DB, DMS, Konfiguration, Secrets und fachlichen Wiederanlauf",
+            "Entscheidung im ADR/Decision Log dokumentieren und nach 6 Monaten auf Wirkung prüfen."
+          ]
+        },
+        {
+          "heading": "Top-Risiken",
+          "items": [
+            "Komponentenmetriken ohne Nutzerwirkung",
+            "Backup ohne Restore",
+            "Alert-Flut ohne Runbook"
+          ]
+        },
+        {
+          "heading": "Beschlussvorschlag",
+          "body": "Das zuständige Gremium bestätigt die empfohlene Option einschließlich der genannten Auflagen. Abweichungen benötigen eine dokumentierte Ausnahmeentscheidung."
+        }
+      ],
+      "qualityCriteria": [
+        "maximal drei realistische Optionen",
+        "Bewertungskriterien vor Empfehlung transparent",
+        "Trade-offs werden nicht versteckt",
+        "Empfehlung ist nicht mit formaler Entscheidung verwechselt",
+        "Auflagen und Reviewpunkt sind konkret"
+      ],
+      "antiPatterns": [
+        "nur eine Scheinalternative",
+        "Produkt-/Toolentscheidung ohne Treiber",
+        "Risiken als allgemeine Floskeln",
+        "EA formuliert Beschluss außerhalb seines Mandats"
+      ]
+    },
+    {
+      "id": "course-10-master",
+      "courseId": "course-10",
+      "lessonId": "v4-10-06-betrieb-observability-resilienz",
+      "kind": "master",
+      "title": "Observability & Recovery Architecture Pack",
+      "label": "Master-Arbeitsergebnis",
+      "purpose": "Bündelt Zielbild, Entscheidung, Umsetzungssteuerung und Evidenz zu einem übergabefähigen Architekturpaket.",
+      "audience": [
+        "Betrieb",
+        "SRE/Observability",
+        "Fachseite",
+        "Architektur"
+      ],
+      "scenario": "Alle Komponenten sind „grün“, Bürger können Anträge aber zeitweise nicht erfolgreich abschließen",
+      "format": "5–12 Seiten + Diagramme/Tabellen; Executive Summary auf 1 Seite",
+      "exampleSections": [
+        {
+          "heading": "Executive Summary",
+          "body": "Option B: E2E-SLI „Antrag erfolgreich eingereicht“, Trace-Korrelation, Queue-/DMS-/Registermetriken sowie getestete Restore-Kette. Das Paket macht Scope, Zielzustand, Verantwortungen, Risiken, Übergang und Nachweise so konkret, dass Fachseite, IT, Betrieb und Gremium dieselbe Entscheidungsgrundlage verwenden können."
+        },
+        {
+          "heading": "Zielbild / verbindliche Aussagen",
+          "items": [
+            "SLI: Anteil erfolgreich abgeschlossener Antragseinreichungen",
+            "SLO: 99,5 % pro Monat im Servicefenster",
+            "RTO 4 h, RPO 15 min",
+            "Runbooks für Registerausfall, DMS-Rückstau, Auth-Störung",
+            "Restore-Test umfasst DB, DMS, Konfiguration, Secrets und fachlichen Wiederanlauf"
+          ]
+        },
+        {
+          "heading": "Governance & Verantwortungen",
+          "items": [
+            "Fachlicher Owner bestätigt Zweck, Begriffe und Prioritäten.",
+            "Technische Owner verantworten Umsetzung und Betriebsnachweise.",
+            "EA pflegt Zielbild, Decision Log und Abweichungen; formale Beschlüsse bleiben beim zuständigen Gremium."
+          ]
+        },
+        {
+          "heading": "Risiko- und Maßnahmenregister",
+          "items": [
+            "Komponentenmetriken ohne Nutzerwirkung → Maßnahme: konkretisieren, Owner benennen, Termin vor nächstem Gate.",
+            "Backup ohne Restore → Maßnahme: konkretisieren, Owner benennen, Termin vor nächstem Gate.",
+            "Alert-Flut ohne Runbook → Maßnahme: konkretisieren, Owner benennen, Termin vor nächstem Gate."
+          ]
+        },
+        {
+          "heading": "Messbare Erfolgskriterien",
+          "items": [
+            "SLO-Erfüllung >= 99,5 %",
+            "MTTR < 60 min für P1",
+            "Restore-Nachweis mindestens halbjährlich"
+          ]
+        },
+        {
+          "heading": "Evidenz vor Freigabe",
+          "items": [
+            "aktualisierte Architektur-/Kontextsicht",
+            "abgestimmte Anforderungen und relevante ADRs",
+            "testbare Abnahme-/Betriebsnachweise",
+            "offene Risiken mit akzeptiertem Owner und Termin"
+          ]
+        },
+        {
+          "heading": "Offene Entscheidungen",
+          "items": [
+            "Welche Abhängigkeit ist noch nicht bestätigt?",
+            "Welche Ausnahme benötigt formale Genehmigung?",
+            "Welche Messgröße entscheidet, ob das Zielbild in der Praxis wirkt?"
+          ]
+        }
+      ],
+      "qualityCriteria": [
+        "Executive und technische Sicht widersprechen sich nicht",
+        "jede zentrale Aussage ist auf Evidenz/Entscheidung rückführbar",
+        "Verantwortung und Lifecycle sind festgelegt",
+        "Betrieb, Security und Datenschutz sind integriert",
+        "Erfolg wird mit Wirkungsmetriken statt Dokumentmenge gemessen"
+      ],
+      "antiPatterns": [
+        "100-Seiten-Zielbild ohne Beschlussbedarf",
+        "Diagramme ohne Legende/Owner",
+        "Roadmap ohne Übergangszustände",
+        "Freigabe ohne Evidenz"
+      ]
+    },
+    {
+      "id": "course-11-working",
+      "courseId": "course-11",
+      "lessonId": "v4-11-04-transformation-architekturokonomie",
+      "kind": "working",
+      "title": "Architecture Business Case",
+      "label": "Arbeitsartefakt",
+      "purpose": "Strukturiert die Analyse und macht Annahmen, Scope, Evidenz und offene Entscheidungen arbeitsfähig.",
+      "audience": [
+        "Programmleitung",
+        "Haushalt/Controlling",
+        "IT-Leitung",
+        "Fachseite"
+      ],
+      "scenario": "Legacy-Kernverfahren ist kritisch, teuer und schwer änderbar; direkte Ablösung wäre riskant",
+      "format": "1–3 Seiten plus Diagramm/Matrix",
+      "exampleSections": [
+        {
+          "heading": "1. Ausgangslage",
+          "body": "Legacy-Kernverfahren ist kritisch, teuer und schwer änderbar; direkte Ablösung wäre riskant. Die Architekturarbeit soll die fachlich und technisch relevanten Entscheidungsräume klären, bevor Umsetzung oder Beschaffung Fakten schafft."
+        },
+        {
+          "heading": "2. Ziel und Scope",
+          "items": [
+            "Ist-Kosten Betrieb: 2,4 Mio. €/Jahr",
+            "Modernisierungsrisiko hoch wegen 18 Schnittstellen und unbekannter Datenabhängigkeiten"
+          ]
+        },
+        {
+          "heading": "3. Beobachtungen / Evidenz",
+          "items": [
+            "Welle 1: Observability, API-Kapselung, IAM-Entkopplung",
+            "Welle 2: Dokument/Kommunikation herauslösen",
+            "Welle 3: Kernfachlogik migrieren"
+          ]
+        },
+        {
+          "heading": "4. Risiken",
+          "items": [
+            "Big Bang bündelt technische und fachliche Risiken",
+            "Parallelbetriebskosten werden unterschätzt",
+            "Nutzen wird nur technisch beschrieben"
+          ]
+        },
+        {
+          "heading": "5. Arbeitsfragen",
+          "items": [
+            "Welche Annahme muss fachlich bestätigt werden?",
+            "Welche Entscheidung darf der EA nur vorbereiten, wer beschließt sie formal?",
+            "Welche Evidenz fehlt vor dem nächsten Gate?"
+          ]
+        },
+        {
+          "heading": "6. Nächste Schritte",
+          "items": [
+            "Stakeholder-Review des Arbeitsartefakts",
+            "offene Punkte als Owner/Termin in Decision Log übernehmen",
+            "relevante Sicht/Matrix im Architektur-Repository versionieren"
+          ]
+        }
+      ],
+      "qualityCriteria": [
+        "Entscheidungsfrage und Scope sind explizit",
+        "Annahmen sind als Annahmen gekennzeichnet",
+        "Evidenz und Meinung werden getrennt",
+        "Risiken besitzen Ursache und Auswirkung",
+        "nächster Schritt hat Owner und Termin"
+      ],
+      "antiPatterns": [
+        "reine Bestandsdokumentation ohne Entscheidungszweck",
+        "technische Details ohne fachlichen Bezug",
+        "unbestätigte Annahmen als Fakten formulieren"
+      ]
+    },
+    {
+      "id": "course-11-decision",
+      "courseId": "course-11",
+      "lessonId": "v4-11-05-transformation-architekturokonomie",
+      "kind": "decision",
+      "title": "Decision Brief – Transformation & Architekturökonomie",
+      "label": "Entscheidungsvorlage",
+      "purpose": "Verdichtet eine komplexe Architekturfrage auf Optionen, Kriterien, Empfehlung, Konsequenzen und benötigten Beschluss.",
+      "audience": [
+        "Programmleitung",
+        "Haushalt/Controlling",
+        "IT-Leitung",
+        "Fachseite"
+      ],
+      "scenario": "Legacy-Kernverfahren ist kritisch, teuer und schwer änderbar; direkte Ablösung wäre riskant",
+      "format": "max. 2 Seiten + 1 Entscheidungsdiagramm",
+      "exampleSections": [
+        {
+          "heading": "Entscheidung benötigt",
+          "body": "Welche Transformationsstrategie minimiert Gesamtrisiko und schafft früh Nutzen?"
+        },
+        {
+          "heading": "Ausgangslage",
+          "body": "Legacy-Kernverfahren ist kritisch, teuer und schwer änderbar; direkte Ablösung wäre riskant. Ohne eine bewusste Architekturentscheidung entstehen lokale Festlegungen mit späteren systemischen Folgen."
+        },
+        {
+          "heading": "Optionen",
+          "items": [
+            "A: Big-Bang-Ablösung in 24 Monaten",
+            "B: Stabilisieren, kapseln, Fähigkeiten schrittweise migrieren",
+            "C: unverändert weiterbetreiben"
+          ]
+        },
+        {
+          "heading": "Bewertungskriterien",
+          "items": [
+            "fachliche Zielerreichung",
+            "Security/Datenschutz/Compliance",
+            "Betriebsfähigkeit und Nachweisbarkeit",
+            "Änderbarkeit und Integrationswirkung",
+            "Kosten, Abhängigkeit und Transformationsrisiko"
+          ]
+        },
+        {
+          "heading": "Empfehlung",
+          "body": "Option B: 3-stufige Transition mit Stabilisierung, Schnittstellenkapselung und anschließender Capability-Migration."
+        },
+        {
+          "heading": "Konsequenzen / Auflagen",
+          "items": [
+            "Ist-Kosten Betrieb: 2,4 Mio. €/Jahr",
+            "Welle 3: Kernfachlogik migrieren",
+            "Entscheidung im ADR/Decision Log dokumentieren und nach 6 Monaten auf Wirkung prüfen."
+          ]
+        },
+        {
+          "heading": "Top-Risiken",
+          "items": [
+            "Big Bang bündelt technische und fachliche Risiken",
+            "Parallelbetriebskosten werden unterschätzt",
+            "Nutzen wird nur technisch beschrieben"
+          ]
+        },
+        {
+          "heading": "Beschlussvorschlag",
+          "body": "Das zuständige Gremium bestätigt die empfohlene Option einschließlich der genannten Auflagen. Abweichungen benötigen eine dokumentierte Ausnahmeentscheidung."
+        }
+      ],
+      "qualityCriteria": [
+        "maximal drei realistische Optionen",
+        "Bewertungskriterien vor Empfehlung transparent",
+        "Trade-offs werden nicht versteckt",
+        "Empfehlung ist nicht mit formaler Entscheidung verwechselt",
+        "Auflagen und Reviewpunkt sind konkret"
+      ],
+      "antiPatterns": [
+        "nur eine Scheinalternative",
+        "Produkt-/Toolentscheidung ohne Treiber",
+        "Risiken als allgemeine Floskeln",
+        "EA formuliert Beschluss außerhalb seines Mandats"
+      ]
+    },
+    {
+      "id": "course-11-master",
+      "courseId": "course-11",
+      "lessonId": "v4-11-06-transformation-architekturokonomie",
+      "kind": "master",
+      "title": "Transformation Roadmap + Architecture Business Case",
+      "label": "Master-Arbeitsergebnis",
+      "purpose": "Bündelt Zielbild, Entscheidung, Umsetzungssteuerung und Evidenz zu einem übergabefähigen Architekturpaket.",
+      "audience": [
+        "Programmleitung",
+        "Haushalt/Controlling",
+        "IT-Leitung",
+        "Fachseite"
+      ],
+      "scenario": "Legacy-Kernverfahren ist kritisch, teuer und schwer änderbar; direkte Ablösung wäre riskant",
+      "format": "5–12 Seiten + Diagramme/Tabellen; Executive Summary auf 1 Seite",
+      "exampleSections": [
+        {
+          "heading": "Executive Summary",
+          "body": "Option B: 3-stufige Transition mit Stabilisierung, Schnittstellenkapselung und anschließender Capability-Migration. Das Paket macht Scope, Zielzustand, Verantwortungen, Risiken, Übergang und Nachweise so konkret, dass Fachseite, IT, Betrieb und Gremium dieselbe Entscheidungsgrundlage verwenden können."
+        },
+        {
+          "heading": "Zielbild / verbindliche Aussagen",
+          "items": [
+            "Ist-Kosten Betrieb: 2,4 Mio. €/Jahr",
+            "Modernisierungsrisiko hoch wegen 18 Schnittstellen und unbekannter Datenabhängigkeiten",
+            "Welle 1: Observability, API-Kapselung, IAM-Entkopplung",
+            "Welle 2: Dokument/Kommunikation herauslösen",
+            "Welle 3: Kernfachlogik migrieren"
+          ]
+        },
+        {
+          "heading": "Governance & Verantwortungen",
+          "items": [
+            "Fachlicher Owner bestätigt Zweck, Begriffe und Prioritäten.",
+            "Technische Owner verantworten Umsetzung und Betriebsnachweise.",
+            "EA pflegt Zielbild, Decision Log und Abweichungen; formale Beschlüsse bleiben beim zuständigen Gremium."
+          ]
+        },
+        {
+          "heading": "Risiko- und Maßnahmenregister",
+          "items": [
+            "Big Bang bündelt technische und fachliche Risiken → Maßnahme: konkretisieren, Owner benennen, Termin vor nächstem Gate.",
+            "Parallelbetriebskosten werden unterschätzt → Maßnahme: konkretisieren, Owner benennen, Termin vor nächstem Gate.",
+            "Nutzen wird nur technisch beschrieben → Maßnahme: konkretisieren, Owner benennen, Termin vor nächstem Gate."
+          ]
+        },
+        {
+          "heading": "Messbare Erfolgskriterien",
+          "items": [
+            "Legacy-Änderungsaufwand -40 % nach Welle 1",
+            "kritische EOL-Komponenten bis 2028 entfernt",
+            "TCO-Entwicklung jährlich aktualisiert"
+          ]
+        },
+        {
+          "heading": "Evidenz vor Freigabe",
+          "items": [
+            "aktualisierte Architektur-/Kontextsicht",
+            "abgestimmte Anforderungen und relevante ADRs",
+            "testbare Abnahme-/Betriebsnachweise",
+            "offene Risiken mit akzeptiertem Owner und Termin"
+          ]
+        },
+        {
+          "heading": "Offene Entscheidungen",
+          "items": [
+            "Welche Abhängigkeit ist noch nicht bestätigt?",
+            "Welche Ausnahme benötigt formale Genehmigung?",
+            "Welche Messgröße entscheidet, ob das Zielbild in der Praxis wirkt?"
+          ]
+        }
+      ],
+      "qualityCriteria": [
+        "Executive und technische Sicht widersprechen sich nicht",
+        "jede zentrale Aussage ist auf Evidenz/Entscheidung rückführbar",
+        "Verantwortung und Lifecycle sind festgelegt",
+        "Betrieb, Security und Datenschutz sind integriert",
+        "Erfolg wird mit Wirkungsmetriken statt Dokumentmenge gemessen"
+      ],
+      "antiPatterns": [
+        "100-Seiten-Zielbild ohne Beschlussbedarf",
+        "Diagramme ohne Legende/Owner",
+        "Roadmap ohne Übergangszustände",
+        "Freigabe ohne Evidenz"
+      ]
+    },
+    {
+      "id": "course-12-working",
+      "courseId": "course-12",
+      "lessonId": "v4-12-04-governance-entscheidungen-vergabe",
+      "kind": "working",
+      "title": "Architecture Governance Operating Model",
+      "label": "Arbeitsartefakt",
+      "purpose": "Strukturiert die Analyse und macht Annahmen, Scope, Evidenz und offene Entscheidungen arbeitsfähig.",
+      "audience": [
+        "Architekturboard",
+        "Vergabe",
+        "Projektleitung",
+        "Dienstleistersteuerung"
+      ],
+      "scenario": "Mehrere Dienstleister interpretieren Architekturprinzipien unterschiedlich; Abnahme findet zu spät statt",
+      "format": "1–3 Seiten plus Diagramm/Matrix",
+      "exampleSections": [
+        {
+          "heading": "1. Ausgangslage",
+          "body": "Mehrere Dienstleister interpretieren Architekturprinzipien unterschiedlich; Abnahme findet zu spät statt. Die Architekturarbeit soll die fachlich und technisch relevanten Entscheidungsräume klären, bevor Umsetzung oder Beschaffung Fakten schafft."
+        },
+        {
+          "heading": "2. Ziel und Scope",
+          "items": [
+            "Gate G1 Zielbild vor Ausschreibung",
+            "Gate G2 Schnittstellen/IAM/Security vor Implementierung"
+          ]
+        },
+        {
+          "heading": "3. Beobachtungen / Evidenz",
+          "items": [
+            "Gate G3 Produktionsreife mit Evidenz",
+            "Ausnahmen: Owner, Begründung, Risiko, Kompensation, Ablaufdatum",
+            "Liefergegenstände referenzieren Templates und Abnahmekriterien"
+          ]
+        },
+        {
+          "heading": "4. Risiken",
+          "items": [
+            "Governance wird Papierprozess",
+            "Ausnahmen werden dauerhaft",
+            "Dienstleister liefert Funktion ohne Betriebs-/Security-Nachweis"
+          ]
+        },
+        {
+          "heading": "5. Arbeitsfragen",
+          "items": [
+            "Welche Annahme muss fachlich bestätigt werden?",
+            "Welche Entscheidung darf der EA nur vorbereiten, wer beschließt sie formal?",
+            "Welche Evidenz fehlt vor dem nächsten Gate?"
+          ]
+        },
+        {
+          "heading": "6. Nächste Schritte",
+          "items": [
+            "Stakeholder-Review des Arbeitsartefakts",
+            "offene Punkte als Owner/Termin in Decision Log übernehmen",
+            "relevante Sicht/Matrix im Architektur-Repository versionieren"
+          ]
+        }
+      ],
+      "qualityCriteria": [
+        "Entscheidungsfrage und Scope sind explizit",
+        "Annahmen sind als Annahmen gekennzeichnet",
+        "Evidenz und Meinung werden getrennt",
+        "Risiken besitzen Ursache und Auswirkung",
+        "nächster Schritt hat Owner und Termin"
+      ],
+      "antiPatterns": [
+        "reine Bestandsdokumentation ohne Entscheidungszweck",
+        "technische Details ohne fachlichen Bezug",
+        "unbestätigte Annahmen als Fakten formulieren"
+      ]
+    },
+    {
+      "id": "course-12-decision",
+      "courseId": "course-12",
+      "lessonId": "v4-12-05-governance-entscheidungen-vergabe",
+      "kind": "decision",
+      "title": "Decision Brief – Governance, Entscheidungen & Vergabe",
+      "label": "Entscheidungsvorlage",
+      "purpose": "Verdichtet eine komplexe Architekturfrage auf Optionen, Kriterien, Empfehlung, Konsequenzen und benötigten Beschluss.",
+      "audience": [
+        "Architekturboard",
+        "Vergabe",
+        "Projektleitung",
+        "Dienstleistersteuerung"
+      ],
+      "scenario": "Mehrere Dienstleister interpretieren Architekturprinzipien unterschiedlich; Abnahme findet zu spät statt",
+      "format": "max. 2 Seiten + 1 Entscheidungsdiagramm",
+      "exampleSections": [
+        {
+          "heading": "Entscheidung benötigt",
+          "body": "Wie werden Architekturvorgaben prüfbar in Lieferung und Abnahme übersetzt?"
+        },
+        {
+          "heading": "Ausgangslage",
+          "body": "Mehrere Dienstleister interpretieren Architekturprinzipien unterschiedlich; Abnahme findet zu spät statt. Ohne eine bewusste Architekturentscheidung entstehen lokale Festlegungen mit späteren systemischen Folgen."
+        },
+        {
+          "heading": "Optionen",
+          "items": [
+            "A: allgemeine Prinzipien im Wiki",
+            "B: Prinzip → Standard → Liefergegenstand → Evidenz → Gate → Ausnahmeprozess",
+            "C: Architektur nur als beratende Empfehlung"
+          ]
+        },
+        {
+          "heading": "Bewertungskriterien",
+          "items": [
+            "fachliche Zielerreichung",
+            "Security/Datenschutz/Compliance",
+            "Betriebsfähigkeit und Nachweisbarkeit",
+            "Änderbarkeit und Integrationswirkung",
+            "Kosten, Abhängigkeit und Transformationsrisiko"
+          ]
+        },
+        {
+          "heading": "Empfehlung",
+          "body": "Option B: verbindlicher Governance-Funnel mit risikobasierten Gates und expliziter Ausnahmebehandlung."
+        },
+        {
+          "heading": "Konsequenzen / Auflagen",
+          "items": [
+            "Gate G1 Zielbild vor Ausschreibung",
+            "Liefergegenstände referenzieren Templates und Abnahmekriterien",
+            "Entscheidung im ADR/Decision Log dokumentieren und nach 6 Monaten auf Wirkung prüfen."
+          ]
+        },
+        {
+          "heading": "Top-Risiken",
+          "items": [
+            "Governance wird Papierprozess",
+            "Ausnahmen werden dauerhaft",
+            "Dienstleister liefert Funktion ohne Betriebs-/Security-Nachweis"
+          ]
+        },
+        {
+          "heading": "Beschlussvorschlag",
+          "body": "Das zuständige Gremium bestätigt die empfohlene Option einschließlich der genannten Auflagen. Abweichungen benötigen eine dokumentierte Ausnahmeentscheidung."
+        }
+      ],
+      "qualityCriteria": [
+        "maximal drei realistische Optionen",
+        "Bewertungskriterien vor Empfehlung transparent",
+        "Trade-offs werden nicht versteckt",
+        "Empfehlung ist nicht mit formaler Entscheidung verwechselt",
+        "Auflagen und Reviewpunkt sind konkret"
+      ],
+      "antiPatterns": [
+        "nur eine Scheinalternative",
+        "Produkt-/Toolentscheidung ohne Treiber",
+        "Risiken als allgemeine Floskeln",
+        "EA formuliert Beschluss außerhalb seines Mandats"
+      ]
+    },
+    {
+      "id": "course-12-master",
+      "courseId": "course-12",
+      "lessonId": "v4-12-06-governance-entscheidungen-vergabe",
+      "kind": "master",
+      "title": "Architecture Governance & Acceptance Pack",
+      "label": "Master-Arbeitsergebnis",
+      "purpose": "Bündelt Zielbild, Entscheidung, Umsetzungssteuerung und Evidenz zu einem übergabefähigen Architekturpaket.",
+      "audience": [
+        "Architekturboard",
+        "Vergabe",
+        "Projektleitung",
+        "Dienstleistersteuerung"
+      ],
+      "scenario": "Mehrere Dienstleister interpretieren Architekturprinzipien unterschiedlich; Abnahme findet zu spät statt",
+      "format": "5–12 Seiten + Diagramme/Tabellen; Executive Summary auf 1 Seite",
+      "exampleSections": [
+        {
+          "heading": "Executive Summary",
+          "body": "Option B: verbindlicher Governance-Funnel mit risikobasierten Gates und expliziter Ausnahmebehandlung. Das Paket macht Scope, Zielzustand, Verantwortungen, Risiken, Übergang und Nachweise so konkret, dass Fachseite, IT, Betrieb und Gremium dieselbe Entscheidungsgrundlage verwenden können."
+        },
+        {
+          "heading": "Zielbild / verbindliche Aussagen",
+          "items": [
+            "Gate G1 Zielbild vor Ausschreibung",
+            "Gate G2 Schnittstellen/IAM/Security vor Implementierung",
+            "Gate G3 Produktionsreife mit Evidenz",
+            "Ausnahmen: Owner, Begründung, Risiko, Kompensation, Ablaufdatum",
+            "Liefergegenstände referenzieren Templates und Abnahmekriterien"
+          ]
+        },
+        {
+          "heading": "Governance & Verantwortungen",
+          "items": [
+            "Fachlicher Owner bestätigt Zweck, Begriffe und Prioritäten.",
+            "Technische Owner verantworten Umsetzung und Betriebsnachweise.",
+            "EA pflegt Zielbild, Decision Log und Abweichungen; formale Beschlüsse bleiben beim zuständigen Gremium."
+          ]
+        },
+        {
+          "heading": "Risiko- und Maßnahmenregister",
+          "items": [
+            "Governance wird Papierprozess → Maßnahme: konkretisieren, Owner benennen, Termin vor nächstem Gate.",
+            "Ausnahmen werden dauerhaft → Maßnahme: konkretisieren, Owner benennen, Termin vor nächstem Gate.",
+            "Dienstleister liefert Funktion ohne Betriebs-/Security-Nachweis → Maßnahme: konkretisieren, Owner benennen, Termin vor nächstem Gate."
+          ]
+        },
+        {
+          "heading": "Messbare Erfolgskriterien",
+          "items": [
+            "Review-Durchlaufzeit < 10 Arbeitstage",
+            "100 % Ausnahmen mit Ablaufdatum",
+            "Architekturbefunde vor Abnahme um 60 % reduzieren"
+          ]
+        },
+        {
+          "heading": "Evidenz vor Freigabe",
+          "items": [
+            "aktualisierte Architektur-/Kontextsicht",
+            "abgestimmte Anforderungen und relevante ADRs",
+            "testbare Abnahme-/Betriebsnachweise",
+            "offene Risiken mit akzeptiertem Owner und Termin"
+          ]
+        },
+        {
+          "heading": "Offene Entscheidungen",
+          "items": [
+            "Welche Abhängigkeit ist noch nicht bestätigt?",
+            "Welche Ausnahme benötigt formale Genehmigung?",
+            "Welche Messgröße entscheidet, ob das Zielbild in der Praxis wirkt?"
+          ]
+        }
+      ],
+      "qualityCriteria": [
+        "Executive und technische Sicht widersprechen sich nicht",
+        "jede zentrale Aussage ist auf Evidenz/Entscheidung rückführbar",
+        "Verantwortung und Lifecycle sind festgelegt",
+        "Betrieb, Security und Datenschutz sind integriert",
+        "Erfolg wird mit Wirkungsmetriken statt Dokumentmenge gemessen"
+      ],
+      "antiPatterns": [
+        "100-Seiten-Zielbild ohne Beschlussbedarf",
+        "Diagramme ohne Legende/Owner",
+        "Roadmap ohne Übergangszustände",
+        "Freigabe ohne Evidenz"
+      ]
+    },
+    {
+      "id": "course-13-working",
+      "courseId": "course-13",
+      "lessonId": "v4-13-04-behordenarchitektur-verwaltungsdigitalisierung",
+      "kind": "working",
+      "title": "Government Context Map",
+      "label": "Arbeitsartefakt",
+      "purpose": "Strukturiert die Analyse und macht Annahmen, Scope, Evidenz und offene Entscheidungen arbeitsfähig.",
+      "audience": [
+        "Fachreferat",
+        "IT",
+        "Digitalisierung",
+        "Datenschutz",
+        "Register-/DMS-Verantwortliche"
+      ],
+      "scenario": "Online-Leistung muss Register, DMS/eAkte, Identität, FIM/XÖV/FIT-Connect und Fachverfahren verbinden",
+      "format": "1–3 Seiten plus Diagramm/Matrix",
+      "exampleSections": [
+        {
+          "heading": "1. Ausgangslage",
+          "body": "Online-Leistung muss Register, DMS/eAkte, Identität, FIM/XÖV/FIT-Connect und Fachverfahren verbinden. Die Architekturarbeit soll die fachlich und technisch relevanten Entscheidungsräume klären, bevor Umsetzung oder Beschaffung Fakten schafft."
+        },
+        {
+          "heading": "2. Ziel und Scope",
+          "items": [
+            "Leistung/Prozess und Rechts-/Nachweispflichten zuerst klären",
+            "Identität über vorgesehenen Basisdienst"
+          ]
+        },
+        {
+          "heading": "3. Beobachtungen / Evidenz",
+          "items": [
+            "Datenaustausch nach einschlägigem Standard/API-Vertrag",
+            "Aktenrelevante Dokumente über definierte Übergabe mit Metadaten"
+          ]
+        },
+        {
+          "heading": "4. Risiken",
+          "items": [
+            "Portal wird Schattenfachverfahren",
+            "Aktenrelevanz wird erst nach Go-live betrachtet",
+            "föderale Standards werden als reine Technik verstanden"
+          ]
+        },
+        {
+          "heading": "5. Arbeitsfragen",
+          "items": [
+            "Welche Annahme muss fachlich bestätigt werden?",
+            "Welche Entscheidung darf der EA nur vorbereiten, wer beschließt sie formal?",
+            "Welche Evidenz fehlt vor dem nächsten Gate?"
+          ]
+        },
+        {
+          "heading": "6. Nächste Schritte",
+          "items": [
+            "Stakeholder-Review des Arbeitsartefakts",
+            "offene Punkte als Owner/Termin in Decision Log übernehmen",
+            "relevante Sicht/Matrix im Architektur-Repository versionieren"
+          ]
+        }
+      ],
+      "qualityCriteria": [
+        "Entscheidungsfrage und Scope sind explizit",
+        "Annahmen sind als Annahmen gekennzeichnet",
+        "Evidenz und Meinung werden getrennt",
+        "Risiken besitzen Ursache und Auswirkung",
+        "nächster Schritt hat Owner und Termin"
+      ],
+      "antiPatterns": [
+        "reine Bestandsdokumentation ohne Entscheidungszweck",
+        "technische Details ohne fachlichen Bezug",
+        "unbestätigte Annahmen als Fakten formulieren"
+      ]
+    },
+    {
+      "id": "course-13-decision",
+      "courseId": "course-13",
+      "lessonId": "v4-13-05-behordenarchitektur-verwaltungsdigitalisierung",
+      "kind": "decision",
+      "title": "Decision Brief – Behördenarchitektur & Verwaltungsdigitalisierung",
+      "label": "Entscheidungsvorlage",
+      "purpose": "Verdichtet eine komplexe Architekturfrage auf Optionen, Kriterien, Empfehlung, Konsequenzen und benötigten Beschluss.",
+      "audience": [
+        "Fachreferat",
+        "IT",
+        "Digitalisierung",
+        "Datenschutz",
+        "Register-/DMS-Verantwortliche"
+      ],
+      "scenario": "Online-Leistung muss Register, DMS/eAkte, Identität, FIM/XÖV/FIT-Connect und Fachverfahren verbinden",
+      "format": "max. 2 Seiten + 1 Entscheidungsdiagramm",
+      "exampleSections": [
+        {
+          "heading": "Entscheidung benötigt",
+          "body": "Wie wird eine digitale Verwaltungsleistung in bestehende staatliche Basis- und Facharchitekturen eingebettet?"
+        },
+        {
+          "heading": "Ausgangslage",
+          "body": "Online-Leistung muss Register, DMS/eAkte, Identität, FIM/XÖV/FIT-Connect und Fachverfahren verbinden. Ohne eine bewusste Architekturentscheidung entstehen lokale Festlegungen mit späteren systemischen Folgen."
+        },
+        {
+          "heading": "Optionen",
+          "items": [
+            "A: projektindividuelle End-to-End-Lösung",
+            "B: Wiederverwendung von Basisdiensten und Standards mit klaren Fachsystemgrenzen",
+            "C: vollständige Zentralisierung im Portal"
+          ]
+        },
+        {
+          "heading": "Bewertungskriterien",
+          "items": [
+            "fachliche Zielerreichung",
+            "Security/Datenschutz/Compliance",
+            "Betriebsfähigkeit und Nachweisbarkeit",
+            "Änderbarkeit und Integrationswirkung",
+            "Kosten, Abhängigkeit und Transformationsrisiko"
+          ]
+        },
+        {
+          "heading": "Empfehlung",
+          "body": "Option B: Portal als Kanal, Fachverfahren als Vorgangs-/Entscheidungssystem, Register als autoritative Quelle, DMS/eAkte als aktenführende Ablage."
+        },
+        {
+          "heading": "Konsequenzen / Auflagen",
+          "items": [
+            "Leistung/Prozess und Rechts-/Nachweispflichten zuerst klären",
+            "Aktenrelevante Dokumente über definierte Übergabe mit Metadaten",
+            "Entscheidung im ADR/Decision Log dokumentieren und nach 6 Monaten auf Wirkung prüfen."
+          ]
+        },
+        {
+          "heading": "Top-Risiken",
+          "items": [
+            "Portal wird Schattenfachverfahren",
+            "Aktenrelevanz wird erst nach Go-live betrachtet",
+            "föderale Standards werden als reine Technik verstanden"
+          ]
+        },
+        {
+          "heading": "Beschlussvorschlag",
+          "body": "Das zuständige Gremium bestätigt die empfohlene Option einschließlich der genannten Auflagen. Abweichungen benötigen eine dokumentierte Ausnahmeentscheidung."
+        }
+      ],
+      "qualityCriteria": [
+        "maximal drei realistische Optionen",
+        "Bewertungskriterien vor Empfehlung transparent",
+        "Trade-offs werden nicht versteckt",
+        "Empfehlung ist nicht mit formaler Entscheidung verwechselt",
+        "Auflagen und Reviewpunkt sind konkret"
+      ],
+      "antiPatterns": [
+        "nur eine Scheinalternative",
+        "Produkt-/Toolentscheidung ohne Treiber",
+        "Risiken als allgemeine Floskeln",
+        "EA formuliert Beschluss außerhalb seines Mandats"
+      ]
+    },
+    {
+      "id": "course-13-master",
+      "courseId": "course-13",
+      "lessonId": "v4-13-06-behordenarchitektur-verwaltungsdigitalisierung",
+      "kind": "master",
+      "title": "Behörden-Integrations- und Aktenarchitektur",
+      "label": "Master-Arbeitsergebnis",
+      "purpose": "Bündelt Zielbild, Entscheidung, Umsetzungssteuerung und Evidenz zu einem übergabefähigen Architekturpaket.",
+      "audience": [
+        "Fachreferat",
+        "IT",
+        "Digitalisierung",
+        "Datenschutz",
+        "Register-/DMS-Verantwortliche"
+      ],
+      "scenario": "Online-Leistung muss Register, DMS/eAkte, Identität, FIM/XÖV/FIT-Connect und Fachverfahren verbinden",
+      "format": "5–12 Seiten + Diagramme/Tabellen; Executive Summary auf 1 Seite",
+      "exampleSections": [
+        {
+          "heading": "Executive Summary",
+          "body": "Option B: Portal als Kanal, Fachverfahren als Vorgangs-/Entscheidungssystem, Register als autoritative Quelle, DMS/eAkte als aktenführende Ablage. Das Paket macht Scope, Zielzustand, Verantwortungen, Risiken, Übergang und Nachweise so konkret, dass Fachseite, IT, Betrieb und Gremium dieselbe Entscheidungsgrundlage verwenden können."
+        },
+        {
+          "heading": "Zielbild / verbindliche Aussagen",
+          "items": [
+            "Leistung/Prozess und Rechts-/Nachweispflichten zuerst klären",
+            "Identität über vorgesehenen Basisdienst",
+            "Datenaustausch nach einschlägigem Standard/API-Vertrag",
+            "Aktenrelevante Dokumente über definierte Übergabe mit Metadaten"
+          ]
+        },
+        {
+          "heading": "Governance & Verantwortungen",
+          "items": [
+            "Fachlicher Owner bestätigt Zweck, Begriffe und Prioritäten.",
+            "Technische Owner verantworten Umsetzung und Betriebsnachweise.",
+            "EA pflegt Zielbild, Decision Log und Abweichungen; formale Beschlüsse bleiben beim zuständigen Gremium."
+          ]
+        },
+        {
+          "heading": "Risiko- und Maßnahmenregister",
+          "items": [
+            "Portal wird Schattenfachverfahren → Maßnahme: konkretisieren, Owner benennen, Termin vor nächstem Gate.",
+            "Aktenrelevanz wird erst nach Go-live betrachtet → Maßnahme: konkretisieren, Owner benennen, Termin vor nächstem Gate.",
+            "föderale Standards werden als reine Technik verstanden → Maßnahme: konkretisieren, Owner benennen, Termin vor nächstem Gate."
+          ]
+        },
+        {
+          "heading": "Messbare Erfolgskriterien",
+          "items": [
+            "100 % aktenrelevanter Dokumenttypen mit Ablageregel",
+            "0 lokale Identitätsinseln bei Neuvorhaben",
+            "Standards/Abkündigungen in Architekturregister gepflegt"
+          ]
+        },
+        {
+          "heading": "Evidenz vor Freigabe",
+          "items": [
+            "aktualisierte Architektur-/Kontextsicht",
+            "abgestimmte Anforderungen und relevante ADRs",
+            "testbare Abnahme-/Betriebsnachweise",
+            "offene Risiken mit akzeptiertem Owner und Termin"
+          ]
+        },
+        {
+          "heading": "Offene Entscheidungen",
+          "items": [
+            "Welche Abhängigkeit ist noch nicht bestätigt?",
+            "Welche Ausnahme benötigt formale Genehmigung?",
+            "Welche Messgröße entscheidet, ob das Zielbild in der Praxis wirkt?"
+          ]
+        }
+      ],
+      "qualityCriteria": [
+        "Executive und technische Sicht widersprechen sich nicht",
+        "jede zentrale Aussage ist auf Evidenz/Entscheidung rückführbar",
+        "Verantwortung und Lifecycle sind festgelegt",
+        "Betrieb, Security und Datenschutz sind integriert",
+        "Erfolg wird mit Wirkungsmetriken statt Dokumentmenge gemessen"
+      ],
+      "antiPatterns": [
+        "100-Seiten-Zielbild ohne Beschlussbedarf",
+        "Diagramme ohne Legende/Owner",
+        "Roadmap ohne Übergangszustände",
+        "Freigabe ohne Evidenz"
+      ]
+    },
+    {
+      "id": "course-14-working",
+      "courseId": "course-14",
+      "lessonId": "v4-14-04-consulting-change-leadership",
+      "kind": "working",
+      "title": "Stakeholder Map",
+      "label": "Arbeitsartefakt",
+      "purpose": "Strukturiert die Analyse und macht Annahmen, Scope, Evidenz und offene Entscheidungen arbeitsfähig.",
+      "audience": [
+        "Auftraggeber",
+        "Fachseite",
+        "Security",
+        "Betrieb",
+        "Programmleitung"
+      ],
+      "scenario": "Fachseite, Security und Betrieb blockieren sich gegenseitig in einer Zielbildentscheidung",
+      "format": "1–3 Seiten plus Diagramm/Matrix",
+      "exampleSections": [
+        {
+          "heading": "1. Ausgangslage",
+          "body": "Fachseite, Security und Betrieb blockieren sich gegenseitig in einer Zielbildentscheidung. Die Architekturarbeit soll die fachlich und technisch relevanten Entscheidungsräume klären, bevor Umsetzung oder Beschaffung Fakten schafft."
+        },
+        {
+          "heading": "2. Ziel und Scope",
+          "items": [
+            "Fachseite: schnelle Änderungen und wenige Hürden",
+            "Security: Minimierung privilegierter Zugriffe und klare Nachweise"
+          ]
+        },
+        {
+          "heading": "3. Beobachtungen / Evidenz",
+          "items": [
+            "Betrieb: Standardplattform, geringe Varianten",
+            "EA formuliert gemeinsame Kriterien: Risiko, Änderbarkeit, Betrieb, Kosten, Compliance"
+          ]
+        },
+        {
+          "heading": "4. Risiken",
+          "items": [
+            "Positionen werden mit Interessen verwechselt",
+            "externer EA überschreitet Entscheidungsmandat",
+            "Workshop endet ohne Owner/Nächsten Schritt"
+          ]
+        },
+        {
+          "heading": "5. Arbeitsfragen",
+          "items": [
+            "Welche Annahme muss fachlich bestätigt werden?",
+            "Welche Entscheidung darf der EA nur vorbereiten, wer beschließt sie formal?",
+            "Welche Evidenz fehlt vor dem nächsten Gate?"
+          ]
+        },
+        {
+          "heading": "6. Nächste Schritte",
+          "items": [
+            "Stakeholder-Review des Arbeitsartefakts",
+            "offene Punkte als Owner/Termin in Decision Log übernehmen",
+            "relevante Sicht/Matrix im Architektur-Repository versionieren"
+          ]
+        }
+      ],
+      "qualityCriteria": [
+        "Entscheidungsfrage und Scope sind explizit",
+        "Annahmen sind als Annahmen gekennzeichnet",
+        "Evidenz und Meinung werden getrennt",
+        "Risiken besitzen Ursache und Auswirkung",
+        "nächster Schritt hat Owner und Termin"
+      ],
+      "antiPatterns": [
+        "reine Bestandsdokumentation ohne Entscheidungszweck",
+        "technische Details ohne fachlichen Bezug",
+        "unbestätigte Annahmen als Fakten formulieren"
+      ]
+    },
+    {
+      "id": "course-14-decision",
+      "courseId": "course-14",
+      "lessonId": "v4-14-05-consulting-change-leadership",
+      "kind": "decision",
+      "title": "Decision Brief – Consulting, Change & Leadership",
+      "label": "Entscheidungsvorlage",
+      "purpose": "Verdichtet eine komplexe Architekturfrage auf Optionen, Kriterien, Empfehlung, Konsequenzen und benötigten Beschluss.",
+      "audience": [
+        "Auftraggeber",
+        "Fachseite",
+        "Security",
+        "Betrieb",
+        "Programmleitung"
+      ],
+      "scenario": "Fachseite, Security und Betrieb blockieren sich gegenseitig in einer Zielbildentscheidung",
+      "format": "max. 2 Seiten + 1 Entscheidungsdiagramm",
+      "exampleSections": [
+        {
+          "heading": "Entscheidung benötigt",
+          "body": "Wie wird aus einem Positionskonflikt eine sachliche, entscheidbare Architekturfrage?"
+        },
+        {
+          "heading": "Ausgangslage",
+          "body": "Fachseite, Security und Betrieb blockieren sich gegenseitig in einer Zielbildentscheidung. Ohne eine bewusste Architekturentscheidung entstehen lokale Festlegungen mit späteren systemischen Folgen."
+        },
+        {
+          "heading": "Optionen",
+          "items": [
+            "A: EA entscheidet technisch",
+            "B: Interessen, Constraints und Entscheidungskriterien transparent machen und moderieren",
+            "C: Konflikt an Hierarchie eskalieren"
+          ]
+        },
+        {
+          "heading": "Bewertungskriterien",
+          "items": [
+            "fachliche Zielerreichung",
+            "Security/Datenschutz/Compliance",
+            "Betriebsfähigkeit und Nachweisbarkeit",
+            "Änderbarkeit und Integrationswirkung",
+            "Kosten, Abhängigkeit und Transformationsrisiko"
+          ]
+        },
+        {
+          "heading": "Empfehlung",
+          "body": "Option B; Eskalation erst, wenn Entscheidungsrechte oder unauflösbare Constraints betroffen sind."
+        },
+        {
+          "heading": "Konsequenzen / Auflagen",
+          "items": [
+            "Fachseite: schnelle Änderungen und wenige Hürden",
+            "EA formuliert gemeinsame Kriterien: Risiko, Änderbarkeit, Betrieb, Kosten, Compliance",
+            "Entscheidung im ADR/Decision Log dokumentieren und nach 6 Monaten auf Wirkung prüfen."
+          ]
+        },
+        {
+          "heading": "Top-Risiken",
+          "items": [
+            "Positionen werden mit Interessen verwechselt",
+            "externer EA überschreitet Entscheidungsmandat",
+            "Workshop endet ohne Owner/Nächsten Schritt"
+          ]
+        },
+        {
+          "heading": "Beschlussvorschlag",
+          "body": "Das zuständige Gremium bestätigt die empfohlene Option einschließlich der genannten Auflagen. Abweichungen benötigen eine dokumentierte Ausnahmeentscheidung."
+        }
+      ],
+      "qualityCriteria": [
+        "maximal drei realistische Optionen",
+        "Bewertungskriterien vor Empfehlung transparent",
+        "Trade-offs werden nicht versteckt",
+        "Empfehlung ist nicht mit formaler Entscheidung verwechselt",
+        "Auflagen und Reviewpunkt sind konkret"
+      ],
+      "antiPatterns": [
+        "nur eine Scheinalternative",
+        "Produkt-/Toolentscheidung ohne Treiber",
+        "Risiken als allgemeine Floskeln",
+        "EA formuliert Beschluss außerhalb seines Mandats"
+      ]
+    },
+    {
+      "id": "course-14-master",
+      "courseId": "course-14",
+      "lessonId": "v4-14-06-consulting-change-leadership",
+      "kind": "master",
+      "title": "Stakeholder-/Conflict Map + Executive Decision Facilitation Pack",
+      "label": "Master-Arbeitsergebnis",
+      "purpose": "Bündelt Zielbild, Entscheidung, Umsetzungssteuerung und Evidenz zu einem übergabefähigen Architekturpaket.",
+      "audience": [
+        "Auftraggeber",
+        "Fachseite",
+        "Security",
+        "Betrieb",
+        "Programmleitung"
+      ],
+      "scenario": "Fachseite, Security und Betrieb blockieren sich gegenseitig in einer Zielbildentscheidung",
+      "format": "5–12 Seiten + Diagramme/Tabellen; Executive Summary auf 1 Seite",
+      "exampleSections": [
+        {
+          "heading": "Executive Summary",
+          "body": "Option B; Eskalation erst, wenn Entscheidungsrechte oder unauflösbare Constraints betroffen sind. Das Paket macht Scope, Zielzustand, Verantwortungen, Risiken, Übergang und Nachweise so konkret, dass Fachseite, IT, Betrieb und Gremium dieselbe Entscheidungsgrundlage verwenden können."
+        },
+        {
+          "heading": "Zielbild / verbindliche Aussagen",
+          "items": [
+            "Fachseite: schnelle Änderungen und wenige Hürden",
+            "Security: Minimierung privilegierter Zugriffe und klare Nachweise",
+            "Betrieb: Standardplattform, geringe Varianten",
+            "EA formuliert gemeinsame Kriterien: Risiko, Änderbarkeit, Betrieb, Kosten, Compliance"
+          ]
+        },
+        {
+          "heading": "Governance & Verantwortungen",
+          "items": [
+            "Fachlicher Owner bestätigt Zweck, Begriffe und Prioritäten.",
+            "Technische Owner verantworten Umsetzung und Betriebsnachweise.",
+            "EA pflegt Zielbild, Decision Log und Abweichungen; formale Beschlüsse bleiben beim zuständigen Gremium."
+          ]
+        },
+        {
+          "heading": "Risiko- und Maßnahmenregister",
+          "items": [
+            "Positionen werden mit Interessen verwechselt → Maßnahme: konkretisieren, Owner benennen, Termin vor nächstem Gate.",
+            "externer EA überschreitet Entscheidungsmandat → Maßnahme: konkretisieren, Owner benennen, Termin vor nächstem Gate.",
+            "Workshop endet ohne Owner/Nächsten Schritt → Maßnahme: konkretisieren, Owner benennen, Termin vor nächstem Gate."
+          ]
+        },
+        {
+          "heading": "Messbare Erfolgskriterien",
+          "items": [
+            "jede Entscheidung mit Owner und Termin",
+            "Konfliktpunkte als Kriterien statt Personen dokumentiert",
+            "Entscheidungsvorlage max. 2 Seiten"
+          ]
+        },
+        {
+          "heading": "Evidenz vor Freigabe",
+          "items": [
+            "aktualisierte Architektur-/Kontextsicht",
+            "abgestimmte Anforderungen und relevante ADRs",
+            "testbare Abnahme-/Betriebsnachweise",
+            "offene Risiken mit akzeptiertem Owner und Termin"
+          ]
+        },
+        {
+          "heading": "Offene Entscheidungen",
+          "items": [
+            "Welche Abhängigkeit ist noch nicht bestätigt?",
+            "Welche Ausnahme benötigt formale Genehmigung?",
+            "Welche Messgröße entscheidet, ob das Zielbild in der Praxis wirkt?"
+          ]
+        }
+      ],
+      "qualityCriteria": [
+        "Executive und technische Sicht widersprechen sich nicht",
+        "jede zentrale Aussage ist auf Evidenz/Entscheidung rückführbar",
+        "Verantwortung und Lifecycle sind festgelegt",
+        "Betrieb, Security und Datenschutz sind integriert",
+        "Erfolg wird mit Wirkungsmetriken statt Dokumentmenge gemessen"
+      ],
+      "antiPatterns": [
+        "100-Seiten-Zielbild ohne Beschlussbedarf",
+        "Diagramme ohne Legende/Owner",
+        "Roadmap ohne Übergangszustände",
+        "Freigabe ohne Evidenz"
+      ]
+    },
+    {
+      "id": "course-15-working",
+      "courseId": "course-15",
+      "lessonId": "v4-15-04-innovation-ai-emerging-technology",
+      "kind": "working",
+      "title": "AI Use-Case Assessment",
+      "label": "Arbeitsartefakt",
+      "purpose": "Strukturiert die Analyse und macht Annahmen, Scope, Evidenz und offene Entscheidungen arbeitsfähig.",
+      "audience": [
+        "Fachseite",
+        "Datenschutz",
+        "Security",
+        "AI/IT",
+        "Leitung"
+      ],
+      "scenario": "Fachbereich möchte generative KI zur Unterstützung der Antragsprüfung einsetzen",
+      "format": "1–3 Seiten plus Diagramm/Matrix",
+      "exampleSections": [
+        {
+          "heading": "1. Ausgangslage",
+          "body": "Fachbereich möchte generative KI zur Unterstützung der Antragsprüfung einsetzen. Die Architekturarbeit soll die fachlich und technisch relevanten Entscheidungsräume klären, bevor Umsetzung oder Beschaffung Fakten schafft."
+        },
+        {
+          "heading": "2. Ziel und Scope",
+          "items": [
+            "Use Case: interne Zusammenfassung von Aktenbestandteilen und Quellenhinweisen",
+            "keine finale Entscheidung durch Modell"
+          ]
+        },
+        {
+          "heading": "3. Beobachtungen / Evidenz",
+          "items": [
+            "RAG nur auf berechtigten, versionierten Quellen",
+            "Prompt/Output-Logging datensparsam und zugriffsgeschützt",
+            "Evaluation auf fachlich kuratiertem Testset"
+          ]
+        },
+        {
+          "heading": "4. Risiken",
+          "items": [
+            "Halluzination wird als Fakt übernommen",
+            "unzulässige Datenübermittlung an Modellanbieter",
+            "Automationsbias bei Sachbearbeitung"
+          ]
+        },
+        {
+          "heading": "5. Arbeitsfragen",
+          "items": [
+            "Welche Annahme muss fachlich bestätigt werden?",
+            "Welche Entscheidung darf der EA nur vorbereiten, wer beschließt sie formal?",
+            "Welche Evidenz fehlt vor dem nächsten Gate?"
+          ]
+        },
+        {
+          "heading": "6. Nächste Schritte",
+          "items": [
+            "Stakeholder-Review des Arbeitsartefakts",
+            "offene Punkte als Owner/Termin in Decision Log übernehmen",
+            "relevante Sicht/Matrix im Architektur-Repository versionieren"
+          ]
+        }
+      ],
+      "qualityCriteria": [
+        "Entscheidungsfrage und Scope sind explizit",
+        "Annahmen sind als Annahmen gekennzeichnet",
+        "Evidenz und Meinung werden getrennt",
+        "Risiken besitzen Ursache und Auswirkung",
+        "nächster Schritt hat Owner und Termin"
+      ],
+      "antiPatterns": [
+        "reine Bestandsdokumentation ohne Entscheidungszweck",
+        "technische Details ohne fachlichen Bezug",
+        "unbestätigte Annahmen als Fakten formulieren"
+      ]
+    },
+    {
+      "id": "course-15-decision",
+      "courseId": "course-15",
+      "lessonId": "v4-15-05-innovation-ai-emerging-technology",
+      "kind": "decision",
+      "title": "Decision Brief – Innovation, AI & Emerging Technology",
+      "label": "Entscheidungsvorlage",
+      "purpose": "Verdichtet eine komplexe Architekturfrage auf Optionen, Kriterien, Empfehlung, Konsequenzen und benötigten Beschluss.",
+      "audience": [
+        "Fachseite",
+        "Datenschutz",
+        "Security",
+        "AI/IT",
+        "Leitung"
+      ],
+      "scenario": "Fachbereich möchte generative KI zur Unterstützung der Antragsprüfung einsetzen",
+      "format": "max. 2 Seiten + 1 Entscheidungsdiagramm",
+      "exampleSections": [
+        {
+          "heading": "Entscheidung benötigt",
+          "body": "Für welche Aufgaben darf ein LLM eingesetzt werden und welche Kontrollarchitektur ist erforderlich?"
+        },
+        {
+          "heading": "Ausgangslage",
+          "body": "Fachbereich möchte generative KI zur Unterstützung der Antragsprüfung einsetzen. Ohne eine bewusste Architekturentscheidung entstehen lokale Festlegungen mit späteren systemischen Folgen."
+        },
+        {
+          "heading": "Optionen",
+          "items": [
+            "A: LLM trifft fachliche Entscheidung automatisch",
+            "B: RAG-basierte Assistenz für Recherche/Entwurf mit Human-in-the-loop",
+            "C: kein KI-Einsatz"
+          ]
+        },
+        {
+          "heading": "Bewertungskriterien",
+          "items": [
+            "fachliche Zielerreichung",
+            "Security/Datenschutz/Compliance",
+            "Betriebsfähigkeit und Nachweisbarkeit",
+            "Änderbarkeit und Integrationswirkung",
+            "Kosten, Abhängigkeit und Transformationsrisiko"
+          ]
+        },
+        {
+          "heading": "Empfehlung",
+          "body": "Option B für klar abgegrenzte Assistenzfälle; keine autonome hoheitliche Entscheidung. Quellenbezug, Evaluation, Logging und menschliche Freigabe verpflichtend."
+        },
+        {
+          "heading": "Konsequenzen / Auflagen",
+          "items": [
+            "Use Case: interne Zusammenfassung von Aktenbestandteilen und Quellenhinweisen",
+            "Evaluation auf fachlich kuratiertem Testset",
+            "Entscheidung im ADR/Decision Log dokumentieren und nach 6 Monaten auf Wirkung prüfen."
+          ]
+        },
+        {
+          "heading": "Top-Risiken",
+          "items": [
+            "Halluzination wird als Fakt übernommen",
+            "unzulässige Datenübermittlung an Modellanbieter",
+            "Automationsbias bei Sachbearbeitung"
+          ]
+        },
+        {
+          "heading": "Beschlussvorschlag",
+          "body": "Das zuständige Gremium bestätigt die empfohlene Option einschließlich der genannten Auflagen. Abweichungen benötigen eine dokumentierte Ausnahmeentscheidung."
+        }
+      ],
+      "qualityCriteria": [
+        "maximal drei realistische Optionen",
+        "Bewertungskriterien vor Empfehlung transparent",
+        "Trade-offs werden nicht versteckt",
+        "Empfehlung ist nicht mit formaler Entscheidung verwechselt",
+        "Auflagen und Reviewpunkt sind konkret"
+      ],
+      "antiPatterns": [
+        "nur eine Scheinalternative",
+        "Produkt-/Toolentscheidung ohne Treiber",
+        "Risiken als allgemeine Floskeln",
+        "EA formuliert Beschluss außerhalb seines Mandats"
+      ]
+    },
+    {
+      "id": "course-15-master",
+      "courseId": "course-15",
+      "lessonId": "v4-15-06-innovation-ai-emerging-technology",
+      "kind": "master",
+      "title": "AI Architecture & Risk Assessment",
+      "label": "Master-Arbeitsergebnis",
+      "purpose": "Bündelt Zielbild, Entscheidung, Umsetzungssteuerung und Evidenz zu einem übergabefähigen Architekturpaket.",
+      "audience": [
+        "Fachseite",
+        "Datenschutz",
+        "Security",
+        "AI/IT",
+        "Leitung"
+      ],
+      "scenario": "Fachbereich möchte generative KI zur Unterstützung der Antragsprüfung einsetzen",
+      "format": "5–12 Seiten + Diagramme/Tabellen; Executive Summary auf 1 Seite",
+      "exampleSections": [
+        {
+          "heading": "Executive Summary",
+          "body": "Option B für klar abgegrenzte Assistenzfälle; keine autonome hoheitliche Entscheidung. Quellenbezug, Evaluation, Logging und menschliche Freigabe verpflichtend. Das Paket macht Scope, Zielzustand, Verantwortungen, Risiken, Übergang und Nachweise so konkret, dass Fachseite, IT, Betrieb und Gremium dieselbe Entscheidungsgrundlage verwenden können."
+        },
+        {
+          "heading": "Zielbild / verbindliche Aussagen",
+          "items": [
+            "Use Case: interne Zusammenfassung von Aktenbestandteilen und Quellenhinweisen",
+            "keine finale Entscheidung durch Modell",
+            "RAG nur auf berechtigten, versionierten Quellen",
+            "Prompt/Output-Logging datensparsam und zugriffsgeschützt",
+            "Evaluation auf fachlich kuratiertem Testset"
+          ]
+        },
+        {
+          "heading": "Governance & Verantwortungen",
+          "items": [
+            "Fachlicher Owner bestätigt Zweck, Begriffe und Prioritäten.",
+            "Technische Owner verantworten Umsetzung und Betriebsnachweise.",
+            "EA pflegt Zielbild, Decision Log und Abweichungen; formale Beschlüsse bleiben beim zuständigen Gremium."
+          ]
+        },
+        {
+          "heading": "Risiko- und Maßnahmenregister",
+          "items": [
+            "Halluzination wird als Fakt übernommen → Maßnahme: konkretisieren, Owner benennen, Termin vor nächstem Gate.",
+            "unzulässige Datenübermittlung an Modellanbieter → Maßnahme: konkretisieren, Owner benennen, Termin vor nächstem Gate.",
+            "Automationsbias bei Sachbearbeitung → Maßnahme: konkretisieren, Owner benennen, Termin vor nächstem Gate."
+          ]
+        },
+        {
+          "heading": "Messbare Erfolgskriterien",
+          "items": [
+            "Quellenabdeckung > 95 % im Testset",
+            "kritische Halluzinationen = 0 im Abnahmeset",
+            "100 % finale fachliche Entscheidungen menschlich freigegeben"
+          ]
+        },
+        {
+          "heading": "Evidenz vor Freigabe",
+          "items": [
+            "aktualisierte Architektur-/Kontextsicht",
+            "abgestimmte Anforderungen und relevante ADRs",
+            "testbare Abnahme-/Betriebsnachweise",
+            "offene Risiken mit akzeptiertem Owner und Termin"
+          ]
+        },
+        {
+          "heading": "Offene Entscheidungen",
+          "items": [
+            "Welche Abhängigkeit ist noch nicht bestätigt?",
+            "Welche Ausnahme benötigt formale Genehmigung?",
+            "Welche Messgröße entscheidet, ob das Zielbild in der Praxis wirkt?"
+          ]
+        }
+      ],
+      "qualityCriteria": [
+        "Executive und technische Sicht widersprechen sich nicht",
+        "jede zentrale Aussage ist auf Evidenz/Entscheidung rückführbar",
+        "Verantwortung und Lifecycle sind festgelegt",
+        "Betrieb, Security und Datenschutz sind integriert",
+        "Erfolg wird mit Wirkungsmetriken statt Dokumentmenge gemessen"
+      ],
+      "antiPatterns": [
+        "100-Seiten-Zielbild ohne Beschlussbedarf",
+        "Diagramme ohne Legende/Owner",
+        "Roadmap ohne Übergangszustände",
+        "Freigabe ohne Evidenz"
+      ]
+    },
+    {
+      "id": "course-16-working",
+      "courseId": "course-16",
+      "lessonId": "v4-16-04-ea-practice-principal-skills-architecture-leadership",
+      "kind": "working",
+      "title": "EA Operating Model",
+      "label": "Arbeitsartefakt",
+      "purpose": "Strukturiert die Analyse und macht Annahmen, Scope, Evidenz und offene Entscheidungen arbeitsfähig.",
+      "audience": [
+        "CIO/IT-Leitung",
+        "Lead Architects",
+        "Portfolio",
+        "Architekturcommunity"
+      ],
+      "scenario": "EA-Arbeit hängt an Einzelpersonen; Artefakte, Standards und Reviews sind inkonsistent",
+      "format": "1–3 Seiten plus Diagramm/Matrix",
+      "exampleSections": [
+        {
+          "heading": "1. Ausgangslage",
+          "body": "EA-Arbeit hängt an Einzelpersonen; Artefakte, Standards und Reviews sind inkonsistent. Die Architekturarbeit soll die fachlich und technisch relevanten Entscheidungsräume klären, bevor Umsetzung oder Beschaffung Fakten schafft."
+        },
+        {
+          "heading": "2. Ziel und Scope",
+          "items": [
+            "Core EA besitzt Metamodell, Prinzipien, Reviewprozess und Portfolio-Sicht",
+            "Domänenarchitekten verantworten fachliche/technische Teilarchitektur"
+          ]
+        },
+        {
+          "heading": "3. Beobachtungen / Evidenz",
+          "items": [
+            "Repository-Objekte mit Owner, Lifecycle und Reviewdatum",
+            "Metriken: EOL-Exposure, Ausnahmealter, Datenownership-Abdeckung, Review Lead Time"
+          ]
+        },
+        {
+          "heading": "4. Risiken",
+          "items": [
+            "Repository wird Dokumentenfriedhof",
+            "EA wird Freigabebehörde ohne Mehrwert",
+            "Metriken messen Aktivität statt Wirkung"
+          ]
+        },
+        {
+          "heading": "5. Arbeitsfragen",
+          "items": [
+            "Welche Annahme muss fachlich bestätigt werden?",
+            "Welche Entscheidung darf der EA nur vorbereiten, wer beschließt sie formal?",
+            "Welche Evidenz fehlt vor dem nächsten Gate?"
+          ]
+        },
+        {
+          "heading": "6. Nächste Schritte",
+          "items": [
+            "Stakeholder-Review des Arbeitsartefakts",
+            "offene Punkte als Owner/Termin in Decision Log übernehmen",
+            "relevante Sicht/Matrix im Architektur-Repository versionieren"
+          ]
+        }
+      ],
+      "qualityCriteria": [
+        "Entscheidungsfrage und Scope sind explizit",
+        "Annahmen sind als Annahmen gekennzeichnet",
+        "Evidenz und Meinung werden getrennt",
+        "Risiken besitzen Ursache und Auswirkung",
+        "nächster Schritt hat Owner und Termin"
+      ],
+      "antiPatterns": [
+        "reine Bestandsdokumentation ohne Entscheidungszweck",
+        "technische Details ohne fachlichen Bezug",
+        "unbestätigte Annahmen als Fakten formulieren"
+      ]
+    },
+    {
+      "id": "course-16-decision",
+      "courseId": "course-16",
+      "lessonId": "v4-16-05-ea-practice-principal-skills-architecture-leadership",
+      "kind": "decision",
+      "title": "Decision Brief – EA Practice, Principal Skills & Architecture Leadership",
+      "label": "Entscheidungsvorlage",
+      "purpose": "Verdichtet eine komplexe Architekturfrage auf Optionen, Kriterien, Empfehlung, Konsequenzen und benötigten Beschluss.",
+      "audience": [
+        "CIO/IT-Leitung",
+        "Lead Architects",
+        "Portfolio",
+        "Architekturcommunity"
+      ],
+      "scenario": "EA-Arbeit hängt an Einzelpersonen; Artefakte, Standards und Reviews sind inkonsistent",
+      "format": "max. 2 Seiten + 1 Entscheidungsdiagramm",
+      "exampleSections": [
+        {
+          "heading": "Entscheidung benötigt",
+          "body": "Wie wird Enterprise Architecture als reproduzierbare Organisationsfähigkeit etabliert?"
+        },
+        {
+          "heading": "Ausgangslage",
+          "body": "EA-Arbeit hängt an Einzelpersonen; Artefakte, Standards und Reviews sind inkonsistent. Ohne eine bewusste Architekturentscheidung entstehen lokale Festlegungen mit späteren systemischen Folgen."
+        },
+        {
+          "heading": "Optionen",
+          "items": [
+            "A: zentrale EA-Stelle entscheidet alles",
+            "B: föderiertes EA-Modell mit zentralen Leitplanken und Domänenverantwortung",
+            "C: Architektur vollständig in Projekte delegieren"
+          ]
+        },
+        {
+          "heading": "Bewertungskriterien",
+          "items": [
+            "fachliche Zielerreichung",
+            "Security/Datenschutz/Compliance",
+            "Betriebsfähigkeit und Nachweisbarkeit",
+            "Änderbarkeit und Integrationswirkung",
+            "Kosten, Abhängigkeit und Transformationsrisiko"
+          ]
+        },
+        {
+          "heading": "Empfehlung",
+          "body": "Option B: kleines zentrales EA-Core-Team, Domänenarchitekten, Architecture Board, gemeinsames Repository, Metriken und Community of Practice."
+        },
+        {
+          "heading": "Konsequenzen / Auflagen",
+          "items": [
+            "Core EA besitzt Metamodell, Prinzipien, Reviewprozess und Portfolio-Sicht",
+            "Metriken: EOL-Exposure, Ausnahmealter, Datenownership-Abdeckung, Review Lead Time",
+            "Entscheidung im ADR/Decision Log dokumentieren und nach 6 Monaten auf Wirkung prüfen."
+          ]
+        },
+        {
+          "heading": "Top-Risiken",
+          "items": [
+            "Repository wird Dokumentenfriedhof",
+            "EA wird Freigabebehörde ohne Mehrwert",
+            "Metriken messen Aktivität statt Wirkung"
+          ]
+        },
+        {
+          "heading": "Beschlussvorschlag",
+          "body": "Das zuständige Gremium bestätigt die empfohlene Option einschließlich der genannten Auflagen. Abweichungen benötigen eine dokumentierte Ausnahmeentscheidung."
+        }
+      ],
+      "qualityCriteria": [
+        "maximal drei realistische Optionen",
+        "Bewertungskriterien vor Empfehlung transparent",
+        "Trade-offs werden nicht versteckt",
+        "Empfehlung ist nicht mit formaler Entscheidung verwechselt",
+        "Auflagen und Reviewpunkt sind konkret"
+      ],
+      "antiPatterns": [
+        "nur eine Scheinalternative",
+        "Produkt-/Toolentscheidung ohne Treiber",
+        "Risiken als allgemeine Floskeln",
+        "EA formuliert Beschluss außerhalb seines Mandats"
+      ]
+    },
+    {
+      "id": "course-16-master",
+      "courseId": "course-16",
+      "lessonId": "v4-16-06-ea-practice-principal-skills-architecture-leadership",
+      "kind": "master",
+      "title": "EA Practice Operating Model + Repository/Metric System",
+      "label": "Master-Arbeitsergebnis",
+      "purpose": "Bündelt Zielbild, Entscheidung, Umsetzungssteuerung und Evidenz zu einem übergabefähigen Architekturpaket.",
+      "audience": [
+        "CIO/IT-Leitung",
+        "Lead Architects",
+        "Portfolio",
+        "Architekturcommunity"
+      ],
+      "scenario": "EA-Arbeit hängt an Einzelpersonen; Artefakte, Standards und Reviews sind inkonsistent",
+      "format": "5–12 Seiten + Diagramme/Tabellen; Executive Summary auf 1 Seite",
+      "exampleSections": [
+        {
+          "heading": "Executive Summary",
+          "body": "Option B: kleines zentrales EA-Core-Team, Domänenarchitekten, Architecture Board, gemeinsames Repository, Metriken und Community of Practice. Das Paket macht Scope, Zielzustand, Verantwortungen, Risiken, Übergang und Nachweise so konkret, dass Fachseite, IT, Betrieb und Gremium dieselbe Entscheidungsgrundlage verwenden können."
+        },
+        {
+          "heading": "Zielbild / verbindliche Aussagen",
+          "items": [
+            "Core EA besitzt Metamodell, Prinzipien, Reviewprozess und Portfolio-Sicht",
+            "Domänenarchitekten verantworten fachliche/technische Teilarchitektur",
+            "Repository-Objekte mit Owner, Lifecycle und Reviewdatum",
+            "Metriken: EOL-Exposure, Ausnahmealter, Datenownership-Abdeckung, Review Lead Time"
+          ]
+        },
+        {
+          "heading": "Governance & Verantwortungen",
+          "items": [
+            "Fachlicher Owner bestätigt Zweck, Begriffe und Prioritäten.",
+            "Technische Owner verantworten Umsetzung und Betriebsnachweise.",
+            "EA pflegt Zielbild, Decision Log und Abweichungen; formale Beschlüsse bleiben beim zuständigen Gremium."
+          ]
+        },
+        {
+          "heading": "Risiko- und Maßnahmenregister",
+          "items": [
+            "Repository wird Dokumentenfriedhof → Maßnahme: konkretisieren, Owner benennen, Termin vor nächstem Gate.",
+            "EA wird Freigabebehörde ohne Mehrwert → Maßnahme: konkretisieren, Owner benennen, Termin vor nächstem Gate.",
+            "Metriken messen Aktivität statt Wirkung → Maßnahme: konkretisieren, Owner benennen, Termin vor nächstem Gate."
+          ]
+        },
+        {
+          "heading": "Messbare Erfolgskriterien",
+          "items": [
+            "> 90 % kritische Anwendungen mit Owner/Lifecycle",
+            "Ausnahmen > 180 Tage < 5 %",
+            "Architecture Review Lead Time < 10 Tage"
+          ]
+        },
+        {
+          "heading": "Evidenz vor Freigabe",
+          "items": [
+            "aktualisierte Architektur-/Kontextsicht",
+            "abgestimmte Anforderungen und relevante ADRs",
+            "testbare Abnahme-/Betriebsnachweise",
+            "offene Risiken mit akzeptiertem Owner und Termin"
+          ]
+        },
+        {
+          "heading": "Offene Entscheidungen",
+          "items": [
+            "Welche Abhängigkeit ist noch nicht bestätigt?",
+            "Welche Ausnahme benötigt formale Genehmigung?",
+            "Welche Messgröße entscheidet, ob das Zielbild in der Praxis wirkt?"
+          ]
+        }
+      ],
+      "qualityCriteria": [
+        "Executive und technische Sicht widersprechen sich nicht",
+        "jede zentrale Aussage ist auf Evidenz/Entscheidung rückführbar",
+        "Verantwortung und Lifecycle sind festgelegt",
+        "Betrieb, Security und Datenschutz sind integriert",
+        "Erfolg wird mit Wirkungsmetriken statt Dokumentmenge gemessen"
+      ],
+      "antiPatterns": [
+        "100-Seiten-Zielbild ohne Beschlussbedarf",
+        "Diagramme ohne Legende/Owner",
+        "Roadmap ohne Übergangszustände",
+        "Freigabe ohne Evidenz"
+      ]
+    }
+  ]
+}
